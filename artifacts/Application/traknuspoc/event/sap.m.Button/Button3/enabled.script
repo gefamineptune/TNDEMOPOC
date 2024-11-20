@@ -1,0 +1,10 @@
+if (typeof startPage === "undefined" || startPage === null || startPage === "") { return; }  
+let formattedText;
+
+if(startPage === 1) {
+    formattedText = false;
+} else {
+    formattedText = true;
+}
+
+return formattedText;

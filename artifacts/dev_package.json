@@ -1,0 +1,342 @@
+{
+	"id": "0b3fbc18-31ef-4088-be11-e96e552190ba",
+	"createdAt": "2024-11-19T02:19:33.000Z",
+	"createdBy": "jrs@gefami.co.id",
+	"git": {
+		"remote": "https://github.com/gefamineptune/TNDEMOPOC.git"
+	},
+	"name": "TraknusPOC",
+	"description": null,
+	"ver": "24.11.20.1855",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "d5b3329d-1ff8-48b7-bcc6-5f3ce4c7dde0",
+			"application": "maps_buildingblock",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "0b3fbc18-31ef-4088-be11-e96e552190ba"
+			}
+		},
+		{
+			"id": "97ae49ec-4d9c-4370-99d0-398ec6d11c16",
+			"application": "ocr",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "0b3fbc18-31ef-4088-be11-e96e552190ba"
+			}
+		},
+		{
+			"id": "5f004254-1250-4d8e-a1c2-a16082d95bb5",
+			"application": "barcode_building_block",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "0b3fbc18-31ef-4088-be11-e96e552190ba"
+			}
+		},
+		{
+			"id": "46da2d6e-4ba7-4727-a1e8-a6cb8744ec08",
+			"application": "ims_demo_phone_building_block",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "0b3fbc18-31ef-4088-be11-e96e552190ba"
+			}
+		},
+		{
+			"id": "31508424-6678-4cce-84e2-65cb00914023",
+			"application": "traknuspoc",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "0b3fbc18-31ef-4088-be11-e96e552190ba"
+			}
+		},
+		{
+			"id": "0f4250ec-c7ba-47c5-9dea-109006498d86",
+			"application": "traknuspocmobile",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "0b3fbc18-31ef-4088-be11-e96e552190ba"
+			}
+		}
+	],
+	"api": [
+		{
+			"id": "e65a33de-710a-484e-a8da-bf10ed3cea6b",
+			"name": "GetTopFiveProduct",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "e18168c1-84e1-4d22-8833-6aa1df9e6e32",
+			"name": "reques_order_filter",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "d717719d-fc76-44e5-a6cf-b26603f4392b",
+			"name": "customers",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "cf7abe0d-cec1-4747-bc04-db446adef89f",
+			"name": "Total_Stock_Levels_qty",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "cb36ac28-47d2-4506-a835-e33e6e80d109",
+			"name": "warehouses",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "be2280c2-7b83-45d0-9579-3c4ef157fa6a",
+			"name": "request_orders",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "9c981fe5-f5a6-42ba-8bd5-88131dc5cf32",
+			"name": "warehouse_areas",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "8de6388e-da81-48c6-9a1e-23d76bfe8c9d",
+			"name": "stock_opname_details",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "774c399e-061a-4e26-87d5-577cba719b32",
+			"name": "stock_opname_sessions",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "7372e224-2788-4f48-98fe-8269de92d40f",
+			"name": "GetBarcodeJoin",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "6c63d008-f679-490b-a2fa-8895d6eee4f9",
+			"name": "request_order_details",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "53f49d23-67fd-44ac-a222-6ee1efaacc62",
+			"name": "barcode",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "49e70d15-41ae-4387-a6b6-241dafbb27a5",
+			"name": "stock_levels_script",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "40af01c1-e29c-4070-b718-3d6e502e3158",
+			"name": "products",
+			"description": "Table to store products",
+			"apiGroup": null
+		},
+		{
+			"id": "3854f1bf-ddd0-4532-92f0-12d9f1b3a55c",
+			"name": "request_oder_customer",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "0676e279-c6e6-40b8-a79e-10519811b1e9",
+			"name": "Stock_Levels",
+			"description": "Table to store stock of each products at every warehouses and areas",
+			"apiGroup": null
+		},
+		{
+			"id": "03612bea-ce7a-4fd2-a3d7-1b233e53e8b3",
+			"name": "stock_opname_details_script",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "edefcaf0-f972-4172-8408-61434efd15d0",
+			"name": "stock_levels",
+			"description": "Table to store stock of each products at every warehouses and areas"
+		},
+		{
+			"id": "c45148b0-5418-4d4f-838f-42e0ff0a338d",
+			"name": "products",
+			"description": "Table to store products"
+		},
+		{
+			"id": "8f88cdbe-32e5-47f2-a8d6-fa85579dedcd",
+			"name": "stock_opname_sessions",
+			"description": null
+		},
+		{
+			"id": "8e476a54-26ea-418b-94c5-cb865ed6d7b5",
+			"name": "stock_opname_details",
+			"description": null
+		},
+		{
+			"id": "68d0ee95-3c55-4ab5-a85d-f2abc164bcb0",
+			"name": "barcode",
+			"description": null
+		},
+		{
+			"id": "6114df54-6f13-41ed-9a31-db2b8a2e8b68",
+			"name": "request_orders",
+			"description": null
+		},
+		{
+			"id": "59ea7927-565a-413d-aa1a-eb84d7f38ef2",
+			"name": "test",
+			"description": null
+		},
+		{
+			"id": "4a5a4856-8d33-4a28-8e0c-54ffc8bbf09c",
+			"name": "warehouse_areas",
+			"description": null
+		},
+		{
+			"id": "287a5828-eeea-435b-98b4-377603053f3f",
+			"name": "warehouses",
+			"description": null
+		}
+	],
+	"jsclass": [
+		{
+			"id": "fa794607-80b5-4807-8848-239664ef1a56",
+			"name": "GetBarcode",
+			"description": null
+		},
+		{
+			"id": "de90e4ca-f5b6-41b7-8074-b5356463b3f4",
+			"name": "get_stock_levels_product",
+			"description": null
+		},
+		{
+			"id": "cceb120f-2ab9-4440-9695-da6f539486bc",
+			"name": "get_stock_opname_details_sessions",
+			"description": null
+		},
+		{
+			"id": "bd5d119e-9eec-4b49-b792-cdcc6e2459cb",
+			"name": "CountTotalStock",
+			"description": null
+		},
+		{
+			"id": "9ae2ef72-9374-4807-bd5f-eed177e005fc",
+			"name": "GroupBy",
+			"description": null
+		},
+		{
+			"id": "605c5bd4-1fa7-4a78-8baa-9a16b007e8ce",
+			"name": "GetROJoinCustomersProducts",
+			"description": null
+		},
+		{
+			"id": "44813c16-899c-4113-876d-eec874eab0c9",
+			"name": "GetTop5Product",
+			"description": null
+		},
+		{
+			"id": "38a778e6-f710-43e1-a0f0-ae5e0c6f3c26",
+			"name": "get_data_stock_levels",
+			"description": null
+		},
+		{
+			"id": "20580c42-e8d1-4690-8695-0be48240b3ac",
+			"name": "get_stock_opname_detail",
+			"description": null
+		},
+		{
+			"id": "1d537d28-71e3-4d65-bf76-a04cb64841fd",
+			"name": "insert_stock_opname_sessions",
+			"description": null
+		}
+	],
+	"jsscript_group": [
+		{
+			"id": "ce2f41c7-a9f5-4b19-bbb9-38d3221fbdee",
+			"name": "Barcode",
+			"description": ""
+		},
+		{
+			"id": "9e93a3e4-cee9-4cea-b7f0-05057dfa1b13",
+			"name": "StockOpnameSessions",
+			"description": ""
+		},
+		{
+			"id": "888572eb-b70c-402c-8537-7f6753aea2b7",
+			"name": "TotalStock",
+			"description": ""
+		},
+		{
+			"id": "8650c4f5-aa1d-47b5-ae52-cb0d79857841",
+			"name": "StockLevel",
+			"description": "get data join stock level from warehouse and area"
+		},
+		{
+			"id": "7384164d-ef5c-4754-b9b4-5ece10ff1bc7",
+			"name": "RequestOrders",
+			"description": ""
+		},
+		{
+			"id": "4e4275f9-1fe5-4bd7-b45d-f3ca1beba001",
+			"name": "TestGroupBy",
+			"description": ""
+		},
+		{
+			"id": "3d03ad13-6375-4299-8336-689be31003b0",
+			"name": "StockOpnameDetails",
+			"description": ""
+		},
+		{
+			"id": "321d766c-4e22-4ff2-bca0-0a88f7fcfa2e",
+			"name": "StockLevels",
+			"description": ""
+		},
+		{
+			"id": "06911ac6-b19c-4482-a752-d5dbd5f7d2be",
+			"name": "Top5Product",
+			"description": ""
+		}
+	],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}

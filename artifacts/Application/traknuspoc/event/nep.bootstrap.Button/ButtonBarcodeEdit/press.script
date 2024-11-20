@@ -1,0 +1,8 @@
+
+const context = oEvent.oSource.getBindingContext();  
+
+const data = context.getObject();
+
+populateBarcodeDetail(data);
+
+oApp.to(BarcodeDetails)

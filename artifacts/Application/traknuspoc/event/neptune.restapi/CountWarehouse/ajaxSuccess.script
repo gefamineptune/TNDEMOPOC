@@ -1,0 +1,3 @@
+paginationBar.pagination.count = xhr.responseJSON.count
+paginationBar.run();
+paginationBar.handlePagination();

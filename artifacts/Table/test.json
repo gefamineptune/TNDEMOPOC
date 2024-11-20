@@ -1,0 +1,29 @@
+{
+	"id": "59ea7927-565a-413d-aa1a-eb84d7f38ef2",
+	"createdAt": "2024-10-02T08:15:42.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "39193a9b-db0e-4a4b-e880-e003db3a23d7",
+			"fieldName": "name",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "80e52f17-c25f-43d8-94d5-329be9514cc6",
+			"fieldName": "address",
+			"fieldType": "text",
+			"isUnique": false
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "test",
+	"description": null,
+	"ver": "24.11.19.2123",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba",
+	"rolesRead": [],
+	"rolesWrite": []
+}

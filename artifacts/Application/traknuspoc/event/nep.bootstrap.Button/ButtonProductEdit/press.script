@@ -1,0 +1,9 @@
+const context = oEvent.oSource.getBindingContext();  
+
+const data = context.getObject();
+
+populatePageProducts(data);
+
+console.log(data);
+
+oApp.to(ProductDetails);

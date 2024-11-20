@@ -1,0 +1,3 @@
+if (typeof CreatedDate === "undefined" || CreatedDate === null || CreatedDate === "") { return; }  
+
+return dateTable(CreatedDate);

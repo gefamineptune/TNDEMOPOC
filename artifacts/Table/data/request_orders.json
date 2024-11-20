@@ -1,0 +1,110 @@
+[
+	{
+		"id": "dd7827a0-4095-49c4-b519-374fb7fd83f4",
+		"createdAt": "1727495414973",
+		"updatedAt": "1727507143192",
+		"createdBy": "jrs@gefami.co.id",
+		"updatedBy": "jrs@gefami.co.id",
+		"requested_by": "5c14e350-cb06-468b-9aff-7cedb15ea444",
+		"requested_date": "2024-09-28T00:00:00.000Z",
+		"product_id": "a42ee159-8123-4fd5-8bc2-98d0016c4fb9",
+		"quantity": 6,
+		"status": "Shipping"
+	},
+	{
+		"id": "a6b5d6a2-21ac-4409-bc3c-752134890942",
+		"createdAt": "1727495441693",
+		"updatedAt": "1727495441693",
+		"createdBy": "jrs@gefami.co.id",
+		"updatedBy": "jrs@gefami.co.id",
+		"requested_by": "e83aecae-936e-4fc1-a43c-1db33dcfa790",
+		"requested_date": "2024-09-26T00:00:00.000Z",
+		"product_id": "01a5bdfc-419c-4b4b-91f1-065450f9d90e",
+		"quantity": 5,
+		"status": "Pending"
+	},
+	{
+		"id": "89375c5f-642e-43c2-b8ce-e2f62e72e172",
+		"createdAt": "1727666168288",
+		"updatedAt": "1727666168288",
+		"createdBy": "jrs@gefami.co.id",
+		"updatedBy": "jrs@gefami.co.id",
+		"requested_by": "e83aecae-936e-4fc1-a43c-1db33dcfa790",
+		"requested_date": "2024-09-29T00:00:00.000Z",
+		"product_id": "a42ee159-8123-4fd5-8bc2-98d0016c4fb9",
+		"quantity": 30,
+		"status": "In Progress"
+	},
+	{
+		"id": "812f5e0f-279a-4db2-ad3f-7382980c11c6",
+		"createdAt": "1727499967860",
+		"updatedAt": "1727499967860",
+		"createdBy": "jrs@gefami.co.id",
+		"updatedBy": "jrs@gefami.co.id",
+		"requested_by": "5c14e350-cb06-468b-9aff-7cedb15ea444",
+		"requested_date": "2024-09-26T00:00:00.000Z",
+		"product_id": "a42ee159-8123-4fd5-8bc2-98d0016c4fb9",
+		"quantity": 3,
+		"status": "In Progress"
+	},
+	{
+		"id": "738aef7b-a9f0-4509-8e61-25a48eb4b184",
+		"createdAt": "1727378272539",
+		"updatedAt": "1727856449114",
+		"createdBy": "mfh@gefami.co.id",
+		"updatedBy": "admin",
+		"requested_by": "0db6629e-1a98-4b82-b984-306c2817eb31",
+		"requested_date": "2024-09-01T00:00:00.000Z",
+		"product_id": "fd56bd4f-0b5d-4d81-a423-1b2c72fc09c7",
+		"quantity": 22,
+		"status": "Pending"
+	},
+	{
+		"id": "6907a89f-cbdb-4ffc-b7dc-dc70dda6704c",
+		"createdAt": "1727452092150",
+		"updatedAt": "1727506757479",
+		"createdBy": "mfh@gefami.co.id",
+		"updatedBy": "jrs@gefami.co.id",
+		"requested_by": "e83aecae-936e-4fc1-a43c-1db33dcfa790",
+		"requested_date": "2024-09-27T00:00:00.000Z",
+		"product_id": "01a5bdfc-419c-4b4b-91f1-065450f9d90e",
+		"quantity": 11,
+		"status": "Shipping"
+	},
+	{
+		"id": "54284d2b-01a0-4f3a-82bd-55983fc49d65",
+		"createdAt": "1727856715807",
+		"updatedAt": "1727856715807",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"requested_by": "e83aecae-936e-4fc1-a43c-1db33dcfa790",
+		"requested_date": "2024-10-03T00:00:00.000Z",
+		"product_id": "a42ee159-8123-4fd5-8bc2-98d0016c4fb9",
+		"quantity": 10,
+		"status": "In Progress"
+	},
+	{
+		"id": "4ef9dc2f-9d68-45cd-aacf-3404ced316e6",
+		"createdAt": "1727509615397",
+		"updatedAt": "1727509615397",
+		"createdBy": "jrs@gefami.co.id",
+		"updatedBy": "jrs@gefami.co.id",
+		"requested_by": "5c14e350-cb06-468b-9aff-7cedb15ea444",
+		"requested_date": "2024-09-25T00:00:00.000Z",
+		"product_id": "01a5bdfc-419c-4b4b-91f1-065450f9d90e",
+		"quantity": 2,
+		"status": "Shipping"
+	},
+	{
+		"id": "3bd266a9-c413-49aa-b483-317ac239c1e3",
+		"createdAt": "1727507097668",
+		"updatedAt": "1727507097668",
+		"createdBy": "jrs@gefami.co.id",
+		"updatedBy": "jrs@gefami.co.id",
+		"requested_by": "e83aecae-936e-4fc1-a43c-1db33dcfa790",
+		"requested_date": "2024-09-26T00:00:00.000Z",
+		"product_id": "fd56bd4f-0b5d-4d81-a423-1b2c72fc09c7",
+		"quantity": 3,
+		"status": "Complete"
+	}
+]

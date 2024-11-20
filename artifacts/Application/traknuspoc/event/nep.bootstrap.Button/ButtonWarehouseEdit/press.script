@@ -1,0 +1,8 @@
+const context = oEvent.oSource.getBindingContext();  
+
+const data = context.getObject();
+
+populateWarehouseDetailPage(data);
+
+oApp.to(WarehouseDetails)
+MapTriggers();

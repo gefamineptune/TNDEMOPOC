@@ -1,0 +1,14 @@
+if (typeof pricing === "undefined" || pricing === null || pricing === "") { return; }  
+
+let formattedText;
+
+let formatter = new Intl.NumberFormat('id-ID', {
+    style : 'currency',
+    currency : "IDR"
+});
+
+formattedText = formatter.format(pricing);
+
+
+
+return formattedText;

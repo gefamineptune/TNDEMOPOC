@@ -1,0 +1,174 @@
+{
+	"id": "8f88cdbe-32e5-47f2-a8d6-fa85579dedcd",
+	"createdAt": "2024-09-27T19:13:06.000Z",
+	"createdBy": "mfh@gefami.co.id",
+	"fields": [
+		{
+			"id": "bd8db906-d879-4dc9-c89a-18becc5722ad",
+			"fieldName": "warehouse_id",
+			"fieldType": "uuid",
+			"isUnique": false
+		},
+		{
+			"id": "b1a4611c-86c7-4dd7-e178-3f7aaf8e31d3",
+			"fieldName": "area_id",
+			"fieldType": "uuid",
+			"isUnique": false
+		},
+		{
+			"id": "4a454086-a1f1-4292-e4b4-404ed28b1cd9",
+			"fieldName": "conducted_by",
+			"fieldType": "uuid",
+			"isUnique": false
+		},
+		{
+			"id": "6bf1acea-af4e-4c7b-ab5f-fbf2ba440635",
+			"fieldName": "session_date",
+			"fieldType": "timestamp",
+			"isUnique": false
+		},
+		{
+			"id": "fbcababa-5733-4ceb-9f82-b29ad9f078a1",
+			"fieldName": "status",
+			"fieldType": "text",
+			"isUnique": false
+		}
+	],
+	"indices": [],
+	"foreignKeys": [
+		{
+			"id": "5666b4fd-602b-424e-8282-f42329c4361d",
+			"name": "FK_aed3b695f0dec8c5872a0c007f1",
+			"referencedTable": "warehouses",
+			"referencedTableId": "287a5828-eeea-435b-98b4-377603053f3f",
+			"referencedTableColumns": [
+				{
+					"id": "c66c25a3-8b40-4905-ee05-686b86d61a4b",
+					"fieldName": "name",
+					"fieldType": "text",
+					"isUnique": false
+				},
+				{
+					"id": "21a5077c-7d06-4a90-e268-099c17956ee3",
+					"fieldName": "description",
+					"fieldType": "text",
+					"isUnique": false
+				},
+				{
+					"id": "f5d55b8a-420f-45d8-8537-92abfc3bd48f",
+					"fieldName": "address",
+					"fieldType": "text",
+					"isUnique": false
+				},
+				{
+					"id": "11a12c27-504a-4825-b6aa-459f91d9b520",
+					"fieldName": "longitude",
+					"fieldType": "decimal",
+					"isUnique": false
+				},
+				{
+					"id": "11bd01f1-2d25-4271-ef73-b3a6de6641bc",
+					"fieldName": "latitude",
+					"fieldType": "decimal",
+					"isUnique": false
+				}
+			],
+			"columns": [
+				{
+					"referencedColumnId": "id",
+					"id": "bd8db906-d879-4dc9-c89a-18becc5722ad",
+					"fieldName": "warehouse_id",
+					"fieldType": "uuid",
+					"isUnique": false,
+					"referencedColumnName": "id"
+				}
+			]
+		},
+		{
+			"id": "d6b8046a-e35d-42d6-ccea-6778992f3ba5",
+			"name": "FK_3dba9ce9e48c97eaedf5bb97943",
+			"referencedTable": "warehouse_areas",
+			"referencedTableId": "4a5a4856-8d33-4a28-8e0c-54ffc8bbf09c",
+			"referencedTableColumns": [
+				{
+					"id": "60f3c7fe-0023-4e38-8bec-9bf8f1a3b357",
+					"fieldName": "warehouse_id",
+					"fieldType": "uuid",
+					"isUnique": false
+				},
+				{
+					"id": "6ffd1293-ee92-4447-8cda-c896c4160c4d",
+					"fieldName": "name",
+					"fieldType": "text",
+					"isUnique": false
+				},
+				{
+					"id": "3e5d8451-4731-469a-a251-c53b9e6daef0",
+					"fieldName": "description",
+					"fieldType": "text",
+					"isUnique": false
+				}
+			],
+			"columns": [
+				{
+					"referencedColumnId": "id",
+					"id": "b1a4611c-86c7-4dd7-e178-3f7aaf8e31d3",
+					"fieldName": "area_id",
+					"fieldType": "uuid",
+					"isUnique": false,
+					"referencedColumnName": "id"
+				}
+			]
+		},
+		{
+			"id": "61a9b4e4-eb1e-4563-a247-2c02a340bfe3",
+			"name": "FK_348be0bf026a533a6de97fa0563",
+			"referencedTable": "customers",
+			"referencedTableId": "3f0c8bdb-702b-4f67-9e6c-d6c0897d7aaf",
+			"referencedTableColumns": [
+				{
+					"id": "14ffff0d-cf8a-484b-c240-756d034cd657",
+					"fieldName": "username",
+					"fieldType": "text",
+					"isUnique": false
+				},
+				{
+					"id": "40d4f2e6-5b07-4798-fa6d-aec804f2fbdc",
+					"fieldName": "email",
+					"fieldType": "text",
+					"isUnique": false
+				},
+				{
+					"id": "5836a311-79ff-4699-d617-f67aec792221",
+					"fieldName": "phone_number",
+					"fieldType": "text",
+					"isUnique": false
+				},
+				{
+					"id": "b516cdce-4fbc-41ec-c61c-d72c6912be89",
+					"fieldName": "name",
+					"fieldType": "text",
+					"isUnique": false
+				}
+			],
+			"columns": [
+				{
+					"referencedColumnId": "id",
+					"id": "4a454086-a1f1-4292-e4b4-404ed28b1cd9",
+					"fieldName": "conducted_by",
+					"fieldType": "uuid",
+					"isUnique": false,
+					"referencedColumnName": "id"
+				}
+			]
+		}
+	],
+	"name": "stock_opname_sessions",
+	"description": null,
+	"ver": "24.11.19.2123",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba",
+	"rolesRead": [],
+	"rolesWrite": []
+}

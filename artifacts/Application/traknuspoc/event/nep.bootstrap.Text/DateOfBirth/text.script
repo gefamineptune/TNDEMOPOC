@@ -1,0 +1,3 @@
+if (typeof DateOfBirth === "undefined" || DateOfBirth === null || DateOfBirth === "") { return; }  
+
+return dateTable(DateOfBirth);

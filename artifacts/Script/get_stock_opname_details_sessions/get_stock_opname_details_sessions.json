@@ -1,0 +1,36 @@
+{
+	"id": "cceb120f-2ab9-4440-9695-da6f539486bc",
+	"createdAt": "2024-09-30T10:09:19.000Z",
+	"createdBy": "mfh@gefami.co.id",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "8e476a54-26ea-418b-94c5-cb865ed6d7b5",
+			"name": "stock_opname_details",
+			"contextname": "stock_opname_details"
+		},
+		{
+			"id": "8f88cdbe-32e5-47f2-a8d6-fa85579dedcd",
+			"name": "stock_opname_sessions",
+			"contextname": "stock_opname_sessions"
+		},
+		{
+			"id": "8e476a54-26ea-418b-94c5-cb865ed6d7b5",
+			"name": "stock_opname_details",
+			"contextname": "stock_opname_details"
+		}
+	],
+	"apis": [],
+	"name": "get_stock_opname_details_sessions",
+	"ver": "24.10.2.017",
+	"description": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "3d03ad13-6375-4299-8336-689be31003b0",
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba"
+}

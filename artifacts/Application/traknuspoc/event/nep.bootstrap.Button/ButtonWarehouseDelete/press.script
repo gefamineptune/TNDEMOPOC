@@ -1,0 +1,9 @@
+const context = oEvent.oSource.getBindingContext();
+
+const data = context.getObject();
+
+deleteDataWarehouse(data.id);
+
+apiGetWarehouses();
+
+sap.m.MessageToast.show("Data berhasil dihapus");

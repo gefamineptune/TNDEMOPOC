@@ -1,0 +1,9 @@
+const context = oEvent.oSource.getBindingContext();
+
+const data = context.getObject();
+
+deleteDataBarcode(data.barcode_id);
+
+apiGetBarcodeJoinProduct();
+
+sap.m.MessageToast.show("Data berhasil dihapus");

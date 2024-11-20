@@ -1,0 +1,26 @@
+{
+	"id": "9ae2ef72-9374-4807-bd5f-eed177e005fc",
+	"createdAt": "2024-09-27T16:27:18.000Z",
+	"createdBy": "jrs@gefami.co.id",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "6114df54-6f13-41ed-9a31-db2b8a2e8b68",
+			"name": "request_orders",
+			"contextname": "request_orders"
+		}
+	],
+	"apis": [],
+	"name": "GroupBy",
+	"ver": "24.9.28.1340",
+	"description": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "4e4275f9-1fe5-4bd7-b45d-f3ca1beba001",
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba"
+}

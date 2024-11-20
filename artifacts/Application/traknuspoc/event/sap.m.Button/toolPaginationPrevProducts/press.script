@@ -1,0 +1,3 @@
+paginationBarProducts.pagination.index--;
+paginationBarProducts.run(true); 
+paginationBarProducts.handlePagination();

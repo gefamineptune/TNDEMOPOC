@@ -1,0 +1,3 @@
+paginationBarBarcode.pagination.index++;
+paginationBarBarcode.run(true); 
+paginationBarBarcode.handlePagination();

@@ -1,0 +1,47 @@
+{
+	"id": "287a5828-eeea-435b-98b4-377603053f3f",
+	"createdAt": "2024-09-25T07:22:06.000Z",
+	"createdBy": "mfh@gefami.co.id",
+	"fields": [
+		{
+			"id": "c66c25a3-8b40-4905-ee05-686b86d61a4b",
+			"fieldName": "name",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "21a5077c-7d06-4a90-e268-099c17956ee3",
+			"fieldName": "description",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "f5d55b8a-420f-45d8-8537-92abfc3bd48f",
+			"fieldName": "address",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "11a12c27-504a-4825-b6aa-459f91d9b520",
+			"fieldName": "longitude",
+			"fieldType": "decimal",
+			"isUnique": false
+		},
+		{
+			"id": "11bd01f1-2d25-4271-ef73-b3a6de6641bc",
+			"fieldName": "latitude",
+			"fieldType": "decimal",
+			"isUnique": false
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "warehouses",
+	"description": null,
+	"ver": "24.11.19.2124",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba",
+	"rolesRead": [],
+	"rolesWrite": []
+}

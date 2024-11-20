@@ -1,0 +1,9 @@
+{
+	"id": "8650c4f5-aa1d-47b5-ae52-cb0d79857841",
+	"createdAt": "2024-09-30T09:35:29.000Z",
+	"createdBy": "stev@gefami.co.id",
+	"name": "StockLevel",
+	"description": "get data join stock level from warehouse and area",
+	"ver": "24.11.19.2033",
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba"
+}

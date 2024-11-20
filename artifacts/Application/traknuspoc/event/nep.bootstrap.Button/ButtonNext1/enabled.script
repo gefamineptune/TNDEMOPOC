@@ -1,0 +1,12 @@
+if (typeof currentPage === "undefined" || currentPage === null || currentPage === "") { return; }  
+
+let formattedText; 
+let data = modelContainer50.getData();
+
+if(currentPage === data.jumlahPage) {
+    formattedText = false;
+} else {
+    formattedText = true;
+}
+
+return formattedText;

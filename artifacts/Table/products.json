@@ -1,0 +1,52 @@
+{
+	"id": "c45148b0-5418-4d4f-838f-42e0ff0a338d",
+	"createdAt": "2024-09-25T13:09:22.000Z",
+	"createdBy": "stev@gefami.co.id",
+	"fields": [
+		{
+			"id": "1fe951bd-f986-4b22-e173-c17089b02332",
+			"fieldName": "name",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Name of the Product"
+		},
+		{
+			"id": "dff0d692-02b3-4784-aaa5-e0455cd1b159",
+			"fieldName": "SKU",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Stock Keeping Unit"
+		},
+		{
+			"id": "44016e9b-2667-48c4-814b-f69ef4c33b02",
+			"fieldName": "description",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "short description of the Product"
+		},
+		{
+			"id": "6972d968-3697-4fb3-e7b3-a75d319f69da",
+			"fieldName": "unit",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Unit of measurement (e.g., piece, box, kg)"
+		},
+		{
+			"id": "6f73940a-af7b-436a-9583-4f1c53b66f71",
+			"fieldName": "image_path",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Image Path of the Product"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "products",
+	"description": "Table to store products",
+	"ver": "24.11.19.2125",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba",
+	"rolesRead": [],
+	"rolesWrite": []
+}

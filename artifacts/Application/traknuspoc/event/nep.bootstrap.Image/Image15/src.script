@@ -1,0 +1,12 @@
+if (typeof IsActive === "undefined" || IsActive === null || IsActive === "") { return; }  
+
+let defaultPath = "/media/root/POC%20Hyundai/UserList/";
+
+if(IsActive === true) {
+    defaultPath = defaultPath + "check.png";
+} else {
+    defaultPath = defaultPath + "close.png";
+}
+
+
+return defaultPath;

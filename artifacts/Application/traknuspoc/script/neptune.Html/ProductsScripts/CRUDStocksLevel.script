@@ -1,0 +1,19 @@
+function deleteDataStocksLevel(data) 
+{
+   let optionsDelete = {
+        parameters: {
+            "where": JSON.stringify({"id" : data.stocklevels_id})
+        }
+    };
+
+    apiDelete_StockLevel(optionsDelete);
+
+    let optionsJoin = {
+        data: {
+            "productid" : IdInvisible2.getText()
+        }
+    };
+
+    apiJoinTable_StocksLevel(optionsJoin);
+
+}

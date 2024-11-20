@@ -1,0 +1,83 @@
+const seriesData = [
+    { name: "Total Stock", data: [110, 120, 140, 190, 200, 230, 280, 310, 350] },
+];
+
+const chartOptions = {
+    credits: { enabled: false },
+    chart: {
+        type: "areaspline", // Changed the chart type to areaspline
+
+    },
+
+    plotOptions: {
+        areaspline: {
+            // Updated the plotOptions to areaspline
+            marker: {
+                enabled: false,
+            },
+            lineWidth: 2,
+            states: {
+                hover: {
+                    lineWidth: 2,
+                },
+            },
+            threshold: null,
+            // fillOpacity: 0.1, // Set the area opacity to be more transparent    
+            
+            borderRadius: 10,
+            step: "left", // Smoother lines
+            softThreshold: true, // Curved area representation
+        },
+        series:{
+            lineColor: '#78bed0',
+            fillColor: {
+            linearGradient: [0, 0, 0, 300],
+            stops: [
+                // [0, Highcharts.getOptions().colors[0]],
+                [0, '#8EF1FF'],
+                [
+                    1,
+                    Highcharts.color(Highcharts.getOptions().colors[0])
+                        .setOpacity(0).get('rgba')
+                ]
+             ]
+            }
+        }
+    },
+    
+    title: {
+        text: "",
+        align: "left", // Align the title to the left
+    },
+    
+    xAxis: {
+        categories: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Des"],
+        gridLineWidth: 2, // Add vertical grid lines
+        min:0.5,
+        // max:7.5,
+        tickInterval:1,
+        maxPadding:0,
+        endOnTick:false,
+        startOnTick:false
+    },
+    yAxis: {
+        title: {
+            text: "Products",
+        },
+        labels: {
+            formatter: function () {
+                return "" + this.value.toFixed();
+            },
+        },
+        gridLineWidth: 1, // Add vertical grid lines
+        tickInterval: 50, // Set the y-axis step to $50
+    },
+    legend: {
+        align: "left", // Align the legend to the left
+        verticalAlign: "top",
+        layout: "horizontal",
+    },
+    series: seriesData,
+};
+
+Highcharts.chart("AiChart", chartOptions);

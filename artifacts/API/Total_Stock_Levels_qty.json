@@ -1,0 +1,89 @@
+{
+	"id": "cf7abe0d-cec1-4747-bc04-db446adef89f",
+	"createdAt": "2024-09-30T15:19:17.000Z",
+	"createdBy": "jrs@gefami.co.id",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "47900c2e-027d-4c9a-c29f-96fb18ff7c23",
+			"method": "GET",
+			"path": "/GetCountTotalQty",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"id": "7f16cc2f-c521-403f-a2a6-ef005c265d3f",
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"content": [
+						{
+							"id": "97a3086a-cf98-445f-e920-e28915465228",
+							"name": "count",
+							"objectType": "reference"
+						}
+					]
+				}
+			],
+			"content": [],
+			"auth": [],
+			"endpoints": [],
+			"serverScript": "bd5d119e-9eec-4b49-b792-cdcc6e2459cb"
+		}
+	],
+	"definitions": [
+		{
+			"id": "1178ee02-ac5b-492a-9982-b85fe9297727",
+			"name": "count",
+			"description": "",
+			"isInclude": false,
+			"properties": [
+				{
+					"id": "d47b5685-e985-4bce-e2ed-32eaf96842dd",
+					"name": "count",
+					"objectType": "integer",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				}
+			],
+			"type": "object"
+		}
+	],
+	"documentation": [],
+	"name": "Total_Stock_Levels_qty",
+	"endpoint": "/api/serverscript/total_stock_levels_qty",
+	"ver": "24.11.19.1625",
+	"version": null,
+	"description": null,
+	"mediaType": null,
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "script",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba",
+	"apiGroup": null,
+	"apiFormat": 1,
+	"roles": []
+}

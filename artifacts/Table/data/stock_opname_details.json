@@ -1,0 +1,72 @@
+[
+	{
+		"id": "f4ddfefe-6f33-4436-a4ea-ce97c12d0780",
+		"createdAt": "1727800318215",
+		"updatedAt": "1727800318215",
+		"createdBy": "mfh@gefami.co.id",
+		"updatedBy": "mfh@gefami.co.id",
+		"session_id": "581278c9-cb61-438c-acce-a9ae2d7a974f",
+		"product_id": "01a5bdfc-419c-4b4b-91f1-065450f9d90e",
+		"scanned_by": "5c14e350-cb06-468b-9aff-7cedb15ea444",
+		"scanned_at": "2024-10-01T17:31:10.206Z",
+		"scanned_quantity": 1,
+		"system_quantity": 43,
+		"difference": 42
+	},
+	{
+		"id": "c5bab9ba-cd35-4dfc-9f0f-1484b4e93c55",
+		"createdAt": "1727799987919",
+		"updatedAt": "1727799987919",
+		"createdBy": "mfh@gefami.co.id",
+		"updatedBy": "mfh@gefami.co.id",
+		"session_id": "7efadde1-08ea-4492-96a2-25fc73575170",
+		"product_id": "01a5bdfc-419c-4b4b-91f1-065450f9d90e",
+		"scanned_by": "5c14e350-cb06-468b-9aff-7cedb15ea444",
+		"scanned_at": "2024-10-01T17:25:39.856Z",
+		"scanned_quantity": 1,
+		"system_quantity": 43,
+		"difference": 42
+	},
+	{
+		"id": "a2748a91-31e4-4d18-af41-4bd7d20b1223",
+		"createdAt": "1728460818777",
+		"updatedAt": "1728460818777",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"session_id": "66f692bf-36f0-45d0-be16-a825dfc0740d",
+		"product_id": "2476cd91-0265-41b8-9945-1032e81d9673",
+		"scanned_by": "5c14e350-cb06-468b-9aff-7cedb15ea444",
+		"scanned_at": "2024-10-09T08:00:18.722Z",
+		"scanned_quantity": 2,
+		"system_quantity": 12,
+		"difference": 10
+	},
+	{
+		"id": "6c708a6b-5342-4dea-80d4-82513f79882e",
+		"createdAt": "1728462007463",
+		"updatedAt": "1728462007463",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"session_id": "2e2758a8-db15-45fe-a270-e2d6b1d0b67d",
+		"product_id": "2476cd91-0265-41b8-9945-1032e81d9673",
+		"scanned_by": "5c14e350-cb06-468b-9aff-7cedb15ea444",
+		"scanned_at": "2024-10-09T08:20:07.397Z",
+		"scanned_quantity": 2,
+		"system_quantity": 12,
+		"difference": 10
+	},
+	{
+		"id": "380edda6-d6fd-4872-8dcc-903e6b5f47ec",
+		"createdAt": "1727799987863",
+		"updatedAt": "1727799987863",
+		"createdBy": "mfh@gefami.co.id",
+		"updatedBy": "mfh@gefami.co.id",
+		"session_id": "7efadde1-08ea-4492-96a2-25fc73575170",
+		"product_id": "2476cd91-0265-41b8-9945-1032e81d9673",
+		"scanned_by": "5c14e350-cb06-468b-9aff-7cedb15ea444",
+		"scanned_at": "2024-10-01T17:25:39.854Z",
+		"scanned_quantity": 1,
+		"system_quantity": 12,
+		"difference": 11
+	}
+]

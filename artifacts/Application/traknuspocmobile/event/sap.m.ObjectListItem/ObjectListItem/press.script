@@ -1,0 +1,14 @@
+const context = oEvent.oSource.getBindingContext();  
+
+const data = context.getObject();
+
+var options = {
+    data: {
+        "sessionId": data.session_id
+    }
+};
+
+apiGetStockOpnameDetail(options);
+
+App.to(HistoryPageDetail)
+

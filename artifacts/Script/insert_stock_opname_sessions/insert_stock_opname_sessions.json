@@ -1,0 +1,33 @@
+{
+	"id": "1d537d28-71e3-4d65-bf76-a04cb64841fd",
+	"createdAt": "2024-09-27T19:27:54.000Z",
+	"createdBy": "mfh@gefami.co.id",
+	"globalScripts": [],
+	"externalModules": [
+		{
+			"id": "internal_crypto",
+			"name": "crypto",
+			"contextname": "crypto",
+			"path": "crypto"
+		}
+	],
+	"entitySets": [
+		{
+			"id": "8f88cdbe-32e5-47f2-a8d6-fa85579dedcd",
+			"name": "stock_opname_sessions",
+			"contextname": "stock_opname_sessions"
+		}
+	],
+	"apis": [],
+	"name": "insert_stock_opname_sessions",
+	"ver": "24.9.28.1230",
+	"description": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "9e93a3e4-cee9-4cea-b7f0-05057dfa1b13",
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba"
+}

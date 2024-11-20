@@ -1,0 +1,36 @@
+{
+	"id": "38a778e6-f710-43e1-a0f0-ae5e0c6f3c26",
+	"createdAt": "2024-09-30T10:08:40.000Z",
+	"createdBy": "stev@gefami.co.id",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "4a5a4856-8d33-4a28-8e0c-54ffc8bbf09c",
+			"name": "warehouse_areas",
+			"contextname": "warehouse_areas"
+		},
+		{
+			"id": "287a5828-eeea-435b-98b4-377603053f3f",
+			"name": "warehouses",
+			"contextname": "warehouses"
+		},
+		{
+			"id": "edefcaf0-f972-4172-8408-61434efd15d0",
+			"name": "stock_levels",
+			"contextname": "stock_levels"
+		}
+	],
+	"apis": [],
+	"name": "get_data_stock_levels",
+	"ver": "24.9.30.1935",
+	"description": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "321d766c-4e22-4ff2-bca0-0a88f7fcfa2e",
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba"
+}

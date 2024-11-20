@@ -1,0 +1,203 @@
+{
+	"id": "8e476a54-26ea-418b-94c5-cb865ed6d7b5",
+	"createdAt": "2024-09-27T19:16:13.000Z",
+	"createdBy": "mfh@gefami.co.id",
+	"fields": [
+		{
+			"id": "9f2f7eda-3231-4c66-f8e8-e8ef541ce3f3",
+			"fieldName": "session_id",
+			"fieldType": "uuid",
+			"isUnique": false
+		},
+		{
+			"id": "7ccc3466-3b8f-48d5-d15d-93fbabd2b373",
+			"fieldName": "product_id",
+			"fieldType": "uuid",
+			"isUnique": false
+		},
+		{
+			"id": "2d3eebcd-afec-42f1-a58e-9b38aef575ac",
+			"fieldName": "scanned_by",
+			"fieldType": "uuid",
+			"isUnique": false
+		},
+		{
+			"id": "df3fc35e-5370-4a3a-88ee-16677909bb4f",
+			"fieldName": "scanned_at",
+			"fieldType": "timestamp",
+			"isUnique": false
+		},
+		{
+			"id": "ba994d4c-356a-47d5-dc2e-f9175108c24b",
+			"fieldName": "scanned_quantity",
+			"fieldType": "integer",
+			"isUnique": false
+		},
+		{
+			"id": "6da42e82-8801-4164-8d18-052e761b2633",
+			"fieldName": "system_quantity",
+			"fieldType": "integer",
+			"isUnique": false
+		},
+		{
+			"id": "3ed6c92f-a412-498d-da46-7dc3e5da2f89",
+			"fieldName": "difference",
+			"fieldType": "integer",
+			"isUnique": false
+		}
+	],
+	"indices": [],
+	"foreignKeys": [
+		{
+			"id": "81f46050-5e11-44f7-90aa-d982cd57c58e",
+			"name": "FK_ce9add81fe7f3555d94014fc047",
+			"referencedTable": "stock_opname_sessions",
+			"referencedTableId": "8f88cdbe-32e5-47f2-a8d6-fa85579dedcd",
+			"referencedTableColumns": [
+				{
+					"id": "bd8db906-d879-4dc9-c89a-18becc5722ad",
+					"fieldName": "warehouse_id",
+					"fieldType": "uuid",
+					"isUnique": false
+				},
+				{
+					"id": "b1a4611c-86c7-4dd7-e178-3f7aaf8e31d3",
+					"fieldName": "area_id",
+					"fieldType": "uuid",
+					"isUnique": false
+				},
+				{
+					"id": "4a454086-a1f1-4292-e4b4-404ed28b1cd9",
+					"fieldName": "conducted_by",
+					"fieldType": "uuid",
+					"isUnique": false
+				},
+				{
+					"id": "6bf1acea-af4e-4c7b-ab5f-fbf2ba440635",
+					"fieldName": "session_date",
+					"fieldType": "timestamp",
+					"isUnique": false
+				},
+				{
+					"id": "fbcababa-5733-4ceb-9f82-b29ad9f078a1",
+					"fieldName": "status",
+					"fieldType": "text",
+					"isUnique": false
+				}
+			],
+			"columns": [
+				{
+					"referencedColumnId": "id",
+					"id": "9f2f7eda-3231-4c66-f8e8-e8ef541ce3f3",
+					"fieldName": "session_id",
+					"fieldType": "uuid",
+					"isUnique": false,
+					"referencedColumnName": "id"
+				}
+			]
+		},
+		{
+			"id": "6f8ca0ec-8bdc-4ddf-ccba-2d8f7253e24f",
+			"name": "FK_01bee72f00458d20647bb5eab7a",
+			"referencedTable": "products",
+			"referencedTableId": "c45148b0-5418-4d4f-838f-42e0ff0a338d",
+			"referencedTableColumns": [
+				{
+					"id": "1fe951bd-f986-4b22-e173-c17089b02332",
+					"fieldName": "name",
+					"fieldType": "text",
+					"isUnique": false,
+					"description": "Name of the Product"
+				},
+				{
+					"id": "dff0d692-02b3-4784-aaa5-e0455cd1b159",
+					"fieldName": "SKU",
+					"fieldType": "text",
+					"isUnique": false,
+					"description": "Stock Keeping Unit"
+				},
+				{
+					"id": "44016e9b-2667-48c4-814b-f69ef4c33b02",
+					"fieldName": "description",
+					"fieldType": "text",
+					"isUnique": false,
+					"description": "short description of the Product"
+				},
+				{
+					"id": "6972d968-3697-4fb3-e7b3-a75d319f69da",
+					"fieldName": "unit",
+					"fieldType": "text",
+					"isUnique": false,
+					"description": "Unit of measurement (e.g., piece, box, kg)"
+				},
+				{
+					"id": "6f73940a-af7b-436a-9583-4f1c53b66f71",
+					"fieldName": "image_path",
+					"fieldType": "text",
+					"isUnique": false,
+					"description": "Image Path of the Product"
+				}
+			],
+			"columns": [
+				{
+					"referencedColumnId": "id",
+					"id": "7ccc3466-3b8f-48d5-d15d-93fbabd2b373",
+					"fieldName": "product_id",
+					"fieldType": "uuid",
+					"isUnique": false,
+					"referencedColumnName": "id"
+				}
+			]
+		},
+		{
+			"id": "84b558c8-fe14-4e43-d332-96bd1fe0d981",
+			"name": "FK_905efd1623f78d4a86d54accee5",
+			"referencedTable": "customers",
+			"referencedTableId": "3f0c8bdb-702b-4f67-9e6c-d6c0897d7aaf",
+			"referencedTableColumns": [
+				{
+					"id": "14ffff0d-cf8a-484b-c240-756d034cd657",
+					"fieldName": "username",
+					"fieldType": "text",
+					"isUnique": false
+				},
+				{
+					"id": "40d4f2e6-5b07-4798-fa6d-aec804f2fbdc",
+					"fieldName": "email",
+					"fieldType": "text",
+					"isUnique": false
+				},
+				{
+					"id": "5836a311-79ff-4699-d617-f67aec792221",
+					"fieldName": "phone_number",
+					"fieldType": "text",
+					"isUnique": false
+				},
+				{
+					"id": "b516cdce-4fbc-41ec-c61c-d72c6912be89",
+					"fieldName": "name",
+					"fieldType": "text",
+					"isUnique": false
+				}
+			],
+			"columns": [
+				{
+					"referencedColumnId": "id",
+					"id": "2d3eebcd-afec-42f1-a58e-9b38aef575ac",
+					"fieldName": "scanned_by",
+					"fieldType": "uuid",
+					"isUnique": false,
+					"referencedColumnName": "id"
+				}
+			]
+		}
+	],
+	"name": "stock_opname_details",
+	"description": null,
+	"ver": "24.11.19.2123",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba",
+	"rolesRead": [],
+	"rolesWrite": []
+}

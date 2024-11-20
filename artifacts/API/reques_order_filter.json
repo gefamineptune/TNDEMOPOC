@@ -1,0 +1,122 @@
+{
+	"id": "e18168c1-84e1-4d22-8833-6aa1df9e6e32",
+	"createdAt": "2024-09-28T05:51:45.000Z",
+	"createdBy": "jrs@gefami.co.id",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "c1e4c9b1-d2e9-4db8-daee-a73030f19e04",
+			"method": "POST",
+			"path": "/request_order_filter",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"id": "5cc048ca-7440-42fb-b684-caadeedfbd3c",
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"content": [
+						{
+							"id": "91bb31ea-2525-4f18-a4b0-73de2449f797",
+							"name": "RequestOrderFilterResponse",
+							"objectType": "reference"
+						}
+					]
+				}
+			],
+			"content": [
+				{
+					"objectType": "reference",
+					"items": [],
+					"name": "RequestOrderFilterRequest"
+				}
+			],
+			"auth": [],
+			"endpoints": [],
+			"serverScript": "9ae2ef72-9374-4807-bd5f-eed177e005fc"
+		}
+	],
+	"definitions": [
+		{
+			"id": "ca5d9fa5-e162-4658-f07d-fe044a037fb4",
+			"name": "RequestOrderFilterRequest",
+			"description": "",
+			"isInclude": false,
+			"properties": [
+				{
+					"id": "33aff381-2d80-404a-f34f-f3b562c6a18c",
+					"name": "status",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				}
+			],
+			"type": "object"
+		},
+		{
+			"id": "46bacaf3-0f4d-4741-b726-4561e67b9b70",
+			"name": "RequestOrderFilterResponse",
+			"description": "",
+			"isInclude": false,
+			"properties": [
+				{
+					"id": "d03d70d0-51a0-4bf1-f4dc-8539d14b703e",
+					"name": "count",
+					"objectType": "number",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				}
+			],
+			"type": "object"
+		}
+	],
+	"documentation": [],
+	"name": "reques_order_filter",
+	"endpoint": "/api/serverscript/reques_order_filter",
+	"ver": "24.11.19.1622",
+	"version": null,
+	"description": null,
+	"mediaType": null,
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "script",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba",
+	"apiGroup": null,
+	"apiFormat": 1,
+	"roles": []
+}

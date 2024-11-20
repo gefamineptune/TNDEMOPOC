@@ -1,0 +1,364 @@
+{
+	"id": "8de6388e-da81-48c6-9a1e-23d76bfe8c9d",
+	"createdAt": "2024-09-30T07:32:51.000Z",
+	"createdBy": "mfh@gefami.co.id",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "f5d1af29-4529-4e27-be76-ba365189ceb0",
+			"path": "/stock_opname_details",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1, fieldname2, fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "stock_opname_details"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "ec71cb3c-f33a-4322-836d-4560c653ef46",
+			"path": "/stock_opname_details",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "stock_opname_details"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "stock_opname_details"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "a678d774-2c67-46c8-92c1-1bfeb42c9632",
+			"path": "/stock_opname_details",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "stock_opname_details"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "stock_opname_details"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "d46e16aa-074f-4d8a-ad2c-7862c7985712",
+			"path": "/stock_opname_details",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "stock_opname_details"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "02074172-084a-49af-86d3-1b99f2723ee6",
+			"path": "/stock_opname_details/count",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "count"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "bbcf607a-aa35-4e21-934f-c7f470bcbb39",
+			"name": "stock_opname_details",
+			"properties": [
+				{
+					"id": "c40f4185-99bd-4a13-b146-d806d36d6373",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "ab0d1ce5-eef1-4990-a948-dfea154edf64",
+					"parent": "",
+					"name": "session_id",
+					"objectType": "uuid"
+				},
+				{
+					"id": "03249afd-516b-4f26-b9a4-e1bf2e389dff",
+					"parent": "",
+					"name": "product_id",
+					"objectType": "uuid"
+				},
+				{
+					"id": "9261fad2-c01e-4ec7-88ce-d09c75381ab6",
+					"parent": "",
+					"name": "scanned_by",
+					"objectType": "uuid"
+				},
+				{
+					"id": "4b476f8b-7d58-4c94-9b3b-c5dd0aca3efa",
+					"parent": "",
+					"name": "scanned_at",
+					"objectType": "string"
+				},
+				{
+					"id": "adf22cca-6cff-48fc-a582-e8810edc81c8",
+					"parent": "",
+					"name": "scanned_quantity",
+					"objectType": "integer"
+				},
+				{
+					"id": "5035ce66-d61e-4ed7-9c44-99a879f1e7f2",
+					"parent": "",
+					"name": "system_quantity",
+					"objectType": "integer"
+				},
+				{
+					"id": "f154d048-665e-47bf-91e5-76f784c4b306",
+					"parent": "",
+					"name": "difference",
+					"objectType": "integer"
+				},
+				{
+					"id": "62612bfe-ce9b-4b48-8f68-46c56b7ddb2e",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "60c10b23-5d7f-4d87-a9d0-50495c5cec8f",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created by",
+					"objectType": "string"
+				},
+				{
+					"id": "8192f2ab-6a79-43b7-bec5-cba178e6f40b",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "a6213b63-b62c-4614-959d-0be6b87e29a3",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated by",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "adfbbd31-792b-4394-8174-aad0ba4682c9",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "6e2a6655-c72b-4eca-8d58-a68130f644aa",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "66d561d1-a719-4023-89ad-7e7b53a83388",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "79711d83-da8c-4b28-8dd5-d8f0d7225451",
+			"name": "count",
+			"properties": [
+				{
+					"id": "9e305ff9-d6a7-43b2-9dfc-f67070e64ecd",
+					"parent": "",
+					"name": "count",
+					"objectType": "number"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "stock_opname_details",
+	"endpoint": "/api/entity",
+	"ver": "24.11.19.1624",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

@@ -1,0 +1,32 @@
+[
+	{
+		"id": "db583a5b-c874-4ae3-b48e-98f31b2b1541",
+		"createdAt": "1727715969358",
+		"updatedAt": "1727716041120",
+		"createdBy": "jrs@gefami.co.id",
+		"updatedBy": "jrs@gefami.co.id",
+		"warehouse_id": "46107f60-5b9b-4747-a689-5a31cebbf226",
+		"name": "test",
+		"description": "Ini Data testee2"
+	},
+	{
+		"id": "cdfab411-8b38-4eb2-a311-8f5681e653d7",
+		"createdAt": "1727272301745",
+		"updatedAt": "1727719469214",
+		"createdBy": "mfh@gefami.co.id",
+		"updatedBy": "admin",
+		"warehouse_id": "46107f60-5b9b-4747-a689-5a31cebbf226",
+		"name": "Cakung Warehouse Area Test",
+		"description": "Ini Data tester22"
+	},
+	{
+		"id": "3c165677-f6d3-4194-bc25-e7a48e40a298",
+		"createdAt": "1727453915111",
+		"updatedAt": "1727453915111",
+		"createdBy": "stev@gefami.co.id",
+		"updatedBy": "stev@gefami.co.id",
+		"warehouse_id": "fac343e5-8a79-41dd-952c-f26b69b3866a",
+		"name": "Jakarta Warehouse Gateway Area",
+		"description": "data test"
+	}
+]

@@ -1,0 +1,185 @@
+{
+	"id": "97ae49ec-4d9c-4370-99d0-398ec6d11c16",
+	"createdAt": "2024-11-20T08:42:13.000Z",
+	"createdBy": "mfh@gefami.co.id",
+	"objects": [
+		{
+			"fieldNo": "ff2eccdc-772c-4121-afa8-95f1d9f710cf",
+			"fieldName": "Shell",
+			"fieldParent": 0,
+			"fieldType": "sap.m.Shell",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "ea0ed9d7-e232-4634-b7a5-75d3f74d7685",
+					"fieldName": "App",
+					"fieldParent": "ff2eccdc-772c-4121-afa8-95f1d9f710cf",
+					"fieldType": "sap.m.App",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "c282f0c8-f674-4399-f949-26fe21e433cc",
+							"fieldName": "Page",
+							"fieldParent": "ea0ed9d7-e232-4634-b7a5-75d3f74d7685",
+							"fieldType": "nep.bootstrap.Page",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
+								{
+									"fieldNo": "6198a5d0-c5c4-4738-98f1-27bb66b27473",
+									"fieldName": "HBox",
+									"fieldParent": "c282f0c8-f674-4399-f949-26fe21e433cc",
+									"fieldType": "sap.m.HBox",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "9306df54-9a15-4706-d79c-e1c084f04df5",
+											"fieldName": "FileUploader",
+											"fieldParent": "6198a5d0-c5c4-4738-98f1-27bb66b27473",
+											"fieldType": "sap.ui.unified.FileUploader",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "fileType",
+													"grouping": "Properties",
+													"value": "[\"jpg\", \"jpeg\", \"png\"]",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "d04c323b-7c5c-472f-ab19-17016e4c1e0c",
+									"fieldName": "HBox1",
+									"fieldParent": "c282f0c8-f674-4399-f949-26fe21e433cc",
+									"fieldType": "sap.m.HBox",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "08229f49-cfbf-4fc5-9f81-198d7df98805",
+											"fieldName": "Button",
+											"fieldParent": "d04c323b-7c5c-472f-ab19-17016e4c1e0c",
+											"fieldType": "nep.bootstrap.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/nep.bootstrap.Button/Button/press.js",
+													"language": "javascript",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "START OCR",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "1abba4bc-e53e-4e94-a19b-aac75fe3b71d",
+					"fieldName": "Init",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "24.11.20.1823",
+	"application": "ocr",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "C",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_horizon",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "",
+	"compiledCss": null,
+	"header": "",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": true,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"apis": [],
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba"
+}

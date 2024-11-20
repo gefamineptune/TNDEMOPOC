@@ -1,0 +1,6 @@
+let maxIndex = (paginationBarRequestOrder.pagination.count / paginationBarRequestOrder.pagination.take);
+maxIndex = Math.ceil(maxIndex);
+
+paginationBarRequestOrder.pagination.index = maxIndex - 1;
+paginationBarRequestOrder.run(true); 
+paginationBarRequestOrder.handlePagination();

@@ -1,0 +1,230 @@
+{
+	"id": "774c399e-061a-4e26-87d5-577cba719b32",
+	"createdAt": "2024-09-27T19:38:15.000Z",
+	"createdBy": "mfh@gefami.co.id",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "23f86c09-eb5b-48dc-82e6-b2866120d4ec",
+			"method": "POST",
+			"path": "/insert_stock_opname_session",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"id": "98046dca-baea-4228-d753-bee68948f00a",
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"content": [
+						{
+							"id": "dbf745c4-384b-4d49-a3c6-bc1282cd4d15",
+							"name": "InsertStockOpnameSessionResponse",
+							"objectType": "reference"
+						}
+					]
+				}
+			],
+			"content": [
+				{
+					"objectType": "reference",
+					"items": [],
+					"name": "InsertStockOpnameSessionRequest"
+				}
+			],
+			"auth": [],
+			"endpoints": [],
+			"serverScript": "1d537d28-71e3-4d65-bf76-a04cb64841fd"
+		}
+	],
+	"definitions": [
+		{
+			"id": "139ea728-6793-4dcf-dd9b-37add8cb63e2",
+			"name": "InsertStockOpnameSessionRequest",
+			"description": "",
+			"isInclude": false,
+			"properties": [
+				{
+					"id": "975181de-f8c9-40e5-bf31-f7ed18015b0f",
+					"name": "warehouseId",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "274691b8-f02b-4e97-d38a-6888d765551f",
+					"name": "areaId",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "a79abbb9-1888-4186-e403-db69236ea59d",
+					"name": "conductedBy",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "db3b5120-b0f6-45f0-c018-c0f07c6e07ea",
+					"name": "sessionDate",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "4ccb4437-9243-45c7-af06-ea81d69d5b71",
+					"name": "status",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "9c3d55af-b036-440a-a812-42dffd6b7995",
+					"name": "createdBy",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "3b4d9b76-ed5c-417e-d59f-a301ea4bde6f",
+					"name": "updatedBy",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				}
+			],
+			"type": "object"
+		},
+		{
+			"id": "cae00f0e-2e24-4fd5-a015-f0eeaf910bcc",
+			"name": "InsertStockOpnameSessionResponse",
+			"description": "",
+			"isInclude": false,
+			"properties": [
+				{
+					"id": "efa7b120-8fa9-46a1-a0c4-6d97212468de",
+					"name": "UUID",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				}
+			],
+			"type": "object"
+		}
+	],
+	"documentation": [],
+	"name": "stock_opname_sessions",
+	"endpoint": "/api/serverscript/stock_opname_sessions",
+	"ver": "24.11.19.1625",
+	"version": null,
+	"description": null,
+	"mediaType": null,
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "script",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba",
+	"apiGroup": null,
+	"apiFormat": 1,
+	"roles": []
+}

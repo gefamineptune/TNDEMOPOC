@@ -1,0 +1,17 @@
+let data = modelContainer50.getData();
+
+//decrement current page
+data.currentPage--;
+
+let offsetValue = (data.currentPage - 1) * perPage;
+
+// MENGUPDATE DATA USER MANAGEMENT
+let options = {
+    data: {offset : offsetValue, limit : limitVal, orderBy : orderByVal}
+};
+
+apiRestAPIGetDataUserManagement(options);
+
+
+//update data pada model container9
+modelContainer50.setData(data);

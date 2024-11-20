@@ -1,0 +1,80 @@
+[
+	{
+		"id": "d1ba898e-891a-40cb-83d5-9cc40a8e9a62",
+		"createdAt": "1727720711874",
+		"updatedAt": "1727837644080",
+		"createdBy": "jrs@gefami.co.id",
+		"updatedBy": "admin",
+		"product_id": "01a5bdfc-419c-4b4b-91f1-065450f9d90e",
+		"warehouse_id": "46107f60-5b9b-4747-a689-5a31cebbf226",
+		"area_id": "cdfab411-8b38-4eb2-a311-8f5681e653d7",
+		"quantity": 40,
+		"batch_number": "123456",
+		"expiry_date": "2024-10-17T00:00:00.000Z"
+	},
+	{
+		"id": "ccb26867-f8a4-4b0d-9480-81b0f2269fbe",
+		"createdAt": "1727722470687",
+		"updatedAt": "1727723958764",
+		"createdBy": "stev@gefami.co.id",
+		"updatedBy": "admin",
+		"product_id": "74945711-67bb-4797-b236-3c301d6a93dc",
+		"warehouse_id": "2898e1eb-bc9c-4e8f-a61a-01a423c29421",
+		"area_id": "db583a5b-c874-4ae3-b48e-98f31b2b1541",
+		"quantity": 1,
+		"batch_number": "WET4",
+		"expiry_date": "2024-10-03T17:00:00.000Z"
+	},
+	{
+		"id": "bd532345-eb0e-4ed4-b1eb-b44d7ac01364",
+		"createdAt": "1727722115950",
+		"updatedAt": "1727722115950",
+		"createdBy": "stev@gefami.co.id",
+		"updatedBy": "stev@gefami.co.id",
+		"product_id": "74945711-67bb-4797-b236-3c301d6a93dc",
+		"warehouse_id": "2898e1eb-bc9c-4e8f-a61a-01a423c29421",
+		"area_id": "3c165677-f6d3-4194-bc25-e7a48e40a298",
+		"quantity": 4,
+		"batch_number": "lpo9",
+		"expiry_date": "2024-10-06T00:00:00.000Z"
+	},
+	{
+		"id": "953aef5b-855c-4d18-8f89-360ce7862631",
+		"createdAt": "1727718740571",
+		"updatedAt": "1727720711874",
+		"createdBy": "mfh@gefami.co.id",
+		"updatedBy": "jrs@gefami.co.id",
+		"product_id": "2476cd91-0265-41b8-9945-1032e81d9673",
+		"warehouse_id": "46107f60-5b9b-4747-a689-5a31cebbf226",
+		"area_id": "cdfab411-8b38-4eb2-a311-8f5681e653d7",
+		"quantity": 12,
+		"batch_number": "1111",
+		"expiry_date": "2024-10-23T02:25:00.000Z"
+	},
+	{
+		"id": "889af4cf-f4ab-402a-81d8-9961377f4ff3",
+		"createdAt": "1727720711874",
+		"updatedAt": "1727720711874",
+		"createdBy": "jrs@gefami.co.id",
+		"updatedBy": "jrs@gefami.co.id",
+		"product_id": "45e69511-ba4c-44dd-8c0f-e6ea5aa0b65d",
+		"warehouse_id": "fac343e5-8a79-41dd-952c-f26b69b3866a",
+		"area_id": "cdfab411-8b38-4eb2-a311-8f5681e653d7",
+		"quantity": 50,
+		"batch_number": "33dd3",
+		"expiry_date": "2024-10-09T02:24:00.000Z"
+	},
+	{
+		"id": "4e2ad6e2-de59-48fb-abbf-1e02401a7bdb",
+		"createdAt": "1727718720156",
+		"updatedAt": "1728461841772",
+		"createdBy": "stev@gefami.co.id",
+		"updatedBy": "admin",
+		"product_id": "74945711-67bb-4797-b236-3c301d6a93dc",
+		"warehouse_id": "2898e1eb-bc9c-4e8f-a61a-01a423c29421",
+		"area_id": "cdfab411-8b38-4eb2-a311-8f5681e653d7",
+		"quantity": 8,
+		"batch_number": "WGS12345",
+		"expiry_date": "2024-09-30T00:00:00.000Z"
+	}
+]

@@ -1,0 +1,3 @@
+if (typeof startDate === "undefined" || startDate === null || startDate === "") { return; }  
+
+return dateTable(startDate);

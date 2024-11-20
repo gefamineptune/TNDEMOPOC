@@ -1,0 +1,6 @@
+let maxIndex = (paginationBarBarcode.pagination.count / paginationBarBarcode.pagination.take);
+maxIndex = Math.ceil(maxIndex);
+
+paginationBarBarcode.pagination.index = maxIndex - 1;
+paginationBarBarcode.run(true); 
+paginationBarBarcode.handlePagination();

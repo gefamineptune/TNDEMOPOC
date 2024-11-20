@@ -1,0 +1,144 @@
+{
+	"id": "e65a33de-710a-484e-a8da-bf10ed3cea6b",
+	"createdAt": "2024-09-30T17:50:46.000Z",
+	"createdBy": "jrs@gefami.co.id",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "214cd7f4-b51c-44fb-ee4f-2c4acecd35b8",
+			"method": "GET",
+			"path": "/gettopfiveproducts",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"id": "0f3df872-53b4-4e34-8c0d-56da88a1d79e",
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"content": [
+						{
+							"id": "679b2ff6-45a9-4ec5-ddf9-605a1e9eb27d",
+							"name": "GetTopFiveResponse",
+							"objectType": "reference",
+							"isArray": true
+						}
+					]
+				}
+			],
+			"content": [],
+			"auth": [],
+			"endpoints": [],
+			"serverScript": "44813c16-899c-4113-876d-eec874eab0c9"
+		}
+	],
+	"definitions": [
+		{
+			"id": "25b45d66-6fd9-466f-f4b1-5cbbd6c99906",
+			"name": "GetTopFiveResponse",
+			"description": "",
+			"isInclude": false,
+			"properties": [
+				{
+					"id": "93f48650-2d4d-4a9d-f55a-540b054eea76",
+					"name": "productId",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "c2303bb0-6a65-4c76-e07e-50514d71fcf5",
+					"name": "productName",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "15e1146e-5df1-4960-f558-694d325dad98",
+					"name": "image_path",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "b4fb6fd1-7e87-4a5a-c4d3-f5d27caecedd",
+					"name": "totalQuantity",
+					"objectType": "integer",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				}
+			],
+			"type": "object"
+		}
+	],
+	"documentation": [],
+	"name": "GetTopFiveProduct",
+	"endpoint": "/api/serverscript/gettopfiveproduct",
+	"ver": "24.11.19.1622",
+	"version": null,
+	"description": null,
+	"mediaType": null,
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "script",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba",
+	"apiGroup": null,
+	"apiFormat": 1,
+	"roles": []
+}

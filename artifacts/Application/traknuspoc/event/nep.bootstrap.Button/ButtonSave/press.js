@@ -1,0 +1,2 @@
+insert();
+oApp.to(UserListPage)

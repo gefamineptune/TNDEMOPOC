@@ -1,0 +1,31 @@
+{
+	"id": "bd5d119e-9eec-4b49-b792-cdcc6e2459cb",
+	"createdAt": "2024-09-30T11:38:02.000Z",
+	"createdBy": "jrs@gefami.co.id",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "edefcaf0-f972-4172-8408-61434efd15d0",
+			"name": "stock_levels",
+			"contextname": "stock_levels"
+		},
+		{
+			"id": "6114df54-6f13-41ed-9a31-db2b8a2e8b68",
+			"name": "request_orders",
+			"contextname": "request_orders"
+		}
+	],
+	"apis": [],
+	"name": "CountTotalStock",
+	"ver": "24.9.30.2214",
+	"description": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "888572eb-b70c-402c-8537-7f6753aea2b7",
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba"
+}

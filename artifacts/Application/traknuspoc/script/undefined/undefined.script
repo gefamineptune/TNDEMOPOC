@@ -1,0 +1,278 @@
+.customButtonPagination .sapMBtnInner {
+  background-color: #F7F3F2 !important;
+  font-size: 19px;
+  width: 40px;
+  height: 40px;
+  font-weight: bold;
+  color: #a1867c;
+  border: none;
+  border-radius: 0;
+}
+
+.customButtonPaginationArrow .sapMBtnInner {
+  background-color: #f7f3f1 !important;
+  font-size: 19px;
+  width: 40px;
+  height: 40px;
+  font-weight: bold;
+  color: black;
+}
+
+.customButtonViewDetail {
+  background-color: #01aad0;
+}
+
+.onGoingStatusColor {
+  background-color: #c8f2f5 !important;
+  color: #78bfd5;
+  font-weight: 400;
+  font-size: 14px !important;
+}
+
+.completedStatusColor {
+  background-color: #e9e0d7 !important;
+  color: #b7a291;
+  font-weight: 400;
+  font-size: 14px !important;
+}
+
+.pendingStatusColor {
+  background-color: #cdd0d5 !important;
+  color: #a1a4a9;
+  font-weight: 400;
+  font-size: 14px !important;
+}
+
+.headerColorTableTab .sapMColumnHeader {
+  background-color: #e4dbd2;
+}
+
+.custom {
+  background-color: #f7f3f2;
+  padding-top: 16px;
+}
+
+.button_card {
+  background-color: #012d5c !important;
+}
+
+.button_ViewAll {
+  background-color: #f0f4ff !important;
+}
+
+.subtitle {
+  color: #92786b;
+}
+
+@font-face {
+  font-family: "HyundaiSansHead";
+  src: url("/media/root/POC%20Hyundai/font/HyundaiSansText-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HyundaiSansHead";
+  src: url("/media/root/POC%20Hyundai/font/HyundaiSansText-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HyundaiSansHead";
+  src: url("/media/root/POC%20Hyundai/font/HyundaiSansText-Bold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+.main-page,
+.main-page .sapMText {
+  font-family: "HyundaiSansHead";
+}
+
+.card-dashboard-wrapper {
+  gap: 24px;
+}
+
+.card-dashboard-top {
+  flex: 1;
+}
+
+.card-dashboard-top.card1 {
+  flex: 2;
+}
+
+.today-tag {
+  position: absolute;
+  top: 0px;
+  right: 16px;
+}
+
+.today-tag .badge {
+  border-radius: 0 0 5px 5px;
+  background-color: #E3D9D0;
+  color: #000000;
+  font-size: 13px;
+}
+
+.two-column-medium > .sapMFlexItem:nth-child(2) {
+  width: 70%;
+}
+
+.dropdown-year.sapMSlt,
+.dropdown-year.sapMSltHoverable:not(.sapMSltState):not(.sapMSltIconOnly):hover {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  margin: 0 24px 0;
+}
+
+.table-global table .fs-5 {
+  font-size: 14px !important;
+}
+
+.table-global td {
+  vertical-align: middle;
+  border: none;
+}
+
+.table-global .btn-primary {
+  background-color: #00AAD2;
+  font-size: 14px;
+}
+
+.table-global tbody tr:nth-child(even) td {
+  background-color: #FAF9F7;
+}
+
+.tag-green {
+  border-radius: 0 0 5px 5px;
+  background: #4DCE38 !important;
+  font-size: 13px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.page-wrapper section {
+  padding: 3rem;
+  background: #ffffff;
+}
+
+.sapTntSideNavigation {
+  width: 17rem;
+  background: #f7f7f7;
+  border-right: none;
+}
+
+.sapTntSideNavigationSeparator,
+.sapTntNavLI li, .sapTntNavLIItem {
+  background: transparent;
+}
+
+.sap-desktop .sapTntToolPageAside + .sapTntToolPageMain, .sap-tablet .sapTntToolPageAside + .sapTntToolPageMain {
+  padding-left: 17rem;
+}
+
+.sapTntNavLI {
+  margin: 75px 16px 16px 16px;
+  padding: 0;
+  list-style: none;
+}
+
+.sapTntNavLIItemSelected:not(.sapTntNavLIItemDisabled) {
+  border: none;
+}
+
+.sapTntNavLIGroup {
+  border-bottom: none;
+  background: transparent;
+}
+
+.sapTntNavLIItem .sapMText {
+  color: #a6a3a3;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.sapUiIcon::before {
+  color: #a6a3a3;
+}
+
+.sapTntNavLIItemSelected.sapTntNavLIItem, .sapTntNavLIItemSelected .sapTntNavLIGroup, .sapTntNavLIItemSelected.sapTntNavLIGroupItem, .sapTntNavLIItemSelected.sapTntNavLIGroupItem.sapTntNavLIItem {
+  background-color: #002c5f;
+  border-radius: 25px;
+}
+
+.sapTntNavLIItemSelected .sapTntNavLIItem:hover, .sapTntNavLIItemSelected.sapTntNavLIItem.sapTntNavLIGroup:hover, .sapTntNavLIItemSelected.sapTntNavLIGroupItem.sapTntNavLIGroupItem:hover {
+  background-color: #002c5f;
+}
+
+.sapTntNavLIItemSelected.sapTntNavLIItem .sapUiIcon::before {
+  color: #ffffff;
+}
+
+.sapTntNavLIItemSelected.sapTntNavLIItem .sapMText {
+  color: #ffffff;
+}
+
+.sapTntNavLI > li:nth-last-child(2):before {
+  content: "Report";
+  font-size: 18px;
+  font-weight: 500;
+  color: #002c5f;
+  display: block;
+  margin: 24px 16px 16px;
+}
+
+.logout-wrapper a {
+  background: #ECE3DE;
+  border-radius: 30px;
+  width: auto;
+  padding: 0 24px 0 6px;
+}
+
+.logout-wrapper a {
+  background: #ECE3DE;
+  border-radius: 30px;
+  width: auto;
+  padding: 0 24px 0 6px;
+}
+
+.logout-wrapper .sapTntNavLIItemSelected.sapTntNavLIItem.sapTntNavLIGroup:hover,
+.logout-wrapper .sapTntNavLIItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+}
+
+.logout-wrapper .sapTntNavLIItem .sapUiIcon::before,
+.logout-wrapper .sapTntNavLIItem .sapMText,
+.logout-wrapper .sapTntNavLIItemSelected.sapTntNavLIItem .sapMText,
+.logout-wrapper .sapTntNavLIItemSelected.sapTntNavLIItem .sapUiIcon::before {
+  color: #956954;
+}
+
+.primaryButtonColor {
+  background-color: #002c5f !important;
+  border-color: #002c5f !important;
+}
+
+.dangerButtonColor {
+  background-color: #5f0300 !important;
+  border-color: #5f0300 !important;
+}
+
+.sapMTableTH {
+  background-color: #e4dbd2;
+  font-weight: 600;
+}
+
+tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+tr:nth-child(even) {
+  background-color: #faf9f7;
+}

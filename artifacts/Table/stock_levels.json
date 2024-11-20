@@ -1,0 +1,61 @@
+{
+	"id": "edefcaf0-f972-4172-8408-61434efd15d0",
+	"createdAt": "2024-09-25T13:13:41.000Z",
+	"createdBy": "stev@gefami.co.id",
+	"fields": [
+		{
+			"id": "e02b03de-cc7c-4a15-a958-6fa0adc7b69c",
+			"fieldName": "product_id",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "References to Product"
+		},
+		{
+			"id": "7ac0e47d-842a-4cfe-ae22-a078a8338172",
+			"fieldName": "warehouse_id",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "References to Warehouse"
+		},
+		{
+			"id": "e0e33b72-b963-46be-b10b-410493a339e2",
+			"fieldName": "area_id",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "area_id"
+		},
+		{
+			"id": "9e8e45c4-a4ee-44d4-a299-9cc7ae55a539",
+			"fieldName": "quantity",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Number of units currently in stock"
+		},
+		{
+			"id": "f634cb75-1264-4c0f-adb3-04da7c5a46e9",
+			"fieldName": "batch_number",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Batch Product (Optional)",
+			"isNullable": true
+		},
+		{
+			"id": "4a23d712-2b1f-46d7-f82f-dfbdd50eb26b",
+			"fieldName": "expiry_date",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"isNullable": true,
+			"description": "Expiry date for perishable goods"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "stock_levels",
+	"description": "Table to store stock of each products at every warehouses and areas",
+	"ver": "24.11.19.2123",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba",
+	"rolesRead": [],
+	"rolesWrite": []
+}

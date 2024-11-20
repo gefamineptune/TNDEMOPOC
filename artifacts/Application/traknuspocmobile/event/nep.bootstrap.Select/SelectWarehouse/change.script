@@ -1,0 +1,11 @@
+console.log(SelectWarehouse.getSelectedKey());
+
+SelectWarehouseArea.setSelectedKey("");
+
+var options = {
+    parameters: {
+        "where": JSON.stringify({"warehouse_id" : SelectWarehouse.getSelectedKey()}),
+    }
+};
+
+apiGetWarehouseArea(options);

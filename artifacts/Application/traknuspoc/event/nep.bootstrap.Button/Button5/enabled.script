@@ -1,0 +1,13 @@
+if (typeof startPage === "undefined" || startPage === null || startPage === "") { return; }  
+let formattedText;
+
+let data = modelHBox1.getData();
+let jumlahPage = data.jumlahPage;
+
+if(startPage === jumlahPage) {
+    formattedText = false;
+} else {
+    formattedText = true;
+}
+
+return formattedText;

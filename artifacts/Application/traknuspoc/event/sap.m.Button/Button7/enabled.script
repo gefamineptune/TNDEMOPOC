@@ -1,0 +1,14 @@
+if (typeof startPage === "undefined" || startPage === null || startPage === "") { return; }  
+
+let formattedText;
+
+let data = modelContainer45.getData();
+let jumlahPage = data.jumlahPage;
+
+if(startPage === jumlahPage) {
+    formattedText = false;
+} else {
+    formattedText = true;
+}
+
+return formattedText;

@@ -1,0 +1,3 @@
+populateNewDataBarcode();
+
+oApp.to(Barcode)

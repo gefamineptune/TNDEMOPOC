@@ -1,0 +1,11 @@
+const context = oEvent.oSource.getBindingContext();
+
+const data = context.getObject();
+
+console.log(data);
+
+deleteDataRequestOrder(data.ro_id);
+
+apiGetRequestOrdersCustomersProducts();
+
+sap.m.MessageToast.show("Data berhasil dihapus");

@@ -1,0 +1,50 @@
+[
+	{
+		"id": "fac343e5-8a79-41dd-952c-f26b69b3866a",
+		"createdAt": "1727376324156",
+		"updatedAt": "1727686626107",
+		"createdBy": "stev@gefami.co.id",
+		"updatedBy": "admin",
+		"name": "SHN Warehouse",
+		"description": "Swadaya Harapan Nusantara Warehouse",
+		"address": "Swadaya Harapan Nusantara Warehouse",
+		"longitude": 106.91514862309313,
+		"latitude": -6.212996348349587
+	},
+	{
+		"id": "46107f60-5b9b-4747-a689-5a31cebbf226",
+		"createdAt": "1727263565330",
+		"updatedAt": "1727714861620",
+		"createdBy": "admin",
+		"updatedBy": "jrs@gefami.co.id",
+		"name": "Cakung",
+		"description": "Sortir DC Cakung",
+		"address": "Sortir DC Cakung",
+		"longitude": 106.9234282854579,
+		"latitude": -6.18064889129655
+	},
+	{
+		"id": "2898e1eb-bc9c-4e8f-a61a-01a423c29421",
+		"createdAt": "1727370311906",
+		"updatedAt": "1727690245662",
+		"createdBy": "admin",
+		"updatedBy": "jrs@gefami.co.id",
+		"name": "Traknus Warehouse",
+		"description": "Traktor Nusantara Warehouse Head Office",
+		"address": "Traktor Nusantara Warehouse Head Office",
+		"longitude": 106.92272612127834,
+		"latitude": -6.185433220309725
+	},
+	{
+		"id": "1ce9e61a-a101-4e54-82b3-04b2f06dfa41",
+		"createdAt": "1727856634205",
+		"updatedAt": "1727856643818",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"name": "Tests",
+		"description": "Test",
+		"address": "Test",
+		"longitude": 106,
+		"latitude": -6
+	}
+]

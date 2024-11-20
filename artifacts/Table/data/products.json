@@ -1,0 +1,86 @@
+[
+	{
+		"id": "fd56bd4f-0b5d-4d81-a423-1b2c72fc09c7",
+		"createdAt": "1727365420025",
+		"updatedAt": "1727679289022",
+		"createdBy": "jrs@gefami.co.id",
+		"updatedBy": "stev@gefami.co.id",
+		"name": "Truck Crane",
+		"SKU": "11",
+		"description": "Max. Lifting Capacity : 8,200 kg at 1.8 m. Length : 4.31 m - 12.91 m. Extending Speed : 8.6 m / 34 s",
+		"unit": "pieces",
+		"image_path": "http://rnd.ifabula.co.id/media/root/28828cd1ca2e2cf50a094b082759a298.png"
+	},
+	{
+		"id": "a42ee159-8123-4fd5-8bc2-98d0016c4fb9",
+		"createdAt": "1727365420025",
+		"updatedAt": "1727679243528",
+		"createdBy": "jrs@gefami.co.id",
+		"updatedBy": "stev@gefami.co.id",
+		"name": "Tower Light",
+		"SKU": "35",
+		"description": "Lighting : 4 x 1,000 Watt Power : Engine (6 kW Generator)",
+		"unit": "pieces",
+		"image_path": "http://rnd.ifabula.co.id/media/root/f128ab2c1c9e6dc4f8e2ebe620405ace.jpg"
+	},
+	{
+		"id": "74945711-67bb-4797-b236-3c301d6a93dc",
+		"createdAt": "1727273451612",
+		"updatedAt": "1727722476196",
+		"createdBy": "stev@gefami.co.id",
+		"updatedBy": "stev@gefami.co.id",
+		"name": "P2000-3 FG Wilson Genset",
+		"SKU": "20",
+		"description": "P2000-3 FG Wilson Genset Completely Built Up Open and Silent Type",
+		"unit": "pieces",
+		"image_path": "http://rnd.ifabula.co.id/media/root/CM20190916-6dc24-f7ef5.jpeg"
+	},
+	{
+		"id": "45e69511-ba4c-44dd-8c0f-e6ea5aa0b65d",
+		"createdAt": "1727343805702",
+		"updatedAt": "1727679096444",
+		"createdBy": "jrs@gefami.co.id",
+		"updatedBy": "stev@gefami.co.id",
+		"name": "Mini Excavator",
+		"SKU": "6",
+		"description": "Bucket Capacity : 0,1 M Weight Unit : 3 - 5 Ton",
+		"unit": "pieces",
+		"image_path": "http://rnd.ifabula.co.id/media/root/03ad1e32e70f6af77b7b79d3cbfb2d4a.png"
+	},
+	{
+		"id": "33a1016c-7139-4614-aa77-b10c81cee1d9",
+		"createdAt": "1731943667390",
+		"updatedAt": "1731943667390",
+		"createdBy": "jrs@gefami.co.id",
+		"updatedBy": "jrs@gefami.co.id",
+		"name": "Truck",
+		"SKU": "20",
+		"description": "P2000-3 FG Wilson Genset Completely Built Up Open and Silent Type",
+		"unit": "pieces",
+		"image_path": "https://rnd.ifabula.co.id/media/root/creta.png"
+	},
+	{
+		"id": "2476cd91-0265-41b8-9945-1032e81d9673",
+		"createdAt": "1727677945526",
+		"updatedAt": "1727679389565",
+		"createdBy": "mfh@gefami.co.id",
+		"updatedBy": "stev@gefami.co.id",
+		"name": "Compressor CM50",
+		"SKU": "5",
+		"description": "Volume Flow : 175 cfm Pressure : 7 bar Power : Engine / Battery",
+		"unit": "pieces",
+		"image_path": "http://rnd.ifabula.co.id/media/root/ba781a142f9c2c52dd15d42f6b0e1c50.jpg"
+	},
+	{
+		"id": "01a5bdfc-419c-4b4b-91f1-065450f9d90e",
+		"createdAt": "1727338278638",
+		"updatedAt": "1727678911092",
+		"createdBy": "jrs@gefami.co.id",
+		"updatedBy": "stev@gefami.co.id",
+		"name": "ELECTRIC 4-WHEEL CB - 8FBN25",
+		"SKU": "12",
+		"description": "Electric Unit will be provided with 1. Back Up Buzzer 2. Flash Beacon 3. APAR/Fire Extinguisher 4. Mirror 5. SAS and OPS 6. Battery and Charger (Spare Battery depends on need)",
+		"unit": "pieces",
+		"image_path": "http://rnd.ifabula.co.id/media/root/for-forklift-toyota-battery-8fbn-samping-min.png"
+	}
+]

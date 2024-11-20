@@ -1,0 +1,2109 @@
+{
+	"id": "46da2d6e-4ba7-4727-a1e8-a6cb8744ec08",
+	"createdAt": "2024-10-01T18:28:02.000Z",
+	"createdBy": "mfh@gefami.co.id",
+	"objects": [
+		{
+			"fieldNo": "28771a1e-5ae7-45b2-ae7a-987ce4333195",
+			"fieldName": "Shell",
+			"fieldParent": 0,
+			"fieldType": "sap.m.Shell",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "3fe5d97e-056d-4f30-fefc-f01412434160",
+					"fieldName": "App",
+					"fieldParent": "28771a1e-5ae7-45b2-ae7a-987ce4333195",
+					"fieldType": "sap.m.App",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "8bfa9006-c26e-420f-f437-62ba821d8cbc",
+							"fieldName": "Home",
+							"fieldParent": "3fe5d97e-056d-4f30-fefc-f01412434160",
+							"fieldType": "sap.m.Page",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "Home Page",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "titleAlignment",
+									"grouping": "Properties",
+									"value": "Center",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "48368801-8ef9-4e79-f6bd-e90cc858a3c1",
+									"fieldName": "Container",
+									"fieldParent": "8bfa9006-c26e-420f-f437-62ba821d8cbc",
+									"fieldType": "nep.bootstrap.Container",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "267f51b4-c4e5-4cf8-c0c8-70c9825e30f6",
+											"fieldName": "Alert",
+											"fieldParent": "48368801-8ef9-4e79-f6bd-e90cc858a3c1",
+											"fieldType": "nep.bootstrap.Alert",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "margin",
+													"grouping": "Properties",
+													"value": "MarginTop2",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "90d6cad6-1a44-4eba-d978-7229275d7b6e",
+													"fieldName": "HBox3",
+													"fieldParent": "267f51b4-c4e5-4cf8-c0c8-70c9825e30f6",
+													"fieldType": "sap.m.HBox",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "justifyContent",
+															"grouping": "Properties",
+															"value": "Center",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "alignItems",
+															"grouping": "Properties",
+															"value": "Center",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "alignContent",
+															"grouping": "Properties",
+															"value": "Center",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "cc9928b8-7ec6-4820-a093-6d57641d738a",
+															"fieldName": "VBox5",
+															"fieldParent": "90d6cad6-1a44-4eba-d978-7229275d7b6e",
+															"fieldType": "sap.m.VBox",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "c59ca444-ba8b-4b08-f7dd-97fe66767312",
+																	"fieldName": "VBox3",
+																	"fieldParent": "cc9928b8-7ec6-4820-a093-6d57641d738a",
+																	"fieldType": "sap.m.VBox",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "styleClassMargin",
+																			"grouping": "Properties",
+																			"value": "sapUiTinyMarginBottom",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": [
+																		{
+																			"fieldNo": "b44e63ce-dace-4413-bcfc-77677220569b",
+																			"fieldName": "Label1",
+																			"fieldParent": "c59ca444-ba8b-4b08-f7dd-97fe66767312",
+																			"fieldType": "sap.m.Label",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "text",
+																					"grouping": "Properties",
+																					"value": "Warehouse",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		},
+																		{
+																			"fieldNo": "a04f49ef-12f1-4da9-cb2c-cef213ec697e",
+																			"fieldName": "ComboBoxWarehouse",
+																			"fieldParent": "c59ca444-ba8b-4b08-f7dd-97fe66767312",
+																			"fieldType": "sap.m.ComboBox",
+																			"script": "",
+																			"customComponent": false,
+																			"bindingValue": "warehouses>warehouses",
+																			"bindingType": "h",
+																			"bindingSource": "API",
+																			"bindingParentID": "cb36ac28-47d2-4506-a835-e33e6e80d109",
+																			"bindingPathID": "a57a35d1-cbe0-4890-b5e3-b2060f3b65b0",
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "placeholder",
+																					"grouping": "Properties",
+																					"value": "Choose Warehouse",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "change",
+																					"grouping": "Events",
+																					"value": "Anonymous Function",
+																					"script": "file://event/sap.m.ComboBox/ComboBoxWarehouse/change.js",
+																					"language": "javascript",
+																					"translation": []
+																				}
+																			],
+																			"data": [
+																				{
+																					"fieldNo": "f278f74f-f26d-44e6-b828-148d4c516f3c",
+																					"fieldName": "Item1",
+																					"fieldParent": "a04f49ef-12f1-4da9-cb2c-cef213ec697e",
+																					"fieldType": "sap.ui.core.Item",
+																					"script": "",
+																					"customComponent": false,
+																					"request": [],
+																					"response": [],
+																					"attributes": [
+																						{
+																							"attribute": "text",
+																							"grouping": "Properties",
+																							"value": "{name}",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "key",
+																							"grouping": "Properties",
+																							"value": "{id}",
+																							"script": "",
+																							"translation": []
+																						}
+																					],
+																					"data": []
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"fieldNo": "2b1d89f4-e82a-4300-bf7b-60ba86433927",
+																	"fieldName": "VBox4",
+																	"fieldParent": "cc9928b8-7ec6-4820-a093-6d57641d738a",
+																	"fieldType": "sap.m.VBox",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [],
+																	"data": [
+																		{
+																			"fieldNo": "a644d84f-865d-41db-fac5-826f3016b933",
+																			"fieldName": "Label2",
+																			"fieldParent": "2b1d89f4-e82a-4300-bf7b-60ba86433927",
+																			"fieldType": "sap.m.Label",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "text",
+																					"grouping": "Properties",
+																					"value": "Warehouse Area",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		},
+																		{
+																			"fieldNo": "4f9362bd-0d22-4fcd-8fa0-5c594ec5aa2a",
+																			"fieldName": "ComboBoxWarehouseArea",
+																			"fieldParent": "2b1d89f4-e82a-4300-bf7b-60ba86433927",
+																			"fieldType": "sap.m.ComboBox",
+																			"script": "",
+																			"customComponent": false,
+																			"bindingValue": "warehouses>warehouses",
+																			"bindingType": "h",
+																			"bindingSource": "API",
+																			"bindingParentID": "cb36ac28-47d2-4506-a835-e33e6e80d109",
+																			"bindingPathID": "a57a35d1-cbe0-4890-b5e3-b2060f3b65b0",
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "placeholder",
+																					"grouping": "Properties",
+																					"value": "Choose Warehouse Area",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "change",
+																					"grouping": "Events",
+																					"value": "Anonymous Function",
+																					"script": "file://event/sap.m.ComboBox/ComboBoxWarehouseArea/change.js",
+																					"language": "javascript",
+																					"translation": []
+																				}
+																			],
+																			"data": [
+																				{
+																					"fieldNo": "55800bd3-a0a4-49d4-c3c5-8b15930e0592",
+																					"fieldName": "Item3",
+																					"fieldParent": "4f9362bd-0d22-4fcd-8fa0-5c594ec5aa2a",
+																					"fieldType": "sap.ui.core.Item",
+																					"script": "",
+																					"customComponent": false,
+																					"request": [],
+																					"response": [],
+																					"attributes": [
+																						{
+																							"attribute": "text",
+																							"grouping": "Properties",
+																							"value": "{name}",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "key",
+																							"grouping": "Properties",
+																							"value": "{id}",
+																							"script": "",
+																							"translation": []
+																						}
+																					],
+																					"data": []
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"fieldNo": "c2b3c489-ca2a-4608-c555-e085744a486a",
+																	"fieldName": "VBox1",
+																	"fieldParent": "cc9928b8-7ec6-4820-a093-6d57641d738a",
+																	"fieldType": "sap.m.VBox",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [],
+																	"data": [
+																		{
+																			"fieldNo": "54622faf-2983-4c38-d38d-b8a97737b3b3",
+																			"fieldName": "Label",
+																			"fieldParent": "c2b3c489-ca2a-4608-c555-e085744a486a",
+																			"fieldType": "sap.m.Label",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "text",
+																					"grouping": "Properties",
+																					"value": "Product",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		},
+																		{
+																			"fieldNo": "052ca4c2-8bb3-49fa-be59-32a38e62719e",
+																			"fieldName": "ComboBoxSelectStockLevelProduct",
+																			"fieldParent": "c2b3c489-ca2a-4608-c555-e085744a486a",
+																			"fieldType": "sap.m.ComboBox",
+																			"script": "",
+																			"customComponent": false,
+																			"bindingValue": "stock_levels_script>GetJoinStockLevelsProductResponse",
+																			"bindingType": "h",
+																			"bindingSource": "API",
+																			"bindingParentID": "49e70d15-41ae-4387-a6b6-241dafbb27a5",
+																			"bindingPathID": "c95fbcf0-17d4-4136-9b90-0cb51a132957",
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "placeholder",
+																					"grouping": "Properties",
+																					"value": "Choose Product",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "change",
+																					"grouping": "Events",
+																					"value": "Anonymous Function",
+																					"script": "file://event/sap.m.ComboBox/ComboBoxSelectStockLevelProduct/change.js",
+																					"language": "javascript",
+																					"translation": []
+																				}
+																			],
+																			"data": [
+																				{
+																					"fieldNo": "1c29370d-73d3-4484-fd60-345e6cef897c",
+																					"fieldName": "Item",
+																					"fieldParent": "052ca4c2-8bb3-49fa-be59-32a38e62719e",
+																					"fieldType": "sap.ui.core.Item",
+																					"script": "",
+																					"customComponent": false,
+																					"request": [],
+																					"response": [],
+																					"attributes": [
+																						{
+																							"attribute": "text",
+																							"grouping": "Properties",
+																							"value": "{p_name}",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "key",
+																							"grouping": "Properties",
+																							"value": "{p_id}",
+																							"script": "",
+																							"translation": []
+																						}
+																					],
+																					"data": []
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"fieldNo": "1486044e-e7bb-4813-e654-185f754463a7",
+											"fieldName": "VBox",
+											"fieldParent": "48368801-8ef9-4e79-f6bd-e90cc858a3c1",
+											"fieldType": "sap.m.VBox",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "styleClassMargin",
+													"grouping": "Properties",
+													"value": "sapUiMediumMarginTop",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "justifyContent",
+													"grouping": "Properties",
+													"value": "Center",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "alignItems",
+													"grouping": "Properties",
+													"value": "Center",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "alignContent",
+													"grouping": "Properties",
+													"value": "Center",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "19e7a450-5f0b-4602-8cc7-971cc2eb8309",
+													"fieldName": "HBox",
+													"fieldParent": "1486044e-e7bb-4813-e654-185f754463a7",
+													"fieldType": "sap.m.HBox",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "styleClassMargin",
+															"grouping": "Properties",
+															"value": "sapUiMediumMarginBottom",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "0d740f3c-e37c-40f0-e615-bf5b16395ee5",
+															"fieldName": "ButtonStart",
+															"fieldParent": "19e7a450-5f0b-4602-8cc7-971cc2eb8309",
+															"fieldType": "nep.bootstrap.Button",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "press",
+																	"grouping": "Events",
+																	"value": "OpenMessageBoxConfirmationToStart();",
+																	"script": "OpenMessageBoxConfirmationToStart();",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "START",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "margin",
+																	"grouping": "Properties",
+																	"value": "MarginEnd2",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "enabled",
+																	"grouping": "Properties",
+																	"value": "false",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "size",
+																	"grouping": "Properties",
+																	"value": "Large",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "backgroundColor",
+																	"grouping": "Properties",
+																	"value": "Primary",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "borderColor",
+																	"grouping": "Properties",
+																	"value": "Primary",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "contextColor",
+																	"grouping": "Properties",
+																	"value": "Primary",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "75ff562c-05b6-4429-90d7-9e0de3168f6b",
+															"fieldName": "ButtonStop",
+															"fieldParent": "19e7a450-5f0b-4602-8cc7-971cc2eb8309",
+															"fieldType": "nep.bootstrap.Button",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "press",
+																	"grouping": "Events",
+																	"value": "OpenMessageBoxConfirmationToStop();",
+																	"script": "OpenMessageBoxConfirmationToStop();",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "STOP SESSION",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "visible",
+																	"grouping": "Properties",
+																	"value": "false",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "size",
+																	"grouping": "Properties",
+																	"value": "Large",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "backgroundColor",
+																	"grouping": "Properties",
+																	"value": "Danger",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "borderColor",
+																	"grouping": "Properties",
+																	"value": "Danger",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "contextColor",
+																	"grouping": "Properties",
+																	"value": "Primary",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "68095c17-d1a1-4726-b266-c837541aec47",
+															"fieldName": "Button4",
+															"fieldParent": "19e7a450-5f0b-4602-8cc7-971cc2eb8309",
+															"fieldType": "nep.bootstrap.Button",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "press",
+																	"grouping": "Events",
+																	"value": "onBarcodeDetected(\"6974728539422\")",
+																	"script": "onBarcodeDetected(\"6974728539422\")",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "81bc881c-f0ad-47d7-bc6e-92d347853ecf",
+															"fieldName": "Button5",
+															"fieldParent": "19e7a450-5f0b-4602-8cc7-971cc2eb8309",
+															"fieldType": "nep.bootstrap.Button",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "press",
+																	"grouping": "Events",
+																	"value": "onBarcodeDetected(\"123456789\")",
+																	"script": "onBarcodeDetected(\"123456789\")",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "603a95e9-549d-4554-a4c2-6f7caebf5e23",
+													"fieldName": "HBox4",
+													"fieldParent": "1486044e-e7bb-4813-e654-185f754463a7",
+													"fieldType": "sap.m.HBox",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "cfb1724d-2a2b-4924-ec78-48f8f7eae348",
+															"fieldName": "TextStatusScan",
+															"fieldParent": "603a95e9-549d-4554-a4c2-6f7caebf5e23",
+															"fieldType": "nep.bootstrap.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "visible",
+																	"grouping": "Properties",
+																	"value": "false",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "READY TO SCAN",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "backgroundColor",
+																	"grouping": "Properties",
+																	"value": "Success",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "fontSize",
+																	"grouping": "Properties",
+																	"value": "FontSize3",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "Badge",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "7d3dd993-e1c7-49ac-ccbd-5c32a227161b",
+													"fieldName": "sourceSelectPanel",
+													"fieldParent": "1486044e-e7bb-4813-e654-185f754463a7",
+													"fieldType": "sap.m.HBox",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "justifyContent",
+															"grouping": "Properties",
+															"value": "Center",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "alignItems",
+															"grouping": "Properties",
+															"value": "Center",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "2e9cd0d6-9e1b-4cbf-ff45-194f762505c8",
+															"fieldName": "oHTMLObject",
+															"fieldParent": "7d3dd993-e1c7-49ac-ccbd-5c32a227161b",
+															"fieldType": "sap.ui.core.HTML",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "content",
+																	"grouping": "Properties",
+																	"value": "<video id=video width=100% height=400 style=border: 1px solid gray></video>",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "a01de9e8-fe9f-4699-8b8b-608b725891b0",
+													"fieldName": "VboxStatus",
+													"fieldParent": "1486044e-e7bb-4813-e654-185f754463a7",
+													"fieldType": "sap.m.VBox",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "visible",
+															"grouping": "Properties",
+															"value": "false",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "47d32c3a-8f15-4f49-e0a7-9393eaa35d68",
+															"fieldName": "HBox6",
+															"fieldParent": "a01de9e8-fe9f-4699-8b8b-608b725891b0",
+															"fieldType": "sap.m.HBox",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "justifyContent",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": [
+																{
+																	"fieldNo": "209172a7-022b-4fd9-af07-afd5fa6ea258",
+																	"fieldName": "VBox2",
+																	"fieldParent": "47d32c3a-8f15-4f49-e0a7-9393eaa35d68",
+																	"fieldType": "sap.m.VBox",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [],
+																	"data": [
+																		{
+																			"fieldNo": "c1cdd6b3-78a6-4ef2-c3cf-e50c8a1eff96",
+																			"fieldName": "TextSessionId",
+																			"fieldParent": "209172a7-022b-4fd9-af07-afd5fa6ea258",
+																			"fieldType": "nep.bootstrap.Text",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [],
+																			"data": []
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"fieldNo": "a926f190-a599-4550-df56-0a1dcdacc900",
+															"fieldName": "HBox5",
+															"fieldParent": "a01de9e8-fe9f-4699-8b8b-608b725891b0",
+															"fieldType": "sap.m.HBox",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "justifyContent",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": [
+																{
+																	"fieldNo": "5150a6b0-b53a-4367-a619-651cd6b404d4",
+																	"fieldName": "ListScannedData",
+																	"fieldParent": "a926f190-a599-4550-df56-0a1dcdacc900",
+																	"fieldType": "sap.m.List",
+																	"script": "",
+																	"customComponent": false,
+																	"bindingValue": "Generic Array",
+																	"bindingType": "h",
+																	"bindingSource": "P9",
+																	"request": [],
+																	"response": [],
+																	"attributes": [],
+																	"data": [
+																		{
+																			"fieldNo": "ae21ed64-0d78-4a85-b388-3a34464632a7",
+																			"fieldName": "StandardListItem",
+																			"fieldParent": "5150a6b0-b53a-4367-a619-651cd6b404d4",
+																			"fieldType": "sap.m.StandardListItem",
+																			"script": "",
+																			"customComponent": false,
+																			"bindingType": "h",
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "title",
+																					"grouping": "Properties",
+																					"value": "{productName}",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "infoState",
+																					"grouping": "Properties",
+																					"value": "Information",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "info",
+																					"grouping": "Properties",
+																					"value": "Difference {difference}",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "description",
+																					"grouping": "Properties",
+																					"value": "System Quantity : {systemQuantity}",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "counter",
+																					"grouping": "Properties",
+																					"value": "{scannedQuantity}",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "95aa50fe-0a6f-40e9-e073-0f067ddf0e49",
+									"fieldName": "oBarFooter",
+									"fieldParent": "8bfa9006-c26e-420f-f437-62ba821d8cbc",
+									"fieldType": "sap.m.Bar",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "setFooter",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "075e9559-9779-42e4-c3a0-b2bf0cfa697b",
+											"fieldName": "Middle",
+											"fieldParent": "95aa50fe-0a6f-40e9-e073-0f067ddf0e49",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentMiddle",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "c8a5c9b5-66d3-4934-afc8-4457eb5da032",
+													"fieldName": "Button1",
+													"fieldParent": "075e9559-9779-42e4-c3a0-b2bf0cfa697b",
+													"fieldType": "nep.bootstrap.Button",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Home ",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "backgroundColor",
+															"grouping": "Properties",
+															"value": "Primary",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "borderColor",
+															"grouping": "Properties",
+															"value": "Primary",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "1962fe54-53cc-4c8b-b17c-e608ee3d5cca",
+													"fieldName": "Button",
+													"fieldParent": "075e9559-9779-42e4-c3a0-b2bf0cfa697b",
+													"fieldType": "nep.bootstrap.Button",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/nep.bootstrap.Button/Button/press.js",
+															"language": "javascript",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "History",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "74ea831d-3b82-4335-b298-2a7cee28de33",
+							"fieldName": "History",
+							"fieldParent": "3fe5d97e-056d-4f30-fefc-f01412434160",
+							"fieldType": "sap.m.Page",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "History Page",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "titleAlignment",
+									"grouping": "Properties",
+									"value": "Center",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "61f1eb8b-4bd2-46dd-e863-509ab4f83c56",
+									"fieldName": "ListStockOpnameDetailSession",
+									"fieldParent": "74ea831d-3b82-4335-b298-2a7cee28de33",
+									"fieldType": "sap.m.List",
+									"script": "",
+									"customComponent": false,
+									"bindingValue": "stock_opname_details_script>StockOpnameDetailsResponse",
+									"bindingType": "h",
+									"bindingSource": "API",
+									"bindingParentID": "03612bea-ce7a-4fd2-a3d7-1b233e53e8b3",
+									"bindingPathID": "c25eac89-78a5-42a0-c342-ee40b81b51bd",
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "bbe7d160-d5fd-49ea-a8bf-54904d9af763",
+											"fieldName": "ObjectListItem",
+											"fieldParent": "61f1eb8b-4bd2-46dd-e863-509ab4f83c56",
+											"fieldType": "sap.m.ObjectListItem",
+											"script": "",
+											"customComponent": false,
+											"bindingType": "h",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "type",
+													"grouping": "Properties",
+													"value": "Active",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "title",
+													"grouping": "Properties",
+													"value": "Session ID {session_id}",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.m.ObjectListItem/ObjectListItem/press.script",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "53a37ad9-8a03-4b9a-aba8-a9b726e71197",
+									"fieldName": "oBarFooter1",
+									"fieldParent": "74ea831d-3b82-4335-b298-2a7cee28de33",
+									"fieldType": "sap.m.Bar",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "setFooter",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "b95e5920-be3f-4e3a-d5fe-61208b938e6a",
+											"fieldName": "Middle1",
+											"fieldParent": "53a37ad9-8a03-4b9a-aba8-a9b726e71197",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentMiddle",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "f4986f47-2549-4f12-edfc-6ceadc7c998b",
+													"fieldName": "Button3",
+													"fieldParent": "b95e5920-be3f-4e3a-d5fe-61208b938e6a",
+													"fieldType": "nep.bootstrap.Button",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "App.to(Home)",
+															"script": "App.to(Home)",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Home ",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "60c5665d-64eb-4213-f7bf-3bd92e75d897",
+													"fieldName": "Button2",
+													"fieldParent": "b95e5920-be3f-4e3a-d5fe-61208b938e6a",
+													"fieldType": "nep.bootstrap.Button",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "History",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "backgroundColor",
+															"grouping": "Properties",
+															"value": "Primary",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "borderColor",
+															"grouping": "Properties",
+															"value": "Primary",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "1f7aa7ba-7c3f-4ae3-a142-0fba848b7666",
+							"fieldName": "HistoryPageDetail",
+							"fieldParent": "3fe5d97e-056d-4f30-fefc-f01412434160",
+							"fieldType": "sap.m.Page",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "History Page Detail",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "showNavButton",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "navButtonPress",
+									"grouping": "Events",
+									"value": "App.to(History)",
+									"script": "App.to(History)",
+									"translation": []
+								},
+								{
+									"attribute": "titleAlignment",
+									"grouping": "Properties",
+									"value": "Center",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "bf121df3-719e-415b-f1bf-6d17949c867e",
+									"fieldName": "ListStockOpnameDetail",
+									"fieldParent": "1f7aa7ba-7c3f-4ae3-a142-0fba848b7666",
+									"fieldType": "sap.m.List",
+									"script": "",
+									"customComponent": false,
+									"bindingValue": "stock_opname_details_script>StockOpnameDetailFullResponse",
+									"bindingType": "h",
+									"bindingSource": "API",
+									"bindingParentID": "03612bea-ce7a-4fd2-a3d7-1b233e53e8b3",
+									"bindingPathID": "aeb62a4c-fad7-4b99-a737-379ed9367754",
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "313d07c6-ee52-469b-91d9-0c61558f3664",
+											"fieldName": "StandardListItem1",
+											"fieldParent": "bf121df3-719e-415b-f1bf-6d17949c867e",
+											"fieldType": "sap.m.StandardListItem",
+											"script": "",
+											"customComponent": false,
+											"bindingType": "h",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "title",
+													"grouping": "Properties",
+													"value": "{p_name}",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "infoState",
+													"grouping": "Properties",
+													"value": "Information",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "info",
+													"grouping": "Properties",
+													"value": "Difference {sod_difference}",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "description",
+													"grouping": "Properties",
+													"value": "System Quantity {sod_system_quantity}",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "counter",
+													"grouping": "Properties",
+													"value": "{sod_scanned_quantity}",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "66987ede-1813-4954-ea41-12310545af85",
+							"fieldName": "MessageBoxConfirmationToStart",
+							"fieldParent": "3fe5d97e-056d-4f30-fefc-f01412434160",
+							"fieldType": "sap.m.MessageBox",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "Confirmation",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "You will start a stock opname session, continue ?",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "icon",
+									"grouping": "Properties",
+									"value": "QUESTION",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "Button2",
+									"grouping": "Properties",
+									"value": "NO",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "Button1",
+									"grouping": "Properties",
+									"value": "YES",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "callback",
+									"grouping": "Events",
+									"value": "Anonymous Function",
+									"script": "file://event/sap.m.MessageBox/MessageBoxConfirmationToStart/callback.script",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "e9482c4d-fb92-4775-ca84-77ee9d8b2017",
+							"fieldName": "MessageBoxConfirmationToStop",
+							"fieldParent": "3fe5d97e-056d-4f30-fefc-f01412434160",
+							"fieldType": "sap.m.MessageBox",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "Confirmation",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "You will stop your stock opname session, continue ?",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "icon",
+									"grouping": "Properties",
+									"value": "QUESTION",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "Button2",
+									"grouping": "Properties",
+									"value": "NO",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "Button1",
+									"grouping": "Properties",
+									"value": "YES",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "callback",
+									"grouping": "Events",
+									"value": "Anonymous Function",
+									"script": "file://event/sap.m.MessageBox/MessageBoxConfirmationToStop/callback.script",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "cfd3c912-bf4f-4fae-859b-34d7607a2527",
+							"fieldName": "MessageBoxConfirmationToChangeProduct",
+							"fieldParent": "3fe5d97e-056d-4f30-fefc-f01412434160",
+							"fieldType": "sap.m.MessageBox",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "Button2",
+									"grouping": "Properties",
+									"value": "NO",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "Button1",
+									"grouping": "Properties",
+									"value": "YES",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "8bc71ae0-47df-4d72-848d-0870fc36505b",
+					"fieldName": "Dialogs",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "c117b687-f25c-402e-f04b-6e0f14321b9c",
+							"fieldName": "Toast",
+							"fieldParent": "8bc71ae0-47df-4d72-848d-0870fc36505b",
+							"fieldType": "nep.bootstrap.Toast",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "position",
+									"grouping": "Properties",
+									"value": "BottomCenter",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "textAlignment",
+									"grouping": "Properties",
+									"value": "Center",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "61592fc9-f311-4e17-9e04-7a854edccfb4",
+									"fieldName": "Content",
+									"fieldParent": "c117b687-f25c-402e-f04b-6e0f14321b9c",
+									"fieldType": "nep.bootstrap.ToastContent",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Properties",
+											"value": "Content",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "d3f1e14b-84d3-4e64-f870-8c418f9f3a78",
+											"fieldName": "TextToast",
+											"fieldParent": "61592fc9-f311-4e17-9e04-7a854edccfb4",
+											"fieldType": "nep.bootstrap.Text",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "textColor",
+													"grouping": "Properties",
+													"value": "Light",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"fieldNo": "28a25565-3ab3-4e7a-8277-020405b68c44",
+					"fieldName": "Models",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "16939913-ab3c-4e77-db4b-3df4e3aeea69",
+							"fieldName": "ModelObjectChoosenStockLevelProduct",
+							"fieldParent": "28a25565-3ab3-4e7a-8277-020405b68c44",
+							"fieldType": "neptune.model.object",
+							"script": "",
+							"customComponent": false,
+							"bindingValue": "stock_levels_script>GetJoinStockLevelsProductResponse",
+							"bindingType": "u",
+							"bindingSource": "API",
+							"bindingParentID": "49e70d15-41ae-4387-a6b6-241dafbb27a5",
+							"bindingPathID": "c95fbcf0-17d4-4136-9b90-0cb51a132957",
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "5251cf88-4e3f-4be2-eed3-c408c37f7f5b",
+							"fieldName": "ModelObjectDataBarcode",
+							"fieldParent": "28a25565-3ab3-4e7a-8277-020405b68c44",
+							"fieldType": "neptune.model.object",
+							"script": "",
+							"customComponent": false,
+							"bindingValue": "barcode>barcode",
+							"bindingType": "u",
+							"bindingSource": "API",
+							"bindingParentID": "53f49d23-67fd-44ac-a222-6ee1efaacc62",
+							"bindingPathID": "2917c24c-82ad-45d5-c2d2-9bada6b7409c",
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "5e411b09-e2f4-41a4-ff60-ee0d50c9f917",
+							"fieldName": "ModelArrayDataStockLevelProducts",
+							"fieldParent": "28a25565-3ab3-4e7a-8277-020405b68c44",
+							"fieldType": "neptune.model.array",
+							"script": "",
+							"customComponent": false,
+							"bindingValue": "stock_levels_script>GetJoinStockLevelsProductResponse",
+							"bindingType": "h",
+							"bindingSource": "API",
+							"bindingParentID": "49e70d15-41ae-4387-a6b6-241dafbb27a5",
+							"bindingPathID": "c95fbcf0-17d4-4136-9b90-0cb51a132957",
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "17450241-adc0-4e00-f25b-7c6b5f213f09",
+							"fieldName": "ModelObjectUUIDSOS",
+							"fieldParent": "28a25565-3ab3-4e7a-8277-020405b68c44",
+							"fieldType": "neptune.model.object",
+							"script": "",
+							"customComponent": false,
+							"bindingValue": "stock_opname_sessions>InsertStockOpnameSessionResponse",
+							"bindingType": "u",
+							"bindingSource": "API",
+							"bindingParentID": "774c399e-061a-4e26-87d5-577cba719b32",
+							"bindingPathID": "cae00f0e-2e24-4fd5-a015-f0eeaf910bcc",
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						}
+					]
+				},
+				{
+					"fieldNo": "aec0f753-8701-4841-8016-61b1116382c6",
+					"fieldName": "APIs",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "ce85c02e-3bda-4e46-cef8-fe085701212a",
+							"fieldName": "Barcodes",
+							"fieldParent": "aec0f753-8701-4841-8016-61b1116382c6",
+							"fieldType": "neptune.folder",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
+								{
+									"fieldNo": "251376ea-f63b-43c4-897f-ced788bcbfb3",
+									"fieldName": "GetBarcode",
+									"fieldParent": "ce85c02e-3bda-4e46-cef8-fe085701212a",
+									"fieldType": "neptune.restapi",
+									"script": "",
+									"customComponent": false,
+									"restSource": "53f49d23-67fd-44ac-a222-6ee1efaacc62",
+									"restOperation": "8d0ac8fa-fd64-41a4-d595-cd945c49b4a5",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "ajaxSuccess",
+											"grouping": "Events",
+											"value": "Anonymous Function",
+											"script": "file://event/neptune.restapi/GetBarcode/ajaxSuccess.js",
+											"language": "javascript",
+											"translation": []
+										}
+									],
+									"data": []
+								}
+							]
+						},
+						{
+							"fieldNo": "ff6d5d85-ba48-4c56-d139-b3b428130d09",
+							"fieldName": "StockOpnameSessions",
+							"fieldParent": "aec0f753-8701-4841-8016-61b1116382c6",
+							"fieldType": "neptune.folder",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
+								{
+									"fieldNo": "1b94da5d-5dd1-4e1c-de78-29c17eefddc7",
+									"fieldName": "CreateStockOpnameSession",
+									"fieldParent": "ff6d5d85-ba48-4c56-d139-b3b428130d09",
+									"fieldType": "neptune.restapi",
+									"script": "",
+									"customComponent": false,
+									"restSource": "774c399e-061a-4e26-87d5-577cba719b32",
+									"restOperation": "23f86c09-eb5b-48dc-82e6-b2866120d4ec",
+									"request": [],
+									"response": [
+										{
+											"status": "200",
+											"dataId": "cae00f0e-2e24-4fd5-a015-f0eeaf910bcc",
+											"modelFieldNo": "17450241-adc0-4e00-f25b-7c6b5f213f09"
+										}
+									],
+									"attributes": [],
+									"data": []
+								}
+							]
+						},
+						{
+							"fieldNo": "a19c269c-421c-475e-da99-66cfe5653906",
+							"fieldName": "StockOpnameDetails",
+							"fieldParent": "aec0f753-8701-4841-8016-61b1116382c6",
+							"fieldType": "neptune.folder",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
+								{
+									"fieldNo": "a0bb8141-5448-4d7e-970a-747b45082165",
+									"fieldName": "GetStockOpnameDetail",
+									"fieldParent": "a19c269c-421c-475e-da99-66cfe5653906",
+									"fieldType": "neptune.restapi",
+									"script": "",
+									"customComponent": false,
+									"restSource": "03612bea-ce7a-4fd2-a3d7-1b233e53e8b3",
+									"restOperation": "99760e26-288c-43b2-8986-432797944f3e",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "ajaxSuccess",
+											"grouping": "Events",
+											"value": "Anonymous Function",
+											"script": "file://event/neptune.restapi/GetStockOpnameDetail/ajaxSuccess.js",
+											"language": "javascript",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "9553b15d-116b-49f9-d16d-2587c0f1f3eb",
+									"fieldName": "GetStockOpnameDetailSession",
+									"fieldParent": "a19c269c-421c-475e-da99-66cfe5653906",
+									"fieldType": "neptune.restapi",
+									"script": "",
+									"customComponent": false,
+									"restSource": "03612bea-ce7a-4fd2-a3d7-1b233e53e8b3",
+									"restOperation": "16d0dfcd-3c26-4bc7-9bbf-0cbe224982e7",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "ajaxSuccess",
+											"grouping": "Events",
+											"value": "Anonymous Function",
+											"script": "file://event/neptune.restapi/GetStockOpnameDetailSession/ajaxSuccess.js",
+											"language": "javascript",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "ddc80eca-2457-438e-ed29-08d5b81ef9ed",
+									"fieldName": "UpdateStockOpnameDetail",
+									"fieldParent": "a19c269c-421c-475e-da99-66cfe5653906",
+									"fieldType": "neptune.restapi",
+									"script": "",
+									"customComponent": false,
+									"restSource": "8de6388e-da81-48c6-9a1e-23d76bfe8c9d",
+									"restOperation": "a678d774-2c67-46c8-92c1-1bfeb42c9632",
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": []
+								},
+								{
+									"fieldNo": "e0a67cf5-34c1-4912-efb0-fac340c95b85",
+									"fieldName": "CreateStockOpnameDetail",
+									"fieldParent": "a19c269c-421c-475e-da99-66cfe5653906",
+									"fieldType": "neptune.restapi",
+									"script": "",
+									"customComponent": false,
+									"restSource": "8de6388e-da81-48c6-9a1e-23d76bfe8c9d",
+									"restOperation": "ec71cb3c-f33a-4322-836d-4560c653ef46",
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": []
+								}
+							]
+						},
+						{
+							"fieldNo": "89ca5f6e-c9a9-48c6-93da-d947d37100de",
+							"fieldName": "StockLevels",
+							"fieldParent": "aec0f753-8701-4841-8016-61b1116382c6",
+							"fieldType": "neptune.folder",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
+								{
+									"fieldNo": "07d0076f-925a-4344-b358-ad07edde6d56",
+									"fieldName": "GetJoinStockLevelProduct",
+									"fieldParent": "89ca5f6e-c9a9-48c6-93da-d947d37100de",
+									"fieldType": "neptune.restapi",
+									"script": "",
+									"customComponent": false,
+									"restSource": "49e70d15-41ae-4387-a6b6-241dafbb27a5",
+									"restOperation": "96edf123-6bd9-462d-9288-a056ed2b6afb",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "ajaxSuccess",
+											"grouping": "Events",
+											"value": "Anonymous Function",
+											"script": "file://event/neptune.restapi/GetJoinStockLevelProduct/ajaxSuccess.js",
+											"language": "javascript",
+											"translation": []
+										}
+									],
+									"data": []
+								}
+							]
+						},
+						{
+							"fieldNo": "9c8547e1-cbe1-49b0-b9a9-cda74250872f",
+							"fieldName": "Warehouses",
+							"fieldParent": "aec0f753-8701-4841-8016-61b1116382c6",
+							"fieldType": "neptune.folder",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
+								{
+									"fieldNo": "68bdad7b-5e80-4560-be32-0fb4ccbaac4c",
+									"fieldName": "GetWarehouse",
+									"fieldParent": "9c8547e1-cbe1-49b0-b9a9-cda74250872f",
+									"fieldType": "neptune.restapi",
+									"script": "",
+									"customComponent": false,
+									"restSource": "cb36ac28-47d2-4506-a835-e33e6e80d109",
+									"restOperation": "2b2a4a8f-aa38-44a0-a4cd-67f676fa460a",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "setInitLoad",
+											"grouping": "Model",
+											"value": "online",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "ajaxSuccess",
+											"grouping": "Events",
+											"value": "Anonymous Function",
+											"script": "file://event/neptune.restapi/GetWarehouse/ajaxSuccess.script",
+											"translation": []
+										}
+									],
+									"data": []
+								}
+							]
+						},
+						{
+							"fieldNo": "f3cec105-e6ce-4b13-9263-ff196d42daf4",
+							"fieldName": "WarehouseAreas",
+							"fieldParent": "aec0f753-8701-4841-8016-61b1116382c6",
+							"fieldType": "neptune.folder",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
+								{
+									"fieldNo": "74428a92-0cf2-469e-aab0-ffa81c027546",
+									"fieldName": "GetWarehouseArea",
+									"fieldParent": "f3cec105-e6ce-4b13-9263-ff196d42daf4",
+									"fieldType": "neptune.restapi",
+									"script": "",
+									"customComponent": false,
+									"restSource": "9c981fe5-f5a6-42ba-8bd5-88131dc5cf32",
+									"restOperation": "5e2d40b9-8ef4-4baf-b4a5-9e193df79924",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "ajaxSuccess",
+											"grouping": "Events",
+											"value": "Anonymous Function",
+											"script": "file://event/neptune.restapi/GetWarehouseArea/ajaxSuccess.js",
+											"language": "javascript",
+											"translation": []
+										}
+									],
+									"data": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"fieldNo": "1aeddbab-0298-4ccb-f24e-6e38271559c4",
+					"fieldName": "CRUDFunctions",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "3a40cff5-018d-4bfc-9cff-12749c344c1b",
+							"fieldName": "StockOpnameDetails",
+							"fieldParent": "1aeddbab-0298-4ccb-f24e-6e38271559c4",
+							"fieldType": "neptune.folder",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
+								{
+									"fieldNo": "23237398-1f19-41c1-e4aa-c3b696ba1022",
+									"fieldName": "CreateStockOpnameDetail",
+									"fieldParent": "3a40cff5-018d-4bfc-9cff-12749c344c1b",
+									"fieldType": "neptune.Script",
+									"script": "file://script/neptune.Script/StockOpnameDetails/CreateStockOpnameDetail.js",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": []
+								}
+							]
+						},
+						{
+							"fieldNo": "c9e7f7b5-b3d3-4087-94f4-52879209384f",
+							"fieldName": "StockOpnameSessions",
+							"fieldParent": "1aeddbab-0298-4ccb-f24e-6e38271559c4",
+							"fieldType": "neptune.folder",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
+								{
+									"fieldNo": "0328af94-e7d3-4dd9-ad41-2da5379286d2",
+									"fieldName": "CreateStockOpnameSession",
+									"fieldParent": "c9e7f7b5-b3d3-4087-94f4-52879209384f",
+									"fieldType": "neptune.Script",
+									"script": "file://script/neptune.Script/StockOpnameSessions/CreateStockOpnameSession.js",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"fieldNo": "ece0b252-fa77-43a4-f4e9-2e3cdfe483e9",
+					"fieldName": "PrimaryFunctions",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/PrimaryFunctions.js",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "a94a57cd-575c-4462-c384-60a07e1a7261",
+					"fieldName": "Init",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/Init.js",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "426431a1-96a0-47b9-8281-e8a5b8bc79e7",
+					"fieldName": "HelperFunction",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/HelperFunction.js",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "cfebebdb-eab7-4ab3-ad07-2f2721c53100",
+					"fieldName": "oJavascript_ZXing",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/oJavascript_ZXing.js",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "24.11.19.1744",
+	"application": "ims_demo_phone_building_block",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "C",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_horizon",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "",
+	"compiledCss": null,
+	"header": "<script src=\"https://unpkg.com/@zxing/library@latest/umd/index.min.js\"></script>",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": true,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"apis": [
+		{
+			"id": "cb36ac28-47d2-4506-a835-e33e6e80d109",
+			"name": "warehouses",
+			"ver": "24.11.19.1626"
+		},
+		{
+			"id": "9c981fe5-f5a6-42ba-8bd5-88131dc5cf32",
+			"name": "warehouse_areas",
+			"ver": "24.11.19.1625"
+		},
+		{
+			"id": "8de6388e-da81-48c6-9a1e-23d76bfe8c9d",
+			"name": "stock_opname_details",
+			"ver": "24.11.19.1624"
+		},
+		{
+			"id": "774c399e-061a-4e26-87d5-577cba719b32",
+			"name": "stock_opname_sessions",
+			"ver": "24.11.19.1625"
+		},
+		{
+			"id": "53f49d23-67fd-44ac-a222-6ee1efaacc62",
+			"name": "barcode",
+			"ver": "24.11.19.1459"
+		},
+		{
+			"id": "49e70d15-41ae-4387-a6b6-241dafbb27a5",
+			"name": "stock_levels_script",
+			"ver": "24.11.19.1624"
+		},
+		{
+			"id": "03612bea-ce7a-4fd2-a3d7-1b233e53e8b3",
+			"name": "stock_opname_details_script",
+			"ver": "24.11.19.1625"
+		}
+	],
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba"
+}

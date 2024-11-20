@@ -1,0 +1,11 @@
+if (typeof durations === "undefined" || durations === null || durations === "") { return; }  
+
+let formattedText;
+
+if(durations > 1) {
+    formattedText = durations + " Days";
+} else {
+    formattedText = durations + " Day";
+}
+
+return formattedText;

@@ -1,0 +1,31 @@
+{
+	"id": "de90e4ca-f5b6-41b7-8074-b5356463b3f4",
+	"createdAt": "2024-09-28T07:10:37.000Z",
+	"createdBy": "mfh@gefami.co.id",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "edefcaf0-f972-4172-8408-61434efd15d0",
+			"name": "stock_levels",
+			"contextname": "stock_levels"
+		},
+		{
+			"id": "c45148b0-5418-4d4f-838f-42e0ff0a338d",
+			"name": "products",
+			"contextname": "products"
+		}
+	],
+	"apis": [],
+	"name": "get_stock_levels_product",
+	"ver": "24.9.28.1423",
+	"description": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "321d766c-4e22-4ff2-bca0-0a88f7fcfa2e",
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba"
+}
