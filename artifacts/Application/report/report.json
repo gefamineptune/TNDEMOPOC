@@ -1,0 +1,1208 @@
+{
+	"id": "fcd968b1-935b-440b-ba49-f3ca33299057",
+	"createdAt": "2024-11-25T11:52:23.000Z",
+	"createdBy": "jrs@gefami.co.id",
+	"objects": [
+		{
+			"fieldNo": "5ea344f3-8dc7-42b1-8cd6-62d7ea8a61e4",
+			"fieldName": "App",
+			"fieldParent": 0,
+			"fieldType": "sap.m.App",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [
+				{
+					"attribute": "navigate",
+					"grouping": "Events",
+					"value": "getUserLogin();",
+					"script": "getUserLogin();",
+					"language": "javascript",
+					"translation": []
+				}
+			],
+			"data": [
+				{
+					"fieldNo": "42ba467a-620d-4fdb-8741-0e9e3b86d5b2",
+					"fieldName": "Page1",
+					"fieldParent": "5ea344f3-8dc7-42b1-8cd6-62d7ea8a61e4",
+					"fieldType": "nep.bootstrap.Page",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "7722cb27-9ebb-4802-c7ff-b25ac4bd3e19",
+							"fieldName": "Container1",
+							"fieldParent": "42ba467a-620d-4fdb-8741-0e9e3b86d5b2",
+							"fieldType": "nep.bootstrap.Container",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
+								{
+									"fieldNo": "746f3e0d-6425-4418-eb6a-aa9936af1392",
+									"fieldName": "Card1",
+									"fieldParent": "7722cb27-9ebb-4802-c7ff-b25ac4bd3e19",
+									"fieldType": "nep.bootstrap.Card",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "829896c4-107f-488c-95cb-754835e02768",
+											"fieldName": "CardHeader2",
+											"fieldParent": "746f3e0d-6425-4418-eb6a-aa9936af1392",
+											"fieldType": "nep.bootstrap.CardContent",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Properties",
+													"value": "Header",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "0df235d4-f3ed-44d2-af80-4f5e716ddb5a",
+													"fieldName": "HBox1",
+													"fieldParent": "829896c4-107f-488c-95cb-754835e02768",
+													"fieldType": "sap.m.HBox",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "06a18f51-c157-4e57-fc8d-8cc95d9b9ef5",
+															"fieldName": "Text1",
+															"fieldParent": "0df235d4-f3ed-44d2-af80-4f5e716ddb5a",
+															"fieldType": "nep.bootstrap.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Report Order",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "fontSize",
+																	"grouping": "Properties",
+																	"value": "FontSize3",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "fontWeight",
+																	"grouping": "Properties",
+																	"value": "Bolder",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "524e993b-713e-42af-f320-6dccc0d41d18",
+															"fieldName": "Button1",
+															"fieldParent": "0df235d4-f3ed-44d2-af80-4f5e716ddb5a",
+															"fieldType": "nep.bootstrap.Button",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Export",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "margin",
+																	"grouping": "Properties",
+																	"value": "MarginStart5",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "height",
+																	"grouping": "Properties",
+																	"value": "30px",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"fieldNo": "d19159ba-fc48-461b-a5f5-bd0dfd368081",
+											"fieldName": "CardContent3",
+											"fieldParent": "746f3e0d-6425-4418-eb6a-aa9936af1392",
+											"fieldType": "nep.bootstrap.CardContent",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Properties",
+													"value": "Content",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "2d919be7-150a-40f9-8652-bbccda3e0032",
+													"fieldName": "TableRequestOrder",
+													"fieldParent": "d19159ba-fc48-461b-a5f5-bd0dfd368081",
+													"fieldType": "sap.m.Table",
+													"script": "",
+													"customComponent": false,
+													"bindingValue": "request_oder_customer>RequestOrderCustomerResponse",
+													"bindingType": "h",
+													"bindingSource": "API",
+													"bindingParentID": "3854f1bf-ddd0-4532-92f0-12d9f1b3a55c",
+													"bindingPathID": "19e2cd85-c3e2-4ab3-f262-c97328d49d01",
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "caa475e6-c522-48b7-cd0d-2cfa181a501e",
+															"fieldName": "colTableRORequestedBy",
+															"fieldParent": "2d919be7-150a-40f9-8652-bbccda3e0032",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "c38708b0-cfac-4fe9-ba5a-e035a0861c28",
+																	"fieldName": "colHTableRORequestedBy",
+																	"fieldParent": "caa475e6-c522-48b7-cd0d-2cfa181a501e",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Requested By",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "7ed37308-2e77-4c44-afd2-66df17d6e85f",
+															"fieldName": "colTableRORequestedDate",
+															"fieldParent": "2d919be7-150a-40f9-8652-bbccda3e0032",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "eca93d70-2c3a-42c1-faf4-219ea1f8e9ff",
+																	"fieldName": "colHTableWRORequestDate",
+																	"fieldParent": "7ed37308-2e77-4c44-afd2-66df17d6e85f",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Requested Date",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "4135718b-cc97-471c-b8b3-e619c0081db8",
+															"fieldName": "colTableROProductName",
+															"fieldParent": "2d919be7-150a-40f9-8652-bbccda3e0032",
+															"fieldType": "sap.m.Column",
+															"description": " ",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "b03b848a-f00b-405f-e2d4-4d7ac0dd4fda",
+																	"fieldName": "colHTableROProductName",
+																	"fieldParent": "4135718b-cc97-471c-b8b3-e619c0081db8",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Product Name",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "2b669c8c-0987-4b88-b60f-d1b00fb3f00f",
+															"fieldName": "colTableROProductSKU",
+															"fieldParent": "2d919be7-150a-40f9-8652-bbccda3e0032",
+															"fieldType": "sap.m.Column",
+															"description": " ",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "79f26268-2996-421b-aa6d-23e53f24eb8b",
+																	"fieldName": "colHTableROProductSKU",
+																	"fieldParent": "2b669c8c-0987-4b88-b60f-d1b00fb3f00f",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Product SKU",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "00813195-7631-4b12-efe1-89a8a3570394",
+															"fieldName": "colTableROProductQ",
+															"fieldParent": "2d919be7-150a-40f9-8652-bbccda3e0032",
+															"fieldType": "sap.m.Column",
+															"description": " ",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "2b779c6c-7f6d-4785-ce99-30d53a2785ad",
+																	"fieldName": "colHTableROProductQ",
+																	"fieldParent": "00813195-7631-4b12-efe1-89a8a3570394",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Quantity",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "4fd2bd5d-0da4-4453-fd27-4493d9f86420",
+															"fieldName": "colTableROStatus",
+															"fieldParent": "2d919be7-150a-40f9-8652-bbccda3e0032",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "c8c15aa5-7657-4ee4-b91d-508ed7b82d2a",
+																	"fieldName": "colHTableROStatus",
+																	"fieldParent": "4fd2bd5d-0da4-4453-fd27-4493d9f86420",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Status",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "dce9ecba-ace9-4983-b3e3-c6f902e29892",
+															"fieldName": "colItemTableRequestOrder",
+															"fieldParent": "2d919be7-150a-40f9-8652-bbccda3e0032",
+															"fieldType": "sap.m.ColumnListItem",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "59344cc0-9917-45a3-959c-f3b7ec9789a6",
+																	"fieldName": "txtTableROProductName",
+																	"fieldParent": "dce9ecba-ace9-4983-b3e3-c6f902e29892",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{requestedname}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "73aa88cb-d635-4bf5-8b14-580b587bfe39",
+																	"fieldName": "txtTableRORequestDate",
+																	"fieldParent": "dce9ecba-ace9-4983-b3e3-c6f902e29892",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{ro_requested_date}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "37b61106-74f2-4a61-e03b-093f61bf8292",
+																	"fieldName": "txtTableROProductNames",
+																	"fieldParent": "dce9ecba-ace9-4983-b3e3-c6f902e29892",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{productname}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "1cabd4e2-af74-4f31-9295-2b7691a6ca3d",
+																	"fieldName": "txtTableROProductSKU",
+																	"fieldParent": "dce9ecba-ace9-4983-b3e3-c6f902e29892",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{productSKU}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "c04c69ce-80f1-403f-ddeb-e266c19f238b",
+																	"fieldName": "txtTableROQuantity",
+																	"fieldParent": "dce9ecba-ace9-4983-b3e3-c6f902e29892",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{ro_quantity}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "7bf38794-021e-499a-9b7c-08aa7c4e21e6",
+																	"fieldName": "txtTableROStatus",
+																	"fieldParent": "dce9ecba-ace9-4983-b3e3-c6f902e29892",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{ro_status}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"fieldNo": "373fd8bf-7381-40ae-c7d1-804994eca948",
+					"fieldName": "Page",
+					"fieldParent": "5ea344f3-8dc7-42b1-8cd6-62d7ea8a61e4",
+					"fieldType": "nep.bootstrap.Page",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "488354e5-03cb-420a-e656-db5abd1b2b27",
+							"fieldName": "Container",
+							"fieldParent": "373fd8bf-7381-40ae-c7d1-804994eca948",
+							"fieldType": "nep.bootstrap.Container",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
+								{
+									"fieldNo": "231db726-45b9-44c5-c2b4-6acef6f76fda",
+									"fieldName": "Card",
+									"fieldParent": "488354e5-03cb-420a-e656-db5abd1b2b27",
+									"fieldType": "nep.bootstrap.Card",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "19d49955-292c-47a7-e9b1-6f6be36ac60d",
+											"fieldName": "CardHeader",
+											"fieldParent": "231db726-45b9-44c5-c2b4-6acef6f76fda",
+											"fieldType": "nep.bootstrap.CardContent",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Properties",
+													"value": "Header",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "c026d6ad-1109-418e-8767-8d930232c990",
+													"fieldName": "HBox",
+													"fieldParent": "19d49955-292c-47a7-e9b1-6f6be36ac60d",
+													"fieldType": "sap.m.HBox",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "206a1158-55d9-4511-9a28-26e3cc4f592f",
+															"fieldName": "Text",
+															"fieldParent": "c026d6ad-1109-418e-8767-8d930232c990",
+															"fieldType": "nep.bootstrap.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Report Stock Product",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "fontSize",
+																	"grouping": "Properties",
+																	"value": "FontSize3",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "fontWeight",
+																	"grouping": "Properties",
+																	"value": "Bolder",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "9b1c0711-1177-47fe-e0c7-b353b8d52e26",
+															"fieldName": "Button",
+															"fieldParent": "c026d6ad-1109-418e-8767-8d930232c990",
+															"fieldType": "nep.bootstrap.Button",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "press",
+																	"grouping": "Events",
+																	"value": "Anonymous Function",
+																	"script": "file://event/nep.bootstrap.Button/Button/press.js",
+																	"language": "javascript",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Export",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "margin",
+																	"grouping": "Properties",
+																	"value": "MarginStart5",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "height",
+																	"grouping": "Properties",
+																	"value": "30px",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"fieldNo": "4f27b527-2899-484f-8119-b4c09662a8a6",
+											"fieldName": "CardContent1",
+											"fieldParent": "231db726-45b9-44c5-c2b4-6acef6f76fda",
+											"fieldType": "nep.bootstrap.CardContent",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Properties",
+													"value": "Content",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "1fa1a55b-ba82-413e-94f0-6a145c1a14ad",
+													"fieldName": "TableReportStockProduct",
+													"fieldParent": "4f27b527-2899-484f-8119-b4c09662a8a6",
+													"fieldType": "sap.m.Table",
+													"script": "",
+													"customComponent": false,
+													"bindingValue": "ReportStockProduct>GetStockProduct",
+													"bindingType": "h",
+													"bindingSource": "API",
+													"bindingParentID": "6d60f4a4-fff8-4d44-9bef-738c30d4a53f",
+													"bindingPathID": "bcf9105d-1842-4f1a-a9ea-ec39c73c4091",
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "49f5efc8-cf42-4b13-8480-b184aeeca79b",
+															"fieldName": "ProductImage",
+															"fieldParent": "1fa1a55b-ba82-413e-94f0-6a145c1a14ad",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "f31a5345-ce11-4a9a-bf1a-41b6a212fc11",
+																	"fieldName": "colProductImage",
+																	"fieldParent": "49f5efc8-cf42-4b13-8480-b184aeeca79b",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Image",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "7d895b06-d317-4b4a-9a8f-befc56c6fe16",
+															"fieldName": "ProductName",
+															"fieldParent": "1fa1a55b-ba82-413e-94f0-6a145c1a14ad",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "a60acb55-0648-4160-99c3-f7b2d9a8a19a",
+																	"fieldName": "colProductName",
+																	"fieldParent": "7d895b06-d317-4b4a-9a8f-befc56c6fe16",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Name",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "ec6337d3-0bcd-4a84-98b2-c63cc69bbfae",
+															"fieldName": "ProductSKU",
+															"fieldParent": "1fa1a55b-ba82-413e-94f0-6a145c1a14ad",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "6674ddb4-cc30-4245-b92b-d69d93881bf5",
+																	"fieldName": "colSKU",
+																	"fieldParent": "ec6337d3-0bcd-4a84-98b2-c63cc69bbfae",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "SKU",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "d3176032-c14c-4a25-ea8f-65d058aa39d6",
+															"fieldName": "ProductDesc",
+															"fieldParent": "1fa1a55b-ba82-413e-94f0-6a145c1a14ad",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "1a0f2d66-6e12-4eb3-ea39-d1de9dcb35a4",
+																	"fieldName": "colDesc",
+																	"fieldParent": "d3176032-c14c-4a25-ea8f-65d058aa39d6",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Desc",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "d4a683e4-0d39-418a-cea7-23177464d529",
+															"fieldName": "ProductUnit",
+															"fieldParent": "1fa1a55b-ba82-413e-94f0-6a145c1a14ad",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "242f5b7a-5d6b-4c70-dec7-7fe4f6428265",
+																	"fieldName": "colUnit",
+																	"fieldParent": "d4a683e4-0d39-418a-cea7-23177464d529",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Unit",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "f1a983d9-08a5-4109-c127-af64ae4f3bf6",
+															"fieldName": "ProductQty",
+															"fieldParent": "1fa1a55b-ba82-413e-94f0-6a145c1a14ad",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "37450087-734f-4c91-c937-63326f0989fc",
+																	"fieldName": "colQty",
+																	"fieldParent": "f1a983d9-08a5-4109-c127-af64ae4f3bf6",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Stock Product",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "69a34d40-b720-40cf-88f8-07d8d24271f5",
+															"fieldName": "ColumnListItem",
+															"fieldParent": "1fa1a55b-ba82-413e-94f0-6a145c1a14ad",
+															"fieldType": "sap.m.ColumnListItem",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "418eae7c-3d55-4b6b-fd10-0afc27f963a7",
+																	"fieldName": "ProductImage2",
+																	"fieldParent": "69a34d40-b720-40cf-88f8-07d8d24271f5",
+																	"fieldType": "nep.bootstrap.Image",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "src",
+																			"grouping": "Properties",
+																			"value": "{image_path}",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "width",
+																			"grouping": "Properties",
+																			"value": "60px",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "height",
+																			"grouping": "Properties",
+																			"value": "60px",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "a3527e17-b32b-4b66-e4da-998e136c7f83",
+																	"fieldName": "TxtProductName",
+																	"fieldParent": "69a34d40-b720-40cf-88f8-07d8d24271f5",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{productName}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "b787e8fa-0dbd-43af-9a4c-2443446a80f6",
+																	"fieldName": "TxtSKU",
+																	"fieldParent": "69a34d40-b720-40cf-88f8-07d8d24271f5",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{SKU}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "640537c8-ff31-4389-da97-959e4ae05861",
+																	"fieldName": "TxtDesc",
+																	"fieldParent": "69a34d40-b720-40cf-88f8-07d8d24271f5",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{description}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "2572ade8-2880-412b-9c0e-8c4777fc7ad9",
+																	"fieldName": "TxtUnit",
+																	"fieldParent": "69a34d40-b720-40cf-88f8-07d8d24271f5",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{unit}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "b1edfb23-1e92-4dcd-9a4d-4a280a9ed261",
+																	"fieldName": "TxtQty",
+																	"fieldParent": "69a34d40-b720-40cf-88f8-07d8d24271f5",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{totalQuantity}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "d84f5dda-433f-464c-dfee-aeb2a88bd038",
+					"fieldName": "Init",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/Init.js",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "7ed32664-9d2c-4feb-be42-27535caccebc",
+					"fieldName": "GetReportStockProduct",
+					"fieldParent": 99999,
+					"fieldType": "neptune.restapi",
+					"script": "",
+					"customComponent": false,
+					"restSource": "6d60f4a4-fff8-4d44-9bef-738c30d4a53f",
+					"restOperation": "58ffabe2-a956-436f-b761-6d03280d7424",
+					"request": [],
+					"response": [
+						{
+							"status": "200",
+							"dataId": "bcf9105d-1842-4f1a-a9ea-ec39c73c4091",
+							"modelFieldNo": "1fa1a55b-ba82-413e-94f0-6a145c1a14ad"
+						}
+					],
+					"attributes": [
+						{
+							"attribute": "setInitLoad",
+							"grouping": "Model",
+							"value": "online",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": []
+				},
+				{
+					"fieldNo": "f0194280-816c-49ac-f773-7d30583b2e63",
+					"fieldName": "GetRequestOrdersCustomersProducts",
+					"fieldParent": 99999,
+					"fieldType": "neptune.restapi",
+					"script": "",
+					"customComponent": false,
+					"restSource": "3854f1bf-ddd0-4532-92f0-12d9f1b3a55c",
+					"restOperation": "6c9170ea-d437-4643-836c-3af79c72a7b7",
+					"request": [],
+					"response": [
+						{
+							"status": "200",
+							"dataId": "19e2cd85-c3e2-4ab3-f262-c97328d49d01",
+							"modelFieldNo": "2d919be7-150a-40f9-8652-bbccda3e0032"
+						}
+					],
+					"attributes": [
+						{
+							"attribute": "setInitLoad",
+							"grouping": "Model",
+							"value": "online",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "24.11.26.1515",
+	"application": "report",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "C",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_horizon",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "",
+	"compiledCss": null,
+	"header": "",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": true,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"apis": [
+		{
+			"id": "6d60f4a4-fff8-4d44-9bef-738c30d4a53f",
+			"name": "ReportStockProduct",
+			"ver": "24.11.25.1914"
+		},
+		{
+			"id": "3854f1bf-ddd0-4532-92f0-12d9f1b3a55c",
+			"name": "request_oder_customer",
+			"ver": "24.11.19.1623"
+		}
+	],
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba"
+}

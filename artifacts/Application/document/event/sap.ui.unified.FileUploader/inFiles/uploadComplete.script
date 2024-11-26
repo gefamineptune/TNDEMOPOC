@@ -1,0 +1,34 @@
+const formResponse = oEvent?.mParameters?.responseRaw;
+
+if (formResponse) {
+    try {
+        const status = JSON.parse(formResponse)?.status;
+        if (status === "OK") {
+            sap.m.MessageToast.show("Uploaded successfully. Check the Media Library folder.");
+
+            Image.setVisible(true)
+
+            var removedQuotes = inFiles.getValue().replace(/['"]+/g, '')
+            var removedSpaces = removedQuotes.slice(0, -1);
+            //var url = window.location.origin + "/media/root/Custom/" + removedSpaces;
+            var url = window.location.origin + "/media/root/" + removedSpaces;
+            Image.setSrc(encodeURI(url));
+            FileName.setText(inFiles.getValue());
+            FilePath.setText(url);
+            FileName.setVisible(true);
+            console.log(FileName.getText());
+            console.log(FilePath.getText());
+            this.setValue();
+        }
+        if (status && status !== "OK") {
+            sap.m.MessageBox.error(status);
+        }
+    } catch (e) {
+        sap.m.MessageToast.show("Error saving file");
+        console.log(e);
+    } finally {
+        return;
+    }
+}
+
+

@@ -1,0 +1,183 @@
+{
+	"id": "98f98d3e-0aa6-4127-9d64-d2360b9e0f93",
+	"createdAt": "2024-11-21T07:12:40.000Z",
+	"createdBy": "jrs@gefami.co.id",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "8ffb0374-6606-4d9e-be16-4bbf5de0cf39",
+			"method": "PUT",
+			"path": "/document",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"id": "2967d16e-befc-4b2a-998b-2def6defa24f",
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"content": [
+						{
+							"id": "5b67c9fb-eef2-49cc-b2e2-629c2ca1951b",
+							"name": "document",
+							"objectType": "array"
+						}
+					]
+				}
+			],
+			"content": [
+				{
+					"objectType": "object",
+					"items": [],
+					"name": "document"
+				}
+			],
+			"auth": [],
+			"endpoints": []
+		}
+	],
+	"definitions": [
+		{
+			"id": "bf8fe2e3-ff91-4a2d-8568-7e31c88db08e",
+			"name": "document",
+			"description": "",
+			"isInclude": false,
+			"properties": [
+				{
+					"id": "deb5b083-42d2-4cf6-f1eb-f7faee393cd6",
+					"name": "FileName",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "c29e68e8-9a66-4cc5-ec80-d1f27d4c51c6",
+					"name": "Path",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "c71e3989-4525-4a58-da61-064f41c3a1ca",
+					"name": "createdAt",
+					"objectType": "number",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "5877279c-d9c0-4da3-90ee-8db77a43ebe6",
+					"name": "createdBy",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "1b3bd05a-c276-41e4-e820-0ff0b4ffb7b1",
+					"name": "updatedAt",
+					"objectType": "number",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "e0017390-0a1c-41ab-f3fa-a852e5fcdc78",
+					"name": "updatedBy",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "Document",
+	"endpoint": "/api/entity",
+	"ver": "24.11.24.201",
+	"version": null,
+	"description": null,
+	"mediaType": null,
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

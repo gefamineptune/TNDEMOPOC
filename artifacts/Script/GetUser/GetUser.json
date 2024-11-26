@@ -1,0 +1,20 @@
+{
+	"id": "9e1c9d69-2bf8-4e4d-8ec0-4e6e8a8d4f00",
+	"createdAt": "2024-11-26T07:37:25.000Z",
+	"createdBy": "jrs@gefami.co.id",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [],
+	"apis": [],
+	"name": "GetUser",
+	"ver": "24.11.26.1449",
+	"description": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "4f762907-8b4b-462a-8f9d-09fa61c81cd1",
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba"
+}

@@ -11,6 +11,24 @@
 	"enableCICD": true,
 	"apps": [
 		{
+			"id": "fcd968b1-935b-440b-ba49-f3ca33299057",
+			"application": "report",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "0b3fbc18-31ef-4088-be11-e96e552190ba"
+			}
+		},
+		{
+			"id": "d9490eb5-05c8-4dea-93bb-e7a7e1a66a46",
+			"application": "document",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "0b3fbc18-31ef-4088-be11-e96e552190ba"
+			}
+		},
+		{
 			"id": "d5b3329d-1ff8-48b7-bcc6-5f3ce4c7dde0",
 			"application": "maps_buildingblock",
 			"title": "",
@@ -109,6 +127,12 @@
 			"apiGroup": null
 		},
 		{
+			"id": "98f98d3e-0aa6-4127-9d64-d2360b9e0f93",
+			"name": "Document",
+			"description": null,
+			"apiGroup": null
+		},
+		{
 			"id": "8de6388e-da81-48c6-9a1e-23d76bfe8c9d",
 			"name": "stock_opname_details",
 			"description": null,
@@ -123,6 +147,12 @@
 		{
 			"id": "7372e224-2788-4f48-98fe-8269de92d40f",
 			"name": "GetBarcodeJoin",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "6d60f4a4-fff8-4d44-9bef-738c30d4a53f",
+			"name": "ReportStockProduct",
 			"description": null,
 			"apiGroup": null
 		},
@@ -183,6 +213,11 @@
 			"description": "Table to store products"
 		},
 		{
+			"id": "984a95b2-ed52-4587-8a82-cabddd837d60",
+			"name": "document",
+			"description": null
+		},
+		{
 			"id": "8f88cdbe-32e5-47f2-a8d6-fa85579dedcd",
 			"name": "stock_opname_sessions",
 			"description": null
@@ -237,6 +272,16 @@
 		{
 			"id": "bd5d119e-9eec-4b49-b792-cdcc6e2459cb",
 			"name": "CountTotalStock",
+			"description": null
+		},
+		{
+			"id": "ac26c022-e3b5-481c-a8a3-a8f3e022b564",
+			"name": "GetStockProduct",
+			"description": null
+		},
+		{
+			"id": "9e1c9d69-2bf8-4e4d-8ec0-4e6e8a8d4f00",
+			"name": "GetUser",
 			"description": null
 		},
 		{
@@ -297,6 +342,11 @@
 			"description": ""
 		},
 		{
+			"id": "4f762907-8b4b-462a-8f9d-09fa61c81cd1",
+			"name": "TestUser",
+			"description": ""
+		},
+		{
 			"id": "4e4275f9-1fe5-4bd7-b45d-f3ca1beba001",
 			"name": "TestGroupBy",
 			"description": ""
@@ -314,6 +364,11 @@
 		{
 			"id": "06911ac6-b19c-4482-a752-d5dbd5f7d2be",
 			"name": "Top5Product",
+			"description": ""
+		},
+		{
+			"id": "065d4f4f-c5d2-422a-ac3e-92ca5ce05f79",
+			"name": "ReportStockProduct",
 			"description": ""
 		}
 	],

@@ -25950,18 +25950,6 @@
 							"data": []
 						},
 						{
-							"fieldNo": "216e8931-4278-446f-dedd-3c8b5e3b4460",
-							"fieldName": "Javascript",
-							"fieldParent": "b46e71aa-4fcd-4078-ba8a-16f38f774a7b",
-							"fieldType": "neptune.Script",
-							"script": "",
-							"customComponent": false,
-							"request": [],
-							"response": [],
-							"attributes": [],
-							"data": []
-						},
-						{
 							"fieldNo": "3bbed906-ed9a-4fd7-fa49-24c30c310f6f",
 							"fieldName": "FunctionCRUDWarehouseArea",
 							"fieldParent": "b46e71aa-4fcd-4078-ba8a-16f38f774a7b",
@@ -27365,7 +27353,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "24.11.19.1053",
+	"ver": "24.11.26.1559",
 	"application": "traknuspoc",
 	"title": "",
 	"description": "",

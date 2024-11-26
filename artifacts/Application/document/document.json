@@ -1,0 +1,571 @@
+{
+	"id": "d9490eb5-05c8-4dea-93bb-e7a7e1a66a46",
+	"createdAt": "2024-11-21T07:43:52.000Z",
+	"createdBy": "jrs@gefami.co.id",
+	"objects": [
+		{
+			"fieldNo": "b29c1833-0f87-4102-ee87-fa58bda500b1",
+			"fieldName": "Shell",
+			"fieldParent": 0,
+			"fieldType": "sap.m.Shell",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "6e7d418b-cec9-4bd1-bb8f-758a65cbba4d",
+					"fieldName": "App",
+					"fieldParent": "b29c1833-0f87-4102-ee87-fa58bda500b1",
+					"fieldType": "sap.m.App",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "fbc2f932-9674-4829-e1a6-10e08544fc4d",
+							"fieldName": "Page",
+							"fieldParent": "6e7d418b-cec9-4bd1-bb8f-758a65cbba4d",
+							"fieldType": "nep.bootstrap.Page",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
+								{
+									"fieldNo": "cdfc542a-b0b0-4745-c27b-17994d0b9d8f",
+									"fieldName": "Container",
+									"fieldParent": "fbc2f932-9674-4829-e1a6-10e08544fc4d",
+									"fieldType": "nep.bootstrap.Container",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "f2f8e987-6760-4011-b49d-9888d92511c5",
+											"fieldName": "Card",
+											"fieldParent": "cdfc542a-b0b0-4745-c27b-17994d0b9d8f",
+											"fieldType": "nep.bootstrap.Card",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "33929ded-8c20-4bf7-9ddd-61607e01dad6",
+													"fieldName": "CardHeader",
+													"fieldParent": "f2f8e987-6760-4011-b49d-9888d92511c5",
+													"fieldType": "nep.bootstrap.CardContent",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "position",
+															"grouping": "Properties",
+															"value": "Header",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "7ba153a2-e397-49dc-d24c-0beddc1d4895",
+															"fieldName": "Text",
+															"fieldParent": "33929ded-8c20-4bf7-9ddd-61607e01dad6",
+															"fieldType": "nep.bootstrap.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Upload File Document",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "fontSize",
+																	"grouping": "Properties",
+																	"value": "FontSize3",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "fontWeight",
+																	"grouping": "Properties",
+																	"value": "Bolder",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "c4c77b6c-e7bd-4b19-ea02-31b87403d6ec",
+													"fieldName": "CardContent",
+													"fieldParent": "f2f8e987-6760-4011-b49d-9888d92511c5",
+													"fieldType": "nep.bootstrap.CardContent",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "position",
+															"grouping": "Properties",
+															"value": "Content",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "5a04e1ff-e624-43d1-e298-fd92ed0e0ba9",
+															"fieldName": "Container1",
+															"fieldParent": "c4c77b6c-e7bd-4b19-ea02-31b87403d6ec",
+															"fieldType": "nep.bootstrap.Container",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "bb0cef9b-3614-4f3b-8475-b47b9005d86a",
+																	"fieldName": "VBox",
+																	"fieldParent": "5a04e1ff-e624-43d1-e298-fd92ed0e0ba9",
+																	"fieldType": "sap.m.VBox",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [],
+																	"data": [
+																		{
+																			"fieldNo": "1f5a51d5-720f-455a-f9d1-ad38aedc87d7",
+																			"fieldName": "HBox",
+																			"fieldParent": "bb0cef9b-3614-4f3b-8475-b47b9005d86a",
+																			"fieldType": "sap.m.HBox",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [],
+																			"data": [
+																				{
+																					"fieldNo": "66370b74-7857-4e86-e056-a665142dd83b",
+																					"fieldName": "FilePath",
+																					"fieldParent": "1f5a51d5-720f-455a-f9d1-ad38aedc87d7",
+																					"fieldType": "nep.bootstrap.Text",
+																					"script": "",
+																					"customComponent": false,
+																					"request": [],
+																					"response": [],
+																					"attributes": [
+																						{
+																							"attribute": "visible",
+																							"grouping": "Properties",
+																							"value": "false",
+																							"script": "",
+																							"translation": []
+																						}
+																					],
+																					"data": []
+																				},
+																				{
+																					"fieldNo": "49a99b73-9bba-4903-b6ca-189635b11c73",
+																					"fieldName": "inFiles",
+																					"fieldParent": "1f5a51d5-720f-455a-f9d1-ad38aedc87d7",
+																					"fieldType": "sap.ui.unified.FileUploader",
+																					"script": "",
+																					"customComponent": false,
+																					"request": [],
+																					"response": [],
+																					"attributes": [
+																						{
+																							"attribute": "uploadOnChange",
+																							"grouping": "Properties",
+																							"value": "true",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "sendXHR",
+																							"grouping": "Properties",
+																							"value": "true",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "multiple",
+																							"grouping": "Properties",
+																							"value": "true",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "mimeType",
+																							"grouping": "Properties",
+																							"value": "[\"image/png\", \"image/jpeg\",\"image/jpg\",\"application/pdf\",\"application/vnd.ms-excel\",\"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet\"]",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "icon",
+																							"grouping": "Properties",
+																							"value": "sap-icon://fa-solid/file-upload",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "fileType",
+																							"grouping": "Properties",
+																							"value": "[\"jpg\",\"png\",\"jpeg\",\"pdf\",\"xlsx\"]",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "buttonOnly",
+																							"grouping": "Properties",
+																							"value": "true",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "uploadComplete",
+																							"grouping": "Events",
+																							"value": "Anonymous Function",
+																							"script": "file://event/sap.ui.unified.FileUploader/inFiles/uploadComplete.script",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "uploadUrl",
+																							"grouping": "Properties",
+																							"value": "/api/functions/Media/FileSave",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "directory",
+																							"grouping": "Properties",
+																							"value": "false",
+																							"script": "",
+																							"translation": []
+																						}
+																					],
+																					"data": []
+																				},
+																				{
+																					"fieldNo": "267bde85-840e-4924-e129-1b8ace825bc6",
+																					"fieldName": "FileName",
+																					"fieldParent": "1f5a51d5-720f-455a-f9d1-ad38aedc87d7",
+																					"fieldType": "nep.bootstrap.Text",
+																					"script": "",
+																					"customComponent": false,
+																					"request": [],
+																					"response": [],
+																					"attributes": [
+																						{
+																							"attribute": "visible",
+																							"grouping": "Properties",
+																							"value": "false",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "margin",
+																							"grouping": "Properties",
+																							"value": "MarginStart3",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "padding",
+																							"grouping": "Properties",
+																							"value": "PaddingTop2",
+																							"script": "",
+																							"translation": []
+																						}
+																					],
+																					"data": []
+																				}
+																			]
+																		},
+																		{
+																			"fieldNo": "20c2664e-4789-4755-c41b-158fdb9b888b",
+																			"fieldName": "Image",
+																			"fieldParent": "bb0cef9b-3614-4f3b-8475-b47b9005d86a",
+																			"fieldType": "sap.m.Image",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "visible",
+																					"grouping": "Properties",
+																					"value": "false",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		},
+																		{
+																			"fieldNo": "43ce18b9-11e7-4d64-e947-eeace9c4d744",
+																			"fieldName": "HBox1",
+																			"fieldParent": "bb0cef9b-3614-4f3b-8475-b47b9005d86a",
+																			"fieldType": "sap.m.HBox",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [],
+																			"data": [
+																				{
+																					"fieldNo": "bfca94a5-6587-4ef3-993b-74ed2889c5ea",
+																					"fieldName": "Button",
+																					"fieldParent": "43ce18b9-11e7-4d64-e947-eeace9c4d744",
+																					"fieldType": "nep.bootstrap.Button",
+																					"script": "",
+																					"customComponent": false,
+																					"request": [],
+																					"response": [],
+																					"attributes": [
+																						{
+																							"attribute": "press",
+																							"grouping": "Events",
+																							"value": "Anonymous Function",
+																							"script": "file://event/nep.bootstrap.Button/Button/press.js",
+																							"language": "javascript",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "text",
+																							"grouping": "Properties",
+																							"value": "Save",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "tooltip",
+																							"grouping": "Properties",
+																							"value": "Save",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "width",
+																							"grouping": "Properties",
+																							"value": "100px",
+																							"script": "",
+																							"translation": []
+																						}
+																					],
+																					"data": []
+																				},
+																				{
+																					"fieldNo": "93f0779c-1dcb-49a1-e246-4b66252b3c6f",
+																					"fieldName": "ViewFile",
+																					"fieldParent": "43ce18b9-11e7-4d64-e947-eeace9c4d744",
+																					"fieldType": "nep.bootstrap.Button",
+																					"script": "",
+																					"customComponent": false,
+																					"request": [],
+																					"response": [],
+																					"attributes": [
+																						{
+																							"attribute": "press",
+																							"grouping": "Events",
+																							"value": "Anonymous Function",
+																							"script": "file://event/nep.bootstrap.Button/ViewFile/press.js",
+																							"language": "javascript",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "text",
+																							"grouping": "Properties",
+																							"value": "View File",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "margin",
+																							"grouping": "Properties",
+																							"value": "MarginStart3",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "tooltip",
+																							"grouping": "Properties",
+																							"value": "View File",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "width",
+																							"grouping": "Properties",
+																							"value": "100px",
+																							"script": "",
+																							"translation": []
+																						}
+																					],
+																					"data": []
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "a8aeb4d0-85ac-4c78-c4fe-ab2afc2f86c8",
+					"fieldName": "APIUploadDocument",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "6744edd7-490a-4e5b-9ac8-ad57114cf667",
+							"fieldName": "InsertDocument",
+							"fieldParent": "a8aeb4d0-85ac-4c78-c4fe-ab2afc2f86c8",
+							"fieldType": "neptune.restapi",
+							"script": "",
+							"customComponent": false,
+							"restSource": "98f98d3e-0aa6-4127-9d64-d2360b9e0f93",
+							"restOperation": "8ffb0374-6606-4d9e-be16-4bbf5de0cf39",
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						}
+					]
+				},
+				{
+					"fieldNo": "dbb70873-aeb2-4d96-c291-da7359234bdc",
+					"fieldName": "ScriptUploadDocument",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "75512886-0998-43b2-a057-693113043cf3",
+							"fieldName": "Typescript",
+							"fieldParent": "dbb70873-aeb2-4d96-c291-da7359234bdc",
+							"fieldType": "neptune.Typescript",
+							"script": "file://script/neptune.Typescript/ScriptUploadDocument/Typescript.ts",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "288ddf7c-5b05-4824-baa8-1359682bc73e",
+							"fieldName": "CRUDuploadDocument",
+							"fieldParent": "dbb70873-aeb2-4d96-c291-da7359234bdc",
+							"fieldType": "neptune.Script",
+							"script": "file://script/neptune.Script/ScriptUploadDocument/CRUDuploadDocument.js",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "24.11.25.1234",
+	"application": "document",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_horizon",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "",
+	"compiledCss": null,
+	"header": "",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": true,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"apis": [
+		{
+			"id": "98f98d3e-0aa6-4127-9d64-d2360b9e0f93",
+			"name": "Document",
+			"ver": "24.11.24.201"
+		}
+	],
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba"
+}

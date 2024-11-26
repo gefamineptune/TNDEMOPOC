@@ -1,0 +1,29 @@
+{
+	"id": "984a95b2-ed52-4587-8a82-cabddd837d60",
+	"createdAt": "2024-11-21T07:02:16.000Z",
+	"createdBy": "jrs@gefami.co.id",
+	"fields": [
+		{
+			"id": "afebf8dc-176d-41f8-d3a6-01c1af00eb43",
+			"fieldName": "FileName",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "6e7d10f8-b481-497f-a6ed-aa4aad26db62",
+			"fieldName": "Path",
+			"fieldType": "text",
+			"isUnique": false
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "document",
+	"description": null,
+	"ver": "24.11.21.152",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba",
+	"rolesRead": [],
+	"rolesWrite": []
+}
