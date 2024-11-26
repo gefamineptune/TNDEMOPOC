@@ -1,0 +1,281 @@
+{
+	"id": "9c9b63c0-0aab-ef11-88cf-0022489c9842",
+	"createdAt": "2024-11-25T08:55:02.320Z",
+	"createdBy": "ian.cruz@neptune-software.com",
+	"objects": [
+		{
+			"fieldNo": "72de2899-15a6-4c84-b2f2-01af42894a3c",
+			"fieldName": "App",
+			"fieldParent": 0,
+			"fieldType": "sap.m.App",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [
+				{
+					"attribute": "defaultTransitionName",
+					"grouping": "Properties",
+					"value": "show",
+					"script": "",
+					"translation": []
+				}
+			],
+			"data": [
+				{
+					"fieldNo": "27fb70d1-503e-4dca-cbb4-a3232e4cffd6",
+					"fieldName": "Page",
+					"fieldParent": "72de2899-15a6-4c84-b2f2-01af42894a3c",
+					"fieldType": "sap.m.Page",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "3ad83117-a91b-413a-d08c-f580470e530e",
+							"fieldName": "Label",
+							"fieldParent": "27fb70d1-503e-4dca-cbb4-a3232e4cffd6",
+							"fieldType": "sap.m.Label",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "QR Code Value",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "c36c6c88-2fe7-4597-dfec-e5397b6151d4",
+							"fieldName": "QrCodeValue",
+							"fieldParent": "27fb70d1-503e-4dca-cbb4-a3232e4cffd6",
+							"fieldType": "sap.m.Input",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "3c4e34dc-013b-4945-aedb-31b76aeae666",
+							"fieldName": "Button1",
+							"fieldParent": "27fb70d1-503e-4dca-cbb4-a3232e4cffd6",
+							"fieldType": "sap.m.Button",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "Generate QR",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "press",
+									"grouping": "Events",
+									"value": "Anonymous Function",
+									"script": "file://event/sap.m.Button/Button1/press.js",
+									"language": "javascript",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "52f69a21-4c58-4322-8e86-b588719cf1ac",
+							"fieldName": "QrCodeContainer",
+							"fieldParent": "27fb70d1-503e-4dca-cbb4-a3232e4cffd6",
+							"fieldType": "nep.bootstrap.Container",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "74a7cc34-439c-4419-a1db-cfeadccaa617",
+					"fieldName": "APIs",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "3a0c4f5b-5609-4c1e-e010-e7cdeafcf1e4",
+							"fieldName": "RestAPI",
+							"fieldParent": "74a7cc34-439c-4419-a1db-cfeadccaa617",
+							"fieldType": "neptune.restapi",
+							"script": "",
+							"customComponent": false,
+							"restSource": "8cab2b2c-0cab-ef11-88cf-0022489c9842",
+							"restOperation": "148e4c29-1000-4727-9658-af0c41d8ccad",
+							"request": [],
+							"response": [
+								{
+									"status": 200,
+									"dataId": "a79982fc-2446-4b19-b6de-e6013da49560",
+									"modelFieldNo": "e07c50e7-edf2-417f-80d1-6573b96216eb"
+								}
+							],
+							"attributes": [
+								{
+									"attribute": "setInitLoad",
+									"grouping": "Model",
+									"value": "online",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "setAutoRefresh",
+									"grouping": "Model",
+									"value": "true",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						}
+					]
+				},
+				{
+					"fieldNo": "2c9538d2-cd6c-4f68-85d5-680bd1ae2de4",
+					"fieldName": "Dialogs",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "e703e4e2-af6d-4048-c13f-ded8431e1c0f",
+					"fieldName": "Events",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "066e9ecf-46d0-4620-ece8-52c53f4950da",
+					"fieldName": "Models",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "2151b2b7-6a84-4d24-83f4-dab47ae3beb6",
+					"fieldName": "Scripts",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "4bd308c0-77d3-4532-8963-8afc10749c51",
+							"fieldName": "Init",
+							"fieldParent": "2151b2b7-6a84-4d24-83f4-dab47ae3beb6",
+							"fieldType": "neptune.Script",
+							"script": "file://script/neptune.Script/Scripts/Init.js",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "24.11.25.1319",
+	"application": "qrcodesampleapp",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_horizon",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "",
+	"compiledCss": null,
+	"header": "file:///header.html",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": true,
+	"ui5_bootstrap": true,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"apis": [
+		{
+			"id": "8cab2b2c-0cab-ef11-88cf-0022489c9842",
+			"name": "SampleQrTable",
+			"ver": "24.11.25.0904"
+		}
+	],
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba"
+}
