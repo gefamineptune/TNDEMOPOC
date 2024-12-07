@@ -391,8 +391,7 @@
 																							"attribute": "press",
 																							"grouping": "Events",
 																							"value": "Anonymous Function",
-																							"script": "file://event/nep.bootstrap.Button/ViewFile/press.js",
-																							"language": "javascript",
+																							"script": "file://event/nep.bootstrap.Button/ViewFile/press.script",
 																							"translation": []
 																						},
 																						{
@@ -427,6 +426,29 @@
 																					"data": []
 																				}
 																			]
+																		},
+																		{
+																			"fieldNo": "52f15425-8854-47ba-e575-48728e31c9d6",
+																			"fieldName": "TableRequestOrder",
+																			"fieldParent": "bb0cef9b-3614-4f3b-8475-b47b9005d86a",
+																			"fieldType": "sap.m.Table",
+																			"script": "",
+																			"customComponent": false,
+																			"bindingValue": "Generic Array",
+																			"bindingType": "h",
+																			"bindingSource": "P9",
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "showNoData",
+																					"grouping": "Properties",
+																					"value": "false",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
 																		}
 																	]
 																}
@@ -486,18 +508,6 @@
 					"attributes": [],
 					"data": [
 						{
-							"fieldNo": "75512886-0998-43b2-a057-693113043cf3",
-							"fieldName": "Typescript",
-							"fieldParent": "dbb70873-aeb2-4d96-c291-da7359234bdc",
-							"fieldType": "neptune.Typescript",
-							"script": "file://script/neptune.Typescript/ScriptUploadDocument/Typescript.ts",
-							"customComponent": false,
-							"request": [],
-							"response": [],
-							"attributes": [],
-							"data": []
-						},
-						{
 							"fieldNo": "288ddf7c-5b05-4824-baa8-1359682bc73e",
 							"fieldName": "CRUDuploadDocument",
 							"fieldParent": "dbb70873-aeb2-4d96-c291-da7359234bdc",
@@ -519,7 +529,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "24.11.25.1234",
+	"ver": "24.12.6.1936",
 	"application": "document",
 	"title": "",
 	"description": "",
@@ -545,7 +555,7 @@
 	"cus_theme": "",
 	"css": "",
 	"compiledCss": null,
-	"header": "",
+	"header": "file:///header.html",
 	"manifest": "",
 	"globalScript": null,
 	"deleted": false,

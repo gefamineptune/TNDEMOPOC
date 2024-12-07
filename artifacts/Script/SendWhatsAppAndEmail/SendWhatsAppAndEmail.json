@@ -1,0 +1,33 @@
+{
+	"id": "5af32984-bf4a-47f4-83ee-536c6975f5f2",
+	"createdAt": "2024-11-29T08:38:45.000Z",
+	"createdBy": "mfh@gefami.co.id",
+	"globalScripts": [],
+	"externalModules": [
+		{
+			"id": "internal_axios",
+			"name": "axios",
+			"contextname": "axios",
+			"path": "axios"
+		}
+	],
+	"entitySets": [
+		{
+			"id": "3f0c8bdb-702b-4f67-9e6c-d6c0897d7aaf",
+			"name": "customers",
+			"contextname": "customers"
+		}
+	],
+	"apis": [],
+	"name": "SendWhatsAppAndEmail",
+	"ver": "24.12.5.2338",
+	"description": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "00ee1f77-d8e5-4534-a851-955e16bb5f4b",
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba"
+}

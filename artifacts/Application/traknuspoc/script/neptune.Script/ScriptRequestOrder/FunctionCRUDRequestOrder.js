@@ -6,12 +6,12 @@ function insertDataRequestOrder(data) {
             "requested_date": data.requested_date,
             "product_id": data.product_id,
             "quantity": data.quantity,
-            "status": data.status
+            "status": data.status,
+            "workflow_id": data.workflow_id
         }
     };
 
-    apiCreateRequestOrder(options);    
-        
+    apiCreateRequestOrder(options);
 }
 
 function updateDataRequestOrder(data) {

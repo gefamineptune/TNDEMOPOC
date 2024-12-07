@@ -1,0 +1,23 @@
+{
+	"id": "d476eb56-20c7-405c-908a-84edfc6d336a",
+	"createdAt": "2024-12-02T02:17:39.000Z",
+	"createdBy": "ian.cruz@neptune-software.com",
+	"items": [
+		{
+			"id": "695d7e02-0318-4dc0-e25d-fe95389a0838",
+			"orgUnit": "U",
+			"orgValue": "ian.cruz@neptune-software.com",
+			"amountFrom": 0,
+			"amountTo": "1000",
+			"operation": "O",
+			"taskType": [],
+			"orgId": "8b64023b-f801-4f58-a948-47e4677c0132",
+			"taskAction": [
+				"b680289c-9f03-4013-819a-bc63ba12786b"
+			]
+		}
+	],
+	"name": "ManagerWorkflowApprovers",
+	"description": null,
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba"
+}

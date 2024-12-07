@@ -32,6 +32,13 @@
 			"fieldName": "status",
 			"fieldType": "text",
 			"isUnique": false
+		},
+		{
+			"id": "fb1442cf-6195-4327-eaee-112f43a53abd",
+			"fieldName": "workflow_id",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
 		}
 	],
 	"indices": [],
@@ -134,7 +141,7 @@
 	],
 	"name": "request_orders",
 	"description": null,
-	"ver": "24.11.19.2122",
+	"ver": "24.12.2.1038",
 	"enableAudit": false,
 	"includeDataInPackage": true,
 	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba",

@@ -1,0 +1,53 @@
+{
+	"id": "1dd09d61-baa7-43b7-815b-067f9b47f6a9",
+	"createdAt": "2024-12-02T01:37:19.000Z",
+	"createdBy": "ian.cruz@neptune-software.com",
+	"fields": [
+		{
+			"id": "e8a99051-f3c9-4b8e-a914-efcf3091c712",
+			"fieldName": "requested_by",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "2086023b-ca7c-4088-a034-bb77fe7a6f74",
+			"fieldName": "requested_date",
+			"fieldType": "timestamp",
+			"isUnique": false
+		},
+		{
+			"id": "2d14351f-481b-4646-8718-03dee8e29583",
+			"fieldName": "product_id",
+			"fieldType": "uuid",
+			"isUnique": false
+		},
+		{
+			"id": "f71e5418-1f96-4997-92c0-a090692019d2",
+			"fieldName": "quantity",
+			"fieldType": "integer",
+			"isUnique": false
+		},
+		{
+			"id": "5adc104a-6849-4554-ef20-2302a5713912",
+			"fieldName": "request_id",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "37306aa9-258f-4e16-baf8-6d6ccdb2e1e4",
+			"fieldName": "workflow_status",
+			"fieldType": "text",
+			"isUnique": false
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "requestorderworkflowtable",
+	"description": null,
+	"ver": "24.12.2.1039",
+	"enableAudit": true,
+	"includeDataInPackage": false,
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba",
+	"rolesRead": [],
+	"rolesWrite": []
+}

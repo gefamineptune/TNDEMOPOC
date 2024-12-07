@@ -1,0 +1,31 @@
+{
+	"id": "0a88d8cc-891c-42a8-9812-84c2023ef236",
+	"createdAt": "2024-12-02T02:20:35.000Z",
+	"createdBy": "ian.cruz@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "1dd09d61-baa7-43b7-815b-067f9b47f6a9",
+			"name": "requestorderworkflowtable",
+			"contextname": "requestorderworkflowtable"
+		},
+		{
+			"id": "6114df54-6f13-41ed-9a31-db2b8a2e8b68",
+			"name": "request_orders",
+			"contextname": "request_orders"
+		}
+	],
+	"apis": [],
+	"name": "ApproveScriptFirstLevel",
+	"ver": "24.12.4.2332",
+	"description": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "02c04474-2aad-40f4-8181-374bf6e89770",
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba"
+}

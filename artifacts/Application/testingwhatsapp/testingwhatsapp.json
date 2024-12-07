@@ -1,0 +1,411 @@
+{
+	"id": "fb10cdf3-a10b-46b6-ae7e-9deb2b736996",
+	"createdAt": "2024-12-05T09:28:56.000Z",
+	"createdBy": "mfh@gefami.co.id",
+	"objects": [
+		{
+			"fieldNo": "5ad2b796-2677-491b-b790-c59e0c7473f1",
+			"fieldName": "App",
+			"fieldParent": 0,
+			"fieldType": "sap.m.App",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [
+				{
+					"attribute": "defaultTransitionName",
+					"grouping": "Properties",
+					"value": "show",
+					"script": "",
+					"translation": []
+				}
+			],
+			"data": [
+				{
+					"fieldNo": "5dedb5a8-07c5-4636-9303-d91b27feeca1",
+					"fieldName": "Page",
+					"fieldParent": "5ad2b796-2677-491b-b790-c59e0c7473f1",
+					"fieldType": "sap.m.Page",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "Page Title",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "6311b1e3-6f1d-44f4-90d6-abc787c9d62e",
+							"fieldName": "VBox",
+							"fieldParent": "5dedb5a8-07c5-4636-9303-d91b27feeca1",
+							"fieldType": "sap.m.VBox",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "alignItems",
+									"grouping": "Properties",
+									"value": "Center",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "alignContent",
+									"grouping": "Properties",
+									"value": "Center",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "741ce585-f845-4985-8a95-7118db89604f",
+									"fieldName": "HBox",
+									"fieldParent": "6311b1e3-6f1d-44f4-90d6-abc787c9d62e",
+									"fieldType": "sap.m.HBox",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "ae072d8a-a967-49b6-8d58-30df6fbdc61d",
+											"fieldName": "SimpleForm",
+											"fieldParent": "741ce585-f845-4985-8a95-7118db89604f",
+											"fieldType": "sap.ui.layout.form.SimpleForm",
+											"script": "",
+											"customComponent": false,
+											"bindingValue": "NotificationAPI>SendWhatsAppRequest",
+											"bindingType": "u",
+											"bindingSource": "API",
+											"bindingParentID": "ce09eecc-391c-4937-8960-fc62beb9731e",
+											"bindingPathID": "590f7e25-e961-4999-9fe2-9afe28258287",
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "443580bd-5540-4fb6-e7c7-bb223fcabccf",
+													"fieldName": "lblSimpleFormphoneNumber",
+													"fieldParent": "ae072d8a-a967-49b6-8d58-30df6fbdc61d",
+													"fieldType": "sap.m.Label",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "phoneNumber",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "e01e8009-646b-4d59-b9fc-34e727a8e26b",
+													"fieldName": "inSimpleFormphoneNumber",
+													"fieldParent": "ae072d8a-a967-49b6-8d58-30df6fbdc61d",
+													"fieldType": "sap.m.Input",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "value",
+															"grouping": "Properties",
+															"value": "{/phoneNumber}",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "placeholder",
+															"grouping": "Properties",
+															"value": "Gunakan 62 tanpa +",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "b28dc365-fc0b-4c70-ba6b-b51f3e78bcef",
+													"fieldName": "lblSimpleFormtext",
+													"fieldParent": "ae072d8a-a967-49b6-8d58-30df6fbdc61d",
+													"fieldType": "sap.m.Label",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "text",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "59ca44dc-fbc8-4014-ea99-71789420a058",
+													"fieldName": "inSimpleFormtext",
+													"fieldParent": "ae072d8a-a967-49b6-8d58-30df6fbdc61d",
+													"fieldType": "sap.m.Input",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "value",
+															"grouping": "Properties",
+															"value": "{/text}",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "6cc8e88b-84bc-4431-8ec3-813acbd88d22",
+									"fieldName": "HBox1",
+									"fieldParent": "6311b1e3-6f1d-44f4-90d6-abc787c9d62e",
+									"fieldType": "sap.m.HBox",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "14089b83-ac9a-4cff-db23-664a68c57e55",
+											"fieldName": "Button",
+											"fieldParent": "6cc8e88b-84bc-4431-8ec3-813acbd88d22",
+											"fieldType": "nep.bootstrap.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/nep.bootstrap.Button/Button/press.script",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Send Chat",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "098afa32-f586-428a-8993-8af8f9675a9e",
+					"fieldName": "APIs",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "d874b272-9dfd-4c05-b288-691b56954fc2",
+							"fieldName": "SendWhatsApp",
+							"fieldParent": "098afa32-f586-428a-8993-8af8f9675a9e",
+							"fieldType": "neptune.restapi",
+							"script": "",
+							"customComponent": false,
+							"restSource": "ce09eecc-391c-4937-8960-fc62beb9731e",
+							"restOperation": "026f0891-ecf8-4c8b-8991-2659fd0ba120",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "ajaxSuccess",
+									"grouping": "Events",
+									"value": "sap.m.MessageToast.show(\"WhatsApp Chat Send Successfully\");",
+									"script": "sap.m.MessageToast.show(\"WhatsApp Chat Send Successfully\");",
+									"language": "javascript",
+									"translation": []
+								},
+								{
+									"attribute": "ajaxError",
+									"grouping": "Events",
+									"value": "sap.m.MessageToast.show(\"WhatsApp Chat Failed To Send\");",
+									"script": "sap.m.MessageToast.show(\"WhatsApp Chat Failed To Send\");",
+									"language": "javascript",
+									"translation": []
+								}
+							],
+							"data": []
+						}
+					]
+				},
+				{
+					"fieldNo": "1c6b95ca-8fd0-402d-fb1f-e4f9e430c064",
+					"fieldName": "Dialogs",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "d80b8075-69d2-434b-ee96-14b3d7bfdd36",
+					"fieldName": "Events",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "e4d18351-776f-40be-e94b-70964ba42ed8",
+					"fieldName": "Models",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "e4ff2ae7-acc0-4e6d-9bb9-e0d76a71cf2a",
+					"fieldName": "Scripts",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "42eccf4f-5cd0-4784-ae4a-e99c7ac45623",
+							"fieldName": "SendWhatsApp",
+							"fieldParent": "e4ff2ae7-acc0-4e6d-9bb9-e0d76a71cf2a",
+							"fieldType": "neptune.Script",
+							"script": "file://script/neptune.Script/Scripts/SendWhatsApp.js",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "afa73856-04db-45e2-e942-d88edab0a7e8",
+							"fieldName": "Init",
+							"fieldParent": "e4ff2ae7-acc0-4e6d-9bb9-e0d76a71cf2a",
+							"fieldType": "neptune.Script",
+							"script": "file://script/neptune.Script/Scripts/Init.js",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "24.12.5.1637",
+	"application": "testingwhatsapp",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_horizon",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "",
+	"compiledCss": null,
+	"header": "",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": true,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"apis": [
+		{
+			"id": "ce09eecc-391c-4937-8960-fc62beb9731e",
+			"name": "NotificationAPI",
+			"ver": "24.12.5.2239"
+		}
+	],
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba"
+}

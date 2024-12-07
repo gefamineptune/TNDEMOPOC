@@ -1,3 +1,0 @@
-var result = xhr.responseJSON;
-
-modelComboBoxWarehouse.setData(result);

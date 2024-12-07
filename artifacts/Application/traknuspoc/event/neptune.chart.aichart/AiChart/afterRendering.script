@@ -81,3 +81,5 @@ const chartOptions = {
 };
 
 Highcharts.chart("AiChart", chartOptions);
+
+renderDrillDownChart();

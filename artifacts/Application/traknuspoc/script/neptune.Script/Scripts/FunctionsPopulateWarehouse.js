@@ -18,7 +18,7 @@ function populateForNewDataWarehouse() {
 
     ButtonUpdate.setVisible(false);
     ButtonSave.setVisible(true);
-    HBox1Map1.setVisible(false);
+    // HBox1Map.setVisible(false);
 }
 
 

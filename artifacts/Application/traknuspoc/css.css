@@ -285,3 +285,7 @@ tr:nth-child(odd) {
 tr:nth-child(even) {
   background-color: #faf9f7;
 }
+
+.mt-150{
+    margin-top: 150px;
+}

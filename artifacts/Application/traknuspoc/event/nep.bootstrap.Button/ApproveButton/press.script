@@ -1,0 +1,29 @@
+let requestId = WorkflowIdInvisibleROD.getText()
+var options = {
+    data: {
+        "RequestId": requestId
+    }
+};
+
+apiApproveFirstLevel(options);
+
+let data = {
+        id : IdInvisibleROD.getText(),
+        requested_by : SelectRequestedBy.getSelectedKey(), 
+        requested_date : InputRORequestedDate.getValue(), 
+        product_id : SelectProductId.getSelectedKey(),
+        quantity : InputROQuantity.getValue(),
+        status : "Shipping"
+    }
+
+// console.log(data);
+
+updateDataRequestOrder(data);
+
+apiGetRequestOrdersCustomersProducts();
+
+sendWhatsAppAndEmail(SelectRequestedBy.getSelectedKey(), "Approve");
+
+oApp.to(RequestOrder)
+
+sap.m.MessageToast.show("Request has been approved for Shipping!")

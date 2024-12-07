@@ -1,0 +1,23 @@
+{
+	"id": "f6a967cd-b09c-48f0-b7bb-00d4b5c49aed",
+	"createdAt": "2024-12-02T06:36:07.000Z",
+	"createdBy": "ian.cruz@neptune-software.com",
+	"items": [
+		{
+			"id": "4f7c4f9d-2cad-4209-8c10-6d20a9d25928",
+			"orgUnit": "U",
+			"orgValue": "hen@gefami.co.id",
+			"amountFrom": 0,
+			"amountTo": 0,
+			"operation": "O",
+			"taskType": [],
+			"orgId": "28625cec-8d60-4e8f-9681-79a27d9cf8e1",
+			"taskAction": [
+				"cc877376-0511-466b-ad08-84022101c4fa"
+			]
+		}
+	],
+	"name": "DirectorWorkflowApprovers",
+	"description": null,
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba"
+}

@@ -1,0 +1,23 @@
+{
+	"id": "a6d25cbd-ce33-4b5b-8958-a30363a1f4d6",
+	"createdAt": "2024-12-06T07:30:51.000Z",
+	"createdBy": "jrs@gefami.co.id",
+	"fields": [
+		{
+			"id": "f95efefb-c51f-4571-ed2e-f8661936f2d8",
+			"fieldName": "file_path",
+			"fieldType": "text",
+			"isUnique": false
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "savefiletemp",
+	"description": null,
+	"ver": "24.12.6.1531",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba",
+	"rolesRead": [],
+	"rolesWrite": []
+}

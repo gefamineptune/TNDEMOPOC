@@ -4,6 +4,7 @@ function populateForNewDataRequestOrder() {
     EditRODetail.setVisible(false);
 
     IdInvisibleROD.setText("");
+    WorkflowIdInvisibleROD.setText("");
 
     InputRORequestedDate.setValue("");
     InputROQuantity.setValue("");
@@ -19,6 +20,7 @@ function populateForUpdateDataRequestOrder(data) {
     EditRODetail.setVisible(true);
 
     IdInvisibleROD.setText(data.ro_id);
+    WorkflowIdInvisibleROD.setText(data.ro_workflow_id);
 
     let datePart = data.ro_requested_date.split(' ')[0]
 

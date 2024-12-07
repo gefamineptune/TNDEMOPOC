@@ -20,11 +20,11 @@ if(SelectRequestedBy.getSelectedKey() === undefined || SelectProductId.getSelect
     updateDataRequestOrder(data);
 
     apiGetRequestOrdersCustomersProducts();
+    $("#QRImageContainer").empty()
 
     oApp.to(RequestOrder)
 
     sap.m.MessageToast.show("Data berhasil diupdate")
-
 }
 
 

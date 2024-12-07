@@ -1,2 +1,4 @@
 var username = req.user.username;
-console.log("Username:", username);
+ result = username;
+ complete();
+console.log(username);

@@ -1,0 +1,29 @@
+{
+	"id": "9500cb2a-fca4-46c2-80fd-88a60d750d0f",
+	"createdAt": "2024-12-05T01:51:16.000Z",
+	"createdBy": "ian.cruz@neptune-software.com",
+	"fields": [
+		{
+			"id": "91dead5e-3653-427d-89cc-839bbf0d0c1c",
+			"fieldName": "Workflow_Id",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "ae3ea1a1-8e1a-4c35-d162-6ee9ae50c637",
+			"fieldName": "Message",
+			"fieldType": "text",
+			"isUnique": false
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "request_order_workflow_audit_trail",
+	"description": null,
+	"ver": "24.12.5.951",
+	"enableAudit": true,
+	"includeDataInPackage": false,
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba",
+	"rolesRead": [],
+	"rolesWrite": []
+}

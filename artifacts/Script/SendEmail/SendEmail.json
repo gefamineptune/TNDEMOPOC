@@ -1,0 +1,20 @@
+{
+	"id": "c65bb2ca-06e7-47e8-ad5d-fc941e17238c",
+	"createdAt": "2024-11-28T15:28:50.000Z",
+	"createdBy": "mfh@gefami.co.id",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [],
+	"apis": [],
+	"name": "SendEmail",
+	"ver": "24.11.29.1558",
+	"description": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "00ee1f77-d8e5-4534-a851-955e16bb5f4b",
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba"
+}

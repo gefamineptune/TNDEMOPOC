@@ -1,0 +1,52 @@
+{
+	"id": "964f6391-a559-4672-ab83-2faa0bc050ba",
+	"createdAt": "2024-11-29T07:10:32.000Z",
+	"createdBy": "mfh@gefami.co.id",
+	"fields": [
+		{
+			"id": "8988a957-3688-4f98-c7f7-6604270a37bf",
+			"fieldName": "firstname",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "81f5a957-8ff8-4ce4-93cd-8abe2d93485e",
+			"fieldName": "lastname",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "92048dd7-fc14-4270-8396-dfb41e0332b6",
+			"fieldName": "phone",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "5222ebc3-b942-4e57-ddb6-6be6e1e49c45",
+			"fieldName": "status",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "12a17267-fffa-4f57-9932-f2532bfcbddc",
+			"fieldName": "WfID",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "myworkflowtable",
+	"description": null,
+	"ver": "24.11.29.1426",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba",
+	"rolesRead": [],
+	"rolesWrite": []
+}

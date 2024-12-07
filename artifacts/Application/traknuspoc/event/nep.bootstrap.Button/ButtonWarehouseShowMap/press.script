@@ -1,0 +1,19 @@
+const context = oEvent.oSource.getBindingContext();  
+
+const data = context.getObject();
+
+
+
+(async () => {
+    try {
+        const userLocation = await getLocation();
+
+        // ConfigShowMap.setVisible(true);
+        
+        initMaps(data.latitude, data.longitude, userLocation.latitude, userLocation.longitude);
+
+    } catch (error) {
+        sap.m.MessageToast.show(error)
+        console.error("Error:", error);
+    }
+})();

@@ -48,6 +48,18 @@
 		"image_path": "http://rnd.ifabula.co.id/media/root/03ad1e32e70f6af77b7b79d3cbfb2d4a.png"
 	},
 	{
+		"id": "3a566092-b824-4122-8fe1-06f983eb562a",
+		"createdAt": "1733363011975",
+		"updatedAt": "1733425057155",
+		"createdBy": "ian.cruz@neptune-software.com",
+		"updatedBy": "mfh@gefami.co.id",
+		"name": "Drillbit",
+		"SKU": "12",
+		"description": "Replacement Drillbit for Drilling Works",
+		"unit": "pieces",
+		"image_path": "http://rnd.gefami.co.id/media/root/Screenshot 2024-12-05 at 9.43.23 AM.png"
+	},
+	{
 		"id": "33a1016c-7139-4614-aa77-b10c81cee1d9",
 		"createdAt": "1731943667390",
 		"updatedAt": "1731943667390",

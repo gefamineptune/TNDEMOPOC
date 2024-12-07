@@ -1,0 +1,6 @@
+let result = xhr.responseJSON;
+
+console.log(result);
+
+// resultOCR.push({ [`Image-${resultOCR.length + 1}`]: result })
+// resultOCR.push({ "image": result })

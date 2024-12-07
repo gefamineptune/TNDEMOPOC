@@ -20,6 +20,24 @@
 			}
 		},
 		{
+			"id": "fb10cdf3-a10b-46b6-ae7e-9deb2b736996",
+			"application": "testingwhatsapp",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "0b3fbc18-31ef-4088-be11-e96e552190ba"
+			}
+		},
+		{
+			"id": "f46ff38f-df6f-4984-9084-d1179ed37a44",
+			"application": "testingchart",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "0b3fbc18-31ef-4088-be11-e96e552190ba"
+			}
+		},
+		{
 			"id": "d9490eb5-05c8-4dea-93bb-e7a7e1a66a46",
 			"application": "document",
 			"title": "",
@@ -38,8 +56,26 @@
 			}
 		},
 		{
+			"id": "9c9b63c0-0aab-ef11-88cf-0022489c9842",
+			"application": "qrcodesampleapp",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "0b3fbc18-31ef-4088-be11-e96e552190ba"
+			}
+		},
+		{
 			"id": "97ae49ec-4d9c-4370-99d0-398ec6d11c16",
 			"application": "ocr",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "0b3fbc18-31ef-4088-be11-e96e552190ba"
+			}
+		},
+		{
+			"id": "79c4b473-389d-4bc7-93fd-9609eb307fe9",
+			"application": "traknusuniversalinbox",
 			"title": "",
 			"description": "",
 			"package": {
@@ -65,8 +101,8 @@
 			}
 		},
 		{
-			"id": "31508424-6678-4cce-84e2-65cb00914023",
-			"application": "traknuspoc",
+			"id": "455752da-0d89-4930-967c-62b16911ca8c",
+			"application": "easyocr",
 			"title": "",
 			"description": "",
 			"package": {
@@ -74,8 +110,8 @@
 			}
 		},
 		{
-			"id": "0f4250ec-c7ba-47c5-9dea-109006498d86",
-			"application": "traknuspocmobile",
+			"id": "31508424-6678-4cce-84e2-65cb00914023",
+			"application": "traknuspoc",
 			"title": "",
 			"description": "",
 			"package": {
@@ -85,8 +121,20 @@
 	],
 	"api": [
 		{
+			"id": "f7800047-d8d3-489c-8f2c-e5c849380a90",
+			"name": "ApproverAPI",
+			"description": null,
+			"apiGroup": null
+		},
+		{
 			"id": "e65a33de-710a-484e-a8da-bf10ed3cea6b",
 			"name": "GetTopFiveProduct",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "e5274fee-90e3-4a48-9ec9-a03bebe36421",
+			"name": "savefiletemp",
 			"description": null,
 			"apiGroup": null
 		},
@@ -105,6 +153,12 @@
 		{
 			"id": "cf7abe0d-cec1-4747-bc04-db446adef89f",
 			"name": "Total_Stock_Levels_qty",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "ce09eecc-391c-4937-8960-fc62beb9731e",
+			"name": "NotificationAPI",
 			"description": null,
 			"apiGroup": null
 		},
@@ -133,8 +187,26 @@
 			"apiGroup": null
 		},
 		{
+			"id": "8ec07210-0003-439d-b3d6-e07d9d4f1484",
+			"name": "Request_Workflow_API",
+			"description": null,
+			"apiGroup": null
+		},
+		{
 			"id": "8de6388e-da81-48c6-9a1e-23d76bfe8c9d",
 			"name": "stock_opname_details",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "876cc258-2b3c-4e86-b2a7-955d08dab1be",
+			"name": "request_order_workflow_audit_trail",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "84dc3cfc-5fd7-42bd-b2ed-987a2b89611d",
+			"name": "OCRScript",
 			"description": null,
 			"apiGroup": null
 		},
@@ -147,6 +219,12 @@
 		{
 			"id": "7372e224-2788-4f48-98fe-8269de92d40f",
 			"name": "GetBarcodeJoin",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "6fc46554-b087-4db4-a8f5-6521dfd04d05",
+			"name": "user",
 			"description": null,
 			"apiGroup": null
 		},
@@ -213,13 +291,33 @@
 			"description": "Table to store products"
 		},
 		{
+			"id": "a6d25cbd-ce33-4b5b-8958-a30363a1f4d6",
+			"name": "savefiletemp",
+			"description": null
+		},
+		{
 			"id": "984a95b2-ed52-4587-8a82-cabddd837d60",
 			"name": "document",
 			"description": null
 		},
 		{
+			"id": "964f6391-a559-4672-ab83-2faa0bc050ba",
+			"name": "myworkflowtable",
+			"description": null
+		},
+		{
+			"id": "9500cb2a-fca4-46c2-80fd-88a60d750d0f",
+			"name": "request_order_workflow_audit_trail",
+			"description": null
+		},
+		{
 			"id": "8f88cdbe-32e5-47f2-a8d6-fa85579dedcd",
 			"name": "stock_opname_sessions",
+			"description": null
+		},
+		{
+			"id": "8e4b8624-28de-4a29-8216-c4bd8d4ade11",
+			"name": "users",
 			"description": null
 		},
 		{
@@ -251,12 +349,22 @@
 			"id": "287a5828-eeea-435b-98b4-377603053f3f",
 			"name": "warehouses",
 			"description": null
+		},
+		{
+			"id": "1dd09d61-baa7-43b7-815b-067f9b47f6a9",
+			"name": "requestorderworkflowtable",
+			"description": null
 		}
 	],
 	"jsclass": [
 		{
 			"id": "fa794607-80b5-4807-8848-239664ef1a56",
 			"name": "GetBarcode",
+			"description": null
+		},
+		{
+			"id": "e463ae10-b7e5-4f2f-bfd3-381896b9416d",
+			"name": "InsertUser",
 			"description": null
 		},
 		{
@@ -267,6 +375,11 @@
 		{
 			"id": "cceb120f-2ab9-4440-9695-da6f539486bc",
 			"name": "get_stock_opname_details_sessions",
+			"description": null
+		},
+		{
+			"id": "c65bb2ca-06e7-47e8-ad5d-fc941e17238c",
+			"name": "SendEmail",
 			"description": null
 		},
 		{
@@ -290,8 +403,23 @@
 			"description": null
 		},
 		{
+			"id": "811757c0-d6ac-4977-9489-1bdebf843278",
+			"name": "RejectScript",
+			"description": null
+		},
+		{
 			"id": "605c5bd4-1fa7-4a78-8baa-9a16b007e8ce",
 			"name": "GetROJoinCustomersProducts",
+			"description": null
+		},
+		{
+			"id": "602c2399-6143-4d86-9b02-52056174e87e",
+			"name": "ApproveScriptSecondLevel",
+			"description": null
+		},
+		{
+			"id": "5af32984-bf4a-47f4-83ee-536c6975f5f2",
+			"name": "SendWhatsAppAndEmail",
 			"description": null
 		},
 		{
@@ -305,6 +433,11 @@
 			"description": null
 		},
 		{
+			"id": "20e48908-923c-4691-ba60-7bd40028841b",
+			"name": "filterstockproduct",
+			"description": null
+		},
+		{
 			"id": "20580c42-e8d1-4690-8695-0be48240b3ac",
 			"name": "get_stock_opname_detail",
 			"description": null
@@ -312,6 +445,11 @@
 		{
 			"id": "1d537d28-71e3-4d65-bf76-a04cb64841fd",
 			"name": "insert_stock_opname_sessions",
+			"description": null
+		},
+		{
+			"id": "0a88d8cc-891c-42a8-9812-84c2023ef236",
+			"name": "ApproveScriptFirstLevel",
 			"description": null
 		}
 	],
@@ -370,6 +508,16 @@
 			"id": "065d4f4f-c5d2-422a-ac3e-92ca5ce05f79",
 			"name": "ReportStockProduct",
 			"description": ""
+		},
+		{
+			"id": "02c04474-2aad-40f4-8181-374bf6e89770",
+			"name": "TrakNusWorfklowScripts",
+			"description": ""
+		},
+		{
+			"id": "00ee1f77-d8e5-4534-a851-955e16bb5f4b",
+			"name": "NotificationTraknus",
+			"description": ""
 		}
 	],
 	"theme": [],
@@ -378,20 +526,66 @@
 	"reports": [],
 	"api_authentication": [],
 	"api_group": [],
-	"tile": [],
+	"tile": [
+		{
+			"id": "32f8fda4-5b57-42e7-992d-14cc4155fde0",
+			"description": null,
+			"name": "TrakNusInboxTile"
+		}
+	],
 	"category": [],
-	"launchpad": [],
+	"launchpad": [
+		{
+			"id": "9a3ced64-e73c-4b20-b13c-78a3bab6ec60",
+			"name": "TrakNusInboxLaunchpad",
+			"description": null
+		}
+	],
 	"certificates": [],
 	"role": [],
 	"systems": [],
 	"doc": [],
-	"wf_notifications": [],
+	"wf_notifications": [
+		{
+			"id": "252a70cf-7f60-4a58-bab8-efe1d4db93c0",
+			"name": "POCEmail",
+			"description": "Testing Send Email"
+		}
+	],
 	"department": [],
 	"script_scheduler": [],
-	"wf_definition": [],
+	"wf_definition": [
+		{
+			"id": "2c9a4940-6708-4df5-9fb3-2bb156f86cfa",
+			"title": "TrakNusWorkflow",
+			"subTitle": null
+		}
+	],
 	"connector": [],
 	"events": [],
 	"code_snippets": [],
-	"wf_determination": [],
-	"wf_taskaction": []
+	"wf_determination": [
+		{
+			"id": "f6a967cd-b09c-48f0-b7bb-00d4b5c49aed",
+			"name": "DirectorWorkflowApprovers",
+			"description": null
+		},
+		{
+			"id": "d476eb56-20c7-405c-908a-84edfc6d336a",
+			"name": "ManagerWorkflowApprovers",
+			"description": null
+		}
+	],
+	"wf_taskaction": [
+		{
+			"id": "cc877376-0511-466b-ad08-84022101c4fa",
+			"name": "DirectorApprovalAction",
+			"description": null
+		},
+		{
+			"id": "b680289c-9f03-4013-819a-bc63ba12786b",
+			"name": "ManagerWorkflowAction",
+			"description": null
+		}
+	]
 }

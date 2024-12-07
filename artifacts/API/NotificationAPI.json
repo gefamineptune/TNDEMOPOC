@@ -1,0 +1,99 @@
+{
+	"id": "ce09eecc-391c-4937-8960-fc62beb9731e",
+	"createdAt": "2024-12-05T09:27:09.000Z",
+	"createdBy": "mfh@gefami.co.id",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "026f0891-ecf8-4c8b-8991-2659fd0ba120",
+			"method": "POST",
+			"path": "/whatsappandemail",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [],
+			"content": [
+				{
+					"objectType": "reference",
+					"items": [],
+					"name": "SendWhatsAppRequest"
+				}
+			],
+			"auth": [],
+			"endpoints": [],
+			"serverScript": "5af32984-bf4a-47f4-83ee-536c6975f5f2"
+		}
+	],
+	"definitions": [
+		{
+			"id": "590f7e25-e961-4999-9fe2-9afe28258287",
+			"name": "SendWhatsAppRequest",
+			"description": "",
+			"isInclude": false,
+			"properties": [
+				{
+					"id": "6884112e-21ca-45a4-969b-6f046fba2167",
+					"name": "customerId",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "fc9bf74b-0c98-4088-f5cd-a3a2d0517a10",
+					"name": "approvalStatus",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				}
+			],
+			"type": "object"
+		}
+	],
+	"documentation": [],
+	"name": "NotificationAPI",
+	"endpoint": "/api/serverscript/notificationapi",
+	"ver": "24.12.5.2239",
+	"version": null,
+	"description": null,
+	"mediaType": null,
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "script",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba",
+	"apiGroup": null,
+	"apiFormat": 1,
+	"roles": []
+}

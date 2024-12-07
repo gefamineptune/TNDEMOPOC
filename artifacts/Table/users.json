@@ -1,0 +1,23 @@
+{
+	"id": "8e4b8624-28de-4a29-8216-c4bd8d4ade11",
+	"createdAt": "2024-11-29T02:27:35.000Z",
+	"createdBy": "jrs@gefami.co.id",
+	"fields": [
+		{
+			"id": "135af1e8-dd2a-4b06-d149-345b46751d9e",
+			"fieldName": "username",
+			"fieldType": "text",
+			"isUnique": false
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "users",
+	"description": null,
+	"ver": "24.11.29.1115",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba",
+	"rolesRead": [],
+	"rolesWrite": []
+}

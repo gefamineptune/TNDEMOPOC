@@ -1,0 +1,358 @@
+{
+	"id": "8ec07210-0003-439d-b3d6-e07d9d4f1484",
+	"createdAt": "2024-12-02T01:38:14.000Z",
+	"createdBy": "ian.cruz@neptune-software.com",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "5a00dabe-0e5c-4de8-9ab3-79533f60c4ca",
+			"path": "/requestorderworkflowtable",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1, fieldname2, fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "requestorderworkflowtable"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "0c56b7d0-7ac4-440c-a384-64a7dc9ece2f",
+			"path": "/requestorderworkflowtable",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "requestorderworkflowtable"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "requestorderworkflowtable"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "a717cd64-64c2-457b-80b0-a2c99b721b19",
+			"path": "/requestorderworkflowtable",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "requestorderworkflowtable"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "requestorderworkflowtable"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "b4f68712-29f1-4346-b310-0b8f3bdbe77f",
+			"path": "/requestorderworkflowtable",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "requestorderworkflowtable"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "82002222-5843-4c4e-86f7-1fc1a9765d1c",
+			"path": "/requestorderworkflowtable/count",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "count"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "d027c6a1-2e60-4fef-990f-c0354d3f9239",
+			"name": "requestorderworkflowtable",
+			"properties": [
+				{
+					"id": "418ba77d-5c75-44ed-853b-6fba4b734488",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "68138974-6497-4766-b360-b1e3f6169366",
+					"parent": "",
+					"name": "requested_by",
+					"objectType": "string"
+				},
+				{
+					"id": "2b02d17b-d779-470c-9ef2-1dff05c29e8b",
+					"parent": "",
+					"name": "requested_date",
+					"objectType": "string"
+				},
+				{
+					"id": "93e6d5e8-4227-49a9-a142-de4f3b7bf40c",
+					"parent": "",
+					"name": "product_id",
+					"objectType": "uuid"
+				},
+				{
+					"id": "4f879916-1e33-427f-a3c6-09d0b8de874f",
+					"parent": "",
+					"name": "quantity",
+					"objectType": "integer"
+				},
+				{
+					"id": "bed84a60-c536-4870-b410-e9d53785897a",
+					"parent": "",
+					"name": "request_id",
+					"objectType": "uuid"
+				},
+				{
+					"id": "8419596a-9cee-4511-8833-4bf069c171cd",
+					"parent": "",
+					"name": "workflow_status",
+					"objectType": "string"
+				},
+				{
+					"id": "75f4920a-1afe-4961-a1b9-0a48e89ec91e",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "9f52fbb7-5944-4ce3-9ec3-8fd04a9bf182",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created by",
+					"objectType": "string"
+				},
+				{
+					"id": "f56b0218-6f80-417e-9397-d34e1287afe1",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "dfc4500d-02c7-4195-97b6-ec26e3fcd991",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated by",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "7d27b65a-8c9a-4970-a3a8-383410c91de0",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "c6328759-dba1-4054-af3d-9b2972649d05",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "ddb70c06-741b-4d50-9eaa-6502f7ef2319",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "6b6e94ad-8231-43f1-8ca5-75ffb9298526",
+			"name": "count",
+			"properties": [
+				{
+					"id": "37e44e8e-3ff0-438d-8bc3-159f880edd53",
+					"parent": "",
+					"name": "count",
+					"objectType": "number"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "Request_Workflow_API",
+	"endpoint": "/api/entity",
+	"ver": "24.12.2.838",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

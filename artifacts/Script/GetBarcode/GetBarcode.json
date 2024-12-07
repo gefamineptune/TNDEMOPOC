@@ -4,21 +4,10 @@
 	"createdBy": "jrs@gefami.co.id",
 	"globalScripts": [],
 	"externalModules": [],
-	"entitySets": [
-		{
-			"id": "68d0ee95-3c55-4ab5-a85d-f2abc164bcb0",
-			"name": "barcode",
-			"contextname": "barcode"
-		},
-		{
-			"id": "c45148b0-5418-4d4f-838f-42e0ff0a338d",
-			"name": "products",
-			"contextname": "products"
-		}
-	],
+	"entitySets": [],
 	"apis": [],
 	"name": "GetBarcode",
-	"ver": "24.9.28.256",
+	"ver": "24.11.29.1019",
 	"description": null,
 	"content": "file:///content.js",
 	"useAsGlobalScript": false,

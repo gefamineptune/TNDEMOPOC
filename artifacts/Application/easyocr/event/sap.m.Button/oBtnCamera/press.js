@@ -1,0 +1,2 @@
+oBtnCamera.setEnabled(false);
+capturePhoto();

@@ -262,6 +262,24 @@
 					"enabled": true,
 					"hideNameField": false,
 					"children": []
+				},
+				{
+					"id": "3922c839-e731-4ca9-8db1-c926317d30fc",
+					"name": "ro_workflow_id",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
 				}
 			],
 			"type": "object"
@@ -315,7 +333,7 @@
 	"documentation": [],
 	"name": "request_oder_customer",
 	"endpoint": "/api/serverscript/request_oder_customer",
-	"ver": "24.11.19.1623",
+	"ver": "24.12.4.857",
 	"version": null,
 	"description": null,
 	"mediaType": null,

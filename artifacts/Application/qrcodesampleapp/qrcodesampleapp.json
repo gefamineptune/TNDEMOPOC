@@ -270,12 +270,6 @@
 	"printWidth": null,
 	"generateVersionOnActivation": false,
 	"activationHistoryCount": 0,
-	"apis": [
-		{
-			"id": "8cab2b2c-0cab-ef11-88cf-0022489c9842",
-			"name": "SampleQrTable",
-			"ver": "24.11.25.0904"
-		}
-	],
+	"apis": [],
 	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba"
 }

@@ -1,5 +1,0 @@
-if(oEvent === "YES") {
-    
-    startOpnameSession();
-
-}

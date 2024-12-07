@@ -1,15 +1,185 @@
 [
 	{
+		"id": "fdd11e85-3a6b-4a7c-b570-27107b6fc380",
+		"createdAt": "1733363243500",
+		"updatedAt": "1733363268890",
+		"createdBy": "ian.cruz@neptune-software.com",
+		"updatedBy": "ian.cruz@neptune-software.com",
+		"requested_by": "e83aecae-936e-4fc1-a43c-1db33dcfa790",
+		"requested_date": "2024-12-31T00:00:00.000Z",
+		"product_id": "3a566092-b824-4122-8fe1-06f983eb562a",
+		"quantity": 12,
+		"status": "Complete",
+		"workflow_id": "1733363243468"
+	},
+	{
+		"id": "fdb7c158-bcbf-4b29-adfd-2320c5ed0698",
+		"createdAt": "1733275488229",
+		"updatedAt": "1733275488229",
+		"createdBy": "ian.cruz@neptune-software.com",
+		"updatedBy": "ian.cruz@neptune-software.com",
+		"requested_by": "e83aecae-936e-4fc1-a43c-1db33dcfa790",
+		"requested_date": "2024-12-10T00:00:00.000Z",
+		"product_id": "74945711-67bb-4797-b236-3c301d6a93dc",
+		"quantity": 5,
+		"status": "Complete",
+		"workflow_id": "1733275488054"
+	},
+	{
+		"id": "f70f7575-74b9-4c5d-bab7-861fcfbd2a3d",
+		"createdAt": "1733106784036",
+		"updatedAt": "1733106784036",
+		"createdBy": "ian.cruz@neptune-software.com",
+		"updatedBy": "ian.cruz@neptune-software.com",
+		"requested_by": "5c14e350-cb06-468b-9aff-7cedb15ea444",
+		"requested_date": "2024-12-02T00:00:00.000Z",
+		"product_id": "2476cd91-0265-41b8-9945-1032e81d9673",
+		"quantity": 5,
+		"status": "In Progress",
+		"workflow_id": null
+	},
+	{
+		"id": "e945f00f-0c55-4a6e-bf00-e42b4045e198",
+		"createdAt": "1733465653572",
+		"updatedAt": "1733465769361",
+		"createdBy": "hen@gefami.co.id",
+		"updatedBy": "hen@gefami.co.id",
+		"requested_by": "e83aecae-936e-4fc1-a43c-1db33dcfa790",
+		"requested_date": "2024-12-06T00:00:00.000Z",
+		"product_id": "45e69511-ba4c-44dd-8c0f-e6ea5aa0b65d",
+		"quantity": 5,
+		"status": "Complete",
+		"workflow_id": "1733465653544"
+	},
+	{
+		"id": "e2f6a762-d1a1-4b24-84ae-d76865095a3e",
+		"createdAt": "1733410340434",
+		"updatedAt": "1733410340434",
+		"createdBy": "stev@gefami.co.id",
+		"updatedBy": "stev@gefami.co.id",
+		"requested_by": "e83aecae-936e-4fc1-a43c-1db33dcfa790",
+		"requested_date": "2024-12-05T00:00:00.000Z",
+		"product_id": "2476cd91-0265-41b8-9945-1032e81d9673",
+		"quantity": 8,
+		"status": "In Progress",
+		"workflow_id": "1733410340994"
+	},
+	{
+		"id": "e1e1cf7f-6bbf-4ad5-bed7-fdac390e93c2",
+		"createdAt": "1733486323782",
+		"updatedAt": "1733486552204",
+		"createdBy": "hen@gefami.co.id",
+		"updatedBy": "hen@gefami.co.id",
+		"requested_by": "e83aecae-936e-4fc1-a43c-1db33dcfa790",
+		"requested_date": "2024-12-06T00:00:00.000Z",
+		"product_id": "a42ee159-8123-4fd5-8bc2-98d0016c4fb9",
+		"quantity": 10,
+		"status": "Complete",
+		"workflow_id": "1733486323529"
+	},
+	{
+		"id": "df171f3e-b6e6-42a5-9db3-a4365d7e2c57",
+		"createdAt": "1733275125237",
+		"updatedAt": "1733275125237",
+		"createdBy": "ian.cruz@neptune-software.com",
+		"updatedBy": "ian.cruz@neptune-software.com",
+		"requested_by": "e83aecae-936e-4fc1-a43c-1db33dcfa790",
+		"requested_date": "2024-12-11T00:00:00.000Z",
+		"product_id": "2476cd91-0265-41b8-9945-1032e81d9673",
+		"quantity": 2,
+		"status": "Rejected",
+		"workflow_id": "1733275125065"
+	},
+	{
 		"id": "dd7827a0-4095-49c4-b519-374fb7fd83f4",
 		"createdAt": "1727495414973",
-		"updatedAt": "1727507143192",
+		"updatedAt": "1733100316853",
 		"createdBy": "jrs@gefami.co.id",
-		"updatedBy": "jrs@gefami.co.id",
+		"updatedBy": "ian.cruz@neptune-software.com",
 		"requested_by": "5c14e350-cb06-468b-9aff-7cedb15ea444",
 		"requested_date": "2024-09-28T00:00:00.000Z",
 		"product_id": "a42ee159-8123-4fd5-8bc2-98d0016c4fb9",
 		"quantity": 6,
-		"status": "Shipping"
+		"status": "Shipping",
+		"workflow_id": null
+	},
+	{
+		"id": "dce9cf84-a798-4b37-b56a-8a876a7c0c80",
+		"createdAt": "1733213218687",
+		"updatedAt": "1733213218687",
+		"createdBy": "ian.cruz@neptune-software.com",
+		"updatedBy": "ian.cruz@neptune-software.com",
+		"requested_by": "e83aecae-936e-4fc1-a43c-1db33dcfa790",
+		"requested_date": "2024-12-19T00:00:00.000Z",
+		"product_id": "33a1016c-7139-4614-aa77-b10c81cee1d9",
+		"quantity": 12,
+		"status": "",
+		"workflow_id": "1733213218342"
+	},
+	{
+		"id": "d016d894-d425-4570-ae05-744ffab6708d",
+		"createdAt": "1733122019744",
+		"updatedAt": "1733122019744",
+		"createdBy": "ian.cruz@neptune-software.com",
+		"updatedBy": "ian.cruz@neptune-software.com",
+		"requested_by": "5c14e350-cb06-468b-9aff-7cedb15ea444",
+		"requested_date": "2024-12-31T00:00:00.000Z",
+		"product_id": "45e69511-ba4c-44dd-8c0f-e6ea5aa0b65d",
+		"quantity": 3,
+		"status": "Rejected",
+		"workflow_id": "1733122019682"
+	},
+	{
+		"id": "c73af167-43a3-4aa4-97a3-51f3ab48bb32",
+		"createdAt": "1733530680220",
+		"updatedAt": "1733530680220",
+		"createdBy": "stev@gefami.co.id",
+		"updatedBy": "stev@gefami.co.id",
+		"requested_by": "0db6629e-1a98-4b82-b984-306c2817eb31",
+		"requested_date": "2024-12-07T00:00:00.000Z",
+		"product_id": "fd56bd4f-0b5d-4d81-a423-1b2c72fc09c7",
+		"quantity": 6,
+		"status": "In Progress",
+		"workflow_id": "1733530683927"
+	},
+	{
+		"id": "b4e02408-a463-4f2d-b214-45c34663ccbd",
+		"createdAt": "1733107758454",
+		"updatedAt": "1733107758454",
+		"createdBy": "ian.cruz@neptune-software.com",
+		"updatedBy": "ian.cruz@neptune-software.com",
+		"requested_by": "e83aecae-936e-4fc1-a43c-1db33dcfa790",
+		"requested_date": "2024-12-05T00:00:00.000Z",
+		"product_id": "a42ee159-8123-4fd5-8bc2-98d0016c4fb9",
+		"quantity": 4,
+		"status": "In Progress",
+		"workflow_id": "1733107758407"
+	},
+	{
+		"id": "b376667e-936e-4b77-a4bc-886810afdee3",
+		"createdAt": "1733107314856",
+		"updatedAt": "1733107314856",
+		"createdBy": "ian.cruz@neptune-software.com",
+		"updatedBy": "ian.cruz@neptune-software.com",
+		"requested_by": "e83aecae-936e-4fc1-a43c-1db33dcfa790",
+		"requested_date": "2024-12-06T00:00:00.000Z",
+		"product_id": "33a1016c-7139-4614-aa77-b10c81cee1d9",
+		"quantity": 2,
+		"status": "In Progress",
+		"workflow_id": "1733107314810"
+	},
+	{
+		"id": "b29d5cde-9033-4d19-8a35-b4711b24fc4f",
+		"createdAt": "1733275279387",
+		"updatedAt": "1733275279387",
+		"createdBy": "ian.cruz@neptune-software.com",
+		"updatedBy": "ian.cruz@neptune-software.com",
+		"requested_by": "5c14e350-cb06-468b-9aff-7cedb15ea444",
+		"requested_date": "2024-12-17T00:00:00.000Z",
+		"product_id": "fd56bd4f-0b5d-4d81-a423-1b2c72fc09c7",
+		"quantity": 3,
+		"status": "Rejected",
+		"workflow_id": "1733275279215"
 	},
 	{
 		"id": "a6b5d6a2-21ac-4409-bc3c-752134890942",
@@ -21,7 +191,8 @@
 		"requested_date": "2024-09-26T00:00:00.000Z",
 		"product_id": "01a5bdfc-419c-4b4b-91f1-065450f9d90e",
 		"quantity": 5,
-		"status": "Pending"
+		"status": "Pending",
+		"workflow_id": null
 	},
 	{
 		"id": "89375c5f-642e-43c2-b8ce-e2f62e72e172",
@@ -33,7 +204,8 @@
 		"requested_date": "2024-09-29T00:00:00.000Z",
 		"product_id": "a42ee159-8123-4fd5-8bc2-98d0016c4fb9",
 		"quantity": 30,
-		"status": "In Progress"
+		"status": "In Progress",
+		"workflow_id": null
 	},
 	{
 		"id": "812f5e0f-279a-4db2-ad3f-7382980c11c6",
@@ -45,7 +217,21 @@
 		"requested_date": "2024-09-26T00:00:00.000Z",
 		"product_id": "a42ee159-8123-4fd5-8bc2-98d0016c4fb9",
 		"quantity": 3,
-		"status": "In Progress"
+		"status": "In Progress",
+		"workflow_id": null
+	},
+	{
+		"id": "7ea9a8b0-a56c-43b0-ac37-c0cf7d2cb963",
+		"createdAt": "1733126686647",
+		"updatedAt": "1733126686647",
+		"createdBy": "ian.cruz@neptune-software.com",
+		"updatedBy": "ian.cruz@neptune-software.com",
+		"requested_by": "5c14e350-cb06-468b-9aff-7cedb15ea444",
+		"requested_date": "2024-12-11T00:00:00.000Z",
+		"product_id": "fd56bd4f-0b5d-4d81-a423-1b2c72fc09c7",
+		"quantity": 5,
+		"status": "Rejected",
+		"workflow_id": "1733126686578"
 	},
 	{
 		"id": "738aef7b-a9f0-4509-8e61-25a48eb4b184",
@@ -57,7 +243,8 @@
 		"requested_date": "2024-09-01T00:00:00.000Z",
 		"product_id": "fd56bd4f-0b5d-4d81-a423-1b2c72fc09c7",
 		"quantity": 22,
-		"status": "Pending"
+		"status": "Pending",
+		"workflow_id": null
 	},
 	{
 		"id": "6907a89f-cbdb-4ffc-b7dc-dc70dda6704c",
@@ -69,7 +256,47 @@
 		"requested_date": "2024-09-27T00:00:00.000Z",
 		"product_id": "01a5bdfc-419c-4b4b-91f1-065450f9d90e",
 		"quantity": 11,
-		"status": "Shipping"
+		"status": "Shipping",
+		"workflow_id": null
+	},
+	{
+		"id": "5ac646bc-efc1-446f-a706-323161065a7a",
+		"createdAt": "1733328812735",
+		"updatedAt": "1733328812735",
+		"createdBy": "ian.cruz@neptune-software.com",
+		"updatedBy": "ian.cruz@neptune-software.com",
+		"requested_by": "e83aecae-936e-4fc1-a43c-1db33dcfa790",
+		"requested_date": "2024-12-18T00:00:00.000Z",
+		"product_id": "74945711-67bb-4797-b236-3c301d6a93dc",
+		"quantity": 4,
+		"status": "Shipping",
+		"workflow_id": "1733328812677"
+	},
+	{
+		"id": "5aa3e299-5716-4449-a3c7-6a0f52096469",
+		"createdAt": "1733106422790",
+		"updatedAt": "1733106422790",
+		"createdBy": "ian.cruz@neptune-software.com",
+		"updatedBy": "ian.cruz@neptune-software.com",
+		"requested_by": "5c14e350-cb06-468b-9aff-7cedb15ea444",
+		"requested_date": "2024-12-02T00:00:00.000Z",
+		"product_id": "fd56bd4f-0b5d-4d81-a423-1b2c72fc09c7",
+		"quantity": 10,
+		"status": "In Progress",
+		"workflow_id": null
+	},
+	{
+		"id": "5614635b-d00f-4979-99cc-676bcc675fe7",
+		"createdAt": "1733363363044",
+		"updatedAt": "1733363369670",
+		"createdBy": "ian.cruz@neptune-software.com",
+		"updatedBy": "ian.cruz@neptune-software.com",
+		"requested_by": "5c14e350-cb06-468b-9aff-7cedb15ea444",
+		"requested_date": "2024-12-31T00:00:00.000Z",
+		"product_id": "3a566092-b824-4122-8fe1-06f983eb562a",
+		"quantity": 12,
+		"status": "Complete",
+		"workflow_id": "1733363363011"
 	},
 	{
 		"id": "54284d2b-01a0-4f3a-82bd-55983fc49d65",
@@ -81,7 +308,8 @@
 		"requested_date": "2024-10-03T00:00:00.000Z",
 		"product_id": "a42ee159-8123-4fd5-8bc2-98d0016c4fb9",
 		"quantity": 10,
-		"status": "In Progress"
+		"status": "In Progress",
+		"workflow_id": null
 	},
 	{
 		"id": "4ef9dc2f-9d68-45cd-aacf-3404ced316e6",
@@ -93,7 +321,60 @@
 		"requested_date": "2024-09-25T00:00:00.000Z",
 		"product_id": "01a5bdfc-419c-4b4b-91f1-065450f9d90e",
 		"quantity": 2,
-		"status": "Shipping"
+		"status": "Shipping",
+		"workflow_id": null
+	},
+	{
+		"id": "409712de-fde5-4452-ac04-3d48c1356b17",
+		"createdAt": "1733278238968",
+		"updatedAt": "1733278238968",
+		"createdBy": "ian.cruz@neptune-software.com",
+		"updatedBy": "ian.cruz@neptune-software.com",
+		"requested_by": "5c14e350-cb06-468b-9aff-7cedb15ea444",
+		"requested_date": "2024-12-10T00:00:00.000Z",
+		"product_id": "74945711-67bb-4797-b236-3c301d6a93dc",
+		"quantity": 2,
+		"status": "Rejected",
+		"workflow_id": "1733278238845"
+	},
+	{
+		"id": "3e73b842-f36f-40c9-a619-6206a0e2019d",
+		"createdAt": "1733383014112",
+		"updatedAt": "1733383195042",
+		"createdBy": "hen@gefami.co.id",
+		"updatedBy": "hen@gefami.co.id",
+		"requested_by": "e83aecae-936e-4fc1-a43c-1db33dcfa790",
+		"requested_date": "2024-12-05T00:00:00.000Z",
+		"product_id": "fd56bd4f-0b5d-4d81-a423-1b2c72fc09c7",
+		"quantity": 5,
+		"status": "Complete",
+		"workflow_id": "1733383014031"
+	},
+	{
+		"id": "3c9819e1-d03c-4013-aaca-e54ae8ed095a",
+		"createdAt": "1733106474753",
+		"updatedAt": "1733106474753",
+		"createdBy": "ian.cruz@neptune-software.com",
+		"updatedBy": "ian.cruz@neptune-software.com",
+		"requested_by": "e83aecae-936e-4fc1-a43c-1db33dcfa790",
+		"requested_date": "2024-12-02T00:00:00.000Z",
+		"product_id": "fd56bd4f-0b5d-4d81-a423-1b2c72fc09c7",
+		"quantity": 10,
+		"status": "In Progress",
+		"workflow_id": null
+	},
+	{
+		"id": "3c768338-6c92-4952-a717-c4be43d46d0e",
+		"createdAt": "1733376900745",
+		"updatedAt": "1733376907984",
+		"createdBy": "ian.cruz@neptune-software.com",
+		"updatedBy": "ian.cruz@neptune-software.com",
+		"requested_by": "e83aecae-936e-4fc1-a43c-1db33dcfa790",
+		"requested_date": "2024-12-17T00:00:00.000Z",
+		"product_id": "45e69511-ba4c-44dd-8c0f-e6ea5aa0b65d",
+		"quantity": 102,
+		"status": "Complete",
+		"workflow_id": "1733376900708"
 	},
 	{
 		"id": "3bd266a9-c413-49aa-b483-317ac239c1e3",
@@ -105,6 +386,46 @@
 		"requested_date": "2024-09-26T00:00:00.000Z",
 		"product_id": "fd56bd4f-0b5d-4d81-a423-1b2c72fc09c7",
 		"quantity": 3,
-		"status": "Complete"
+		"status": "Complete",
+		"workflow_id": null
+	},
+	{
+		"id": "2efc69a4-d54e-44c0-a133-3c146df36993",
+		"createdAt": "1733328988935",
+		"updatedAt": "1733328988935",
+		"createdBy": "ian.cruz@neptune-software.com",
+		"updatedBy": "ian.cruz@neptune-software.com",
+		"requested_by": "5c14e350-cb06-468b-9aff-7cedb15ea444",
+		"requested_date": "2024-12-25T00:00:00.000Z",
+		"product_id": "33a1016c-7139-4614-aa77-b10c81cee1d9",
+		"quantity": 3,
+		"status": "Rejected",
+		"workflow_id": "1733328988870"
+	},
+	{
+		"id": "28678f54-2f40-44c7-8ac1-ec6d1ceb20e5",
+		"createdAt": "1733106555720",
+		"updatedAt": "1733106555720",
+		"createdBy": "ian.cruz@neptune-software.com",
+		"updatedBy": "ian.cruz@neptune-software.com",
+		"requested_by": "e83aecae-936e-4fc1-a43c-1db33dcfa790",
+		"requested_date": "2024-12-10T00:00:00.000Z",
+		"product_id": "fd56bd4f-0b5d-4d81-a423-1b2c72fc09c7",
+		"quantity": 5,
+		"status": "In Progress",
+		"workflow_id": null
+	},
+	{
+		"id": "1b1498fc-c109-4b54-82b4-6d00259833de",
+		"createdAt": "1733212627020",
+		"updatedAt": "1733212627020",
+		"createdBy": "ian.cruz@neptune-software.com",
+		"updatedBy": "ian.cruz@neptune-software.com",
+		"requested_by": "e83aecae-936e-4fc1-a43c-1db33dcfa790",
+		"requested_date": "2024-12-11T00:00:00.000Z",
+		"product_id": "a42ee159-8123-4fd5-8bc2-98d0016c4fb9",
+		"quantity": 12,
+		"status": "",
+		"workflow_id": "1733212626689"
 	}
 ]

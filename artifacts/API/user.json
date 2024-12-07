@@ -1,0 +1,61 @@
+{
+	"id": "6fc46554-b087-4db4-a8f5-6521dfd04d05",
+	"createdAt": "2024-11-29T03:22:19.000Z",
+	"createdBy": "jrs@gefami.co.id",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "9bf4c01e-1779-4455-c08e-daa45457756f",
+			"method": "GET",
+			"path": "/user",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"id": "02f8f76b-7ae9-49e8-ead1-735727c277ce",
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"content": [
+						{
+							"id": "5a20bc7f-8c21-40c9-974f-792227978ec3",
+							"name": "users",
+							"objectType": "string"
+						}
+					]
+				}
+			],
+			"content": [],
+			"auth": [],
+			"endpoints": [],
+			"serverScript": "9e1c9d69-2bf8-4e4d-8ec0-4e6e8a8d4f00"
+		}
+	],
+	"definitions": [],
+	"documentation": [],
+	"name": "user",
+	"endpoint": "/api/serverscript/user",
+	"ver": "24.11.29.1054",
+	"version": null,
+	"description": null,
+	"mediaType": null,
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "script",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba",
+	"apiGroup": null,
+	"apiFormat": 1,
+	"roles": []
+}

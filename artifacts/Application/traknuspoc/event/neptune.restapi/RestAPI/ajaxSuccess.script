@@ -1,0 +1,3 @@
+let result = xhr.responseJSON;
+
+Text26.setText(result);

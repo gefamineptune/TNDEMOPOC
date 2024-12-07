@@ -1,0 +1,125 @@
+{
+	"id": "f7800047-d8d3-489c-8f2c-e5c849380a90",
+	"createdAt": "2024-12-04T01:47:05.000Z",
+	"createdBy": "ian.cruz@neptune-software.com",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "078a141e-2557-48f6-af67-c1aa4e9479ca",
+			"method": "PUT",
+			"path": "/ApproveFirstLevel",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"id": "be64c7d2-ff88-4ef0-954d-4dbf5bf6945c",
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"content": []
+				}
+			],
+			"content": [],
+			"auth": [],
+			"endpoints": [],
+			"serverScript": "0a88d8cc-891c-42a8-9812-84c2023ef236"
+		},
+		{
+			"id": "7739dc47-505d-471d-e37d-13be11f6d094",
+			"method": "PUT",
+			"path": "/ApproveSecondLevel",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"id": "91d4604e-ebb9-49a3-ab8f-91e51f173ed6",
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"content": []
+				}
+			],
+			"content": [],
+			"auth": [],
+			"endpoints": [],
+			"serverScript": "602c2399-6143-4d86-9b02-52056174e87e"
+		},
+		{
+			"id": "2b403560-11df-496b-978f-863627de0931",
+			"method": "PUT",
+			"path": "/Reject",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"id": "cdc2c7f0-0a48-4eb8-bad0-0486aa1e6ab9",
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"content": []
+				}
+			],
+			"content": [],
+			"auth": [],
+			"endpoints": [],
+			"serverScript": "811757c0-d6ac-4977-9489-1bdebf843278"
+		}
+	],
+	"definitions": [
+		{
+			"id": "3eff16e8-a285-493c-e25f-8df9616265ac",
+			"name": "FormData",
+			"description": "",
+			"isInclude": false,
+			"properties": [
+				{
+					"id": "b9aa1131-662d-446c-bdcb-d310cd7a48b6",
+					"name": "RequestId",
+					"objectType": "string",
+					"description": "",
+					"required": true,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				}
+			],
+			"type": "object"
+		}
+	],
+	"documentation": [],
+	"name": "ApproverAPI",
+	"endpoint": "/public/serverscript/approverapi",
+	"ver": "24.12.4.139",
+	"version": null,
+	"description": null,
+	"mediaType": null,
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "script",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": true,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba",
+	"apiGroup": null,
+	"apiFormat": 1,
+	"roles": []
+}

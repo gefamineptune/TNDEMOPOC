@@ -1,0 +1,19 @@
+{
+	"id": "252a70cf-7f60-4a58-bab8-efe1d4db93c0",
+	"createdAt": "2024-11-28T04:39:39.000Z",
+	"createdBy": "mfh@gefami.co.id",
+	"translation": null,
+	"name": "POCEmail",
+	"description": "Testing Send Email",
+	"content": [
+		"==OBJECT STRING==",
+		"<!DOCTYPE html><html><head>",
+		"<meta charset=\"utf-8\">",
+		"<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\">",
+		"<link href=\"https://rnd.ifabula.co.id/public/editor/suneditor.min.css\" rel=\"stylesheet\">",
+		"</head><body class=\"sun-editor-editable\" style=\"\" ><p>Halo {=name}, request order kamu telah di {=approvalStatus}, terima kasih</p><p><u><strong><em>This is just a testing purpose</em></strong></u></p></body></html>"
+	],
+	"ver": "24.12.5.2235",
+	"type": "template",
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba"
+}

@@ -1,0 +1,103 @@
+{
+	"id": "84dc3cfc-5fd7-42bd-b2ed-987a2b89611d",
+	"createdAt": "2024-11-28T18:17:56.000Z",
+	"createdBy": "mfh@gefami.co.id",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "aca31f5a-0609-4146-f3c7-9388a8866893",
+			"method": "POST",
+			"path": "/ocr",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"id": "4ca31449-8d3a-40fd-db9d-d8955e834c65",
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"content": [
+						{
+							"id": "551ae7b8-895b-40be-8f05-a96196204eb1",
+							"name": "OCRResponse",
+							"objectType": "reference"
+						}
+					]
+				}
+			],
+			"content": [
+				{
+					"objectType": "reference",
+					"items": [],
+					"name": "OCRResponse"
+				}
+			],
+			"auth": [],
+			"endpoints": [],
+			"serverScript": "c17b1398-8666-47f6-9cc1-3bd4029e8778"
+		}
+	],
+	"definitions": [
+		{
+			"id": "8377c4fc-c2d8-476c-d48f-6884e6fb917d",
+			"name": "OCRRequest",
+			"description": "",
+			"isInclude": false,
+			"properties": [
+				{
+					"id": "277c2b7b-b3a6-4ad4-a833-68960802c8be",
+					"name": "image64",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				}
+			],
+			"type": "object"
+		},
+		{
+			"id": "c1fef54f-dc4b-4994-94c2-5b106bb7b8f0",
+			"name": "OCRResponse",
+			"description": "",
+			"isInclude": false,
+			"properties": [],
+			"type": "array"
+		}
+	],
+	"documentation": [],
+	"name": "OCRScript",
+	"endpoint": "/api/serverscript/ocrscript",
+	"ver": "24.11.29.117",
+	"version": null,
+	"description": null,
+	"mediaType": null,
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "script",
+	"about": "",
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "0b3fbc18-31ef-4088-be11-e96e552190ba",
+	"apiGroup": null,
+	"apiFormat": 1,
+	"roles": []
+}

@@ -1,0 +1,11 @@
+const username = Text26.getText();
+const currentDate = new Date();
+const currentDateTimeString = currentDate.toLocaleString();
+console.log(currentDateTimeString);
+console.log(username);
+
+// Set session data
+localStorage.setItem('isLoggedIn', 'true');
+
+// Expire session by removing session data
+localStorage.removeItem('isLoggedIn');

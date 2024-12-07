@@ -7,3 +7,69 @@ console.log(data);
 populateForUpdateDataRequestOrder(data);
 
 oApp.to(RequestOrderDetails)
+
+Container122.setVisible(true);
+
+$("#QrShowHideControls").show()
+
+// Get Current User
+let currentUserEmail = Text26.getText()
+console.log(currentUserEmail)
+
+// Get Approvers
+let wfApproversData = {
+    "id": "d476eb56-20c7-405c-908a-84edfc6d336a"
+}
+
+let firstLevelApprovers = await $.ajax({
+    type: "POST",
+    contentType: "application/json",
+    url: "/api/functions/WorkflowApprovers/Get", // Remember full path if triggered externally;
+    data: JSON.stringify(wfApproversData)
+});
+
+var canApproveFirstLevel = false
+console.log(firstLevelApprovers)
+if (firstLevelApprovers.items.length > 0) {
+    var record = firstLevelApprovers.items.filter((value) => { return value.orgValue === currentUserEmail });
+    console.log(record);
+    if (record.length > 0) {
+        canApproveFirstLevel = true
+    }
+}
+
+if (data.ro_status === "In Progress" && canApproveFirstLevel) {
+    $("#ApprovalButtonContainer").show()
+} else {
+    $("#ApprovalButtonContainer").hide()
+}
+
+// Second Level Approvers
+let wfSecondApproversData = {
+    "id": "f6a967cd-b09c-48f0-b7bb-00d4b5c49aed"
+}
+
+let secondLevelApprovers = await $.ajax({
+    type: "POST",
+    contentType: "application/json",
+    url: "/api/functions/WorkflowApprovers/Get", // Remember full path if triggered externally;
+    data: JSON.stringify(wfSecondApproversData)
+});
+
+var canApproveSecondLevel = false
+if (secondLevelApprovers.items.length > 0) {
+    var record = secondLevelApprovers.items.filter((value) => { return value.orgValue === currentUserEmail });
+    console.log(record);
+    if (record.length > 0) {
+        canApproveSecondLevel = true
+    }
+}
+
+if (data.ro_status === "Shipping" && canApproveSecondLevel) {
+    $("#CompleteApprovalButtonContainer").show()
+} else {
+    $("#CompleteApprovalButtonContainer").hide()
+}
+
+let value = data.ro_id
+generateQr("QRImageContainer", value)
